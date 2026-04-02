@@ -4,37 +4,37 @@
   "seed": 7,
   "players": [
     "GrdTFT",
-    "First by Stein and Rapoport: 0.05",
+    "Stein & Rapoport: 0.05",
     "Tit For Tat",
     "grok:grok-3-mini",
     "soft_majo",
-    "First by Nydegger",
+    "Nydegger",
     "TFTT",
-    "First by Tideman and Chieruzzi",
-    "First by Shubik",
+    "Tideman & Chieruzzi",
+    "Shubik",
     "mem2",
     "slow_tft",
     "hard_tft",
-    "First by Grofman",
-    "First by Davis: 10",
+    "Grofman",
+    "Davis: 10",
     "WSLS",
     "GRIM",
     "spiteful",
     "Cu",
-    "First by Graaskamp: 0.05",
-    "First by Downing",
+    "Graaskamp: 0.05",
+    "Downing",
     "prober",
     "per_ccd",
     "hard_majo",
-    "First by Feld: 1.0, 0.5, 200",
-    "First by Tullock",
+    "Feld: 1.0, 0.5, 200",
+    "Tullock",
     "mistrust",
     "per_cd",
     "Random: 0.5",
-    "First by Anonymous",
+    "Anonymous",
     "Du",
     "per_ddc",
-    "First by Joss: 0.9"
+    "Joss: 0.9"
   ],
   "top_10": [
     {
@@ -47,7 +47,7 @@
       "rank": 1
     },
     {
-      "strategy": "First by Stein and Rapoport: 0.05",
+      "strategy": "Stein & Rapoport: 0.05",
       "total_score": 17020.0,
       "average_score_per_turn": 2.659375,
       "average_cooperation": 0.6921875,
@@ -83,7 +83,7 @@
       "rank": 5
     },
     {
-      "strategy": "First by Nydegger",
+      "strategy": "Nydegger",
       "total_score": 16557.0,
       "average_score_per_turn": 2.58703125,
       "average_cooperation": 0.93453125,
@@ -101,7 +101,7 @@
       "rank": 7
     },
     {
-      "strategy": "First by Tideman and Chieruzzi",
+      "strategy": "Tideman & Chieruzzi",
       "total_score": 16452.0,
       "average_score_per_turn": 2.570625,
       "average_cooperation": 0.65109375,
@@ -110,7 +110,7 @@
       "rank": 8
     },
     {
-      "strategy": "First by Shubik",
+      "strategy": "Shubik",
       "total_score": 16433.0,
       "average_score_per_turn": 2.56765625,
       "average_cooperation": 0.66421875,

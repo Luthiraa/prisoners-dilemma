@@ -2,9 +2,9 @@
 
 Iterated prisoner's dilemma strategies, a reproducible Axelrod-style tournament runner, and a visualization pipeline for exploring how cooperative and exploitative policies cluster against one another.
 
-![Strategy Space](analysis_output/strategy_space.png)
+![Strategy Orbit Map](analysis_output/strategy_space.png)
 
-The plot above is a 2D strategy-space projection built from pairwise match payoffs. Nearby points behave similarly against the field; point size tracks cooperation rate, and color tracks score. It gives a fast visual read on which policies are cooperative, exploitable, retaliatory, or broadly robust.
+The plot above is a 2D orbit map built from pairwise tournament payoffs. Nearby points respond similarly against the field, marker size tracks cooperation, and color tracks score. The result reads like a behavioral star chart: tight reciprocators cluster together, fragile exploiters drift outward, and durable high performers anchor the bright core.
 
 ## Structure
 
@@ -25,7 +25,7 @@ The plot above is a 2D strategy-space projection built from pairwise match payof
 - `prober`: tests whether an opponent is exploitable with an opening probe sequence
 - `mem2`: a small memory-two controller that switches among local policies based on the last two rounds
 - `grok`: an xAI-backed strategy that asks Grok to choose a policy from a fixed menu, then plays that policy locally
-- Axelrod first-tournament entrants: reconstructed versions of the classic submissions such as Tideman and Chieruzzi, Nydegger, Grofman, Shubik, Stein and Rapoport, Davis, Graaskamp, Downing, Feld, Joss, Tullock, Anonymous, and `Random`
+- Axelrod first-tournament entrants: reconstructed versions of the classic submissions such as Tideman & Chieruzzi, Nydegger, Grofman, Shubik, Stein & Rapoport, Davis, Graaskamp, Downing, Feld, Joss, Tullock, Anonymous, and `Random`
 
 ## Quick Runs
 

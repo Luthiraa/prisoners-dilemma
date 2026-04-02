@@ -34,32 +34,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,Cu,600.0,600.0,3.0,3.0,1.0,1.0
 0,Cu,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Tideman and Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Tideman and Chieruzzi,Cu,604.0,594.0,3.02,2.97,0.99,1.0
-0,Cu,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,Cu,604.0,594.0,3.02,2.97,0.99,1.0
+0,Cu,Tideman & Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
+0,Tideman & Chieruzzi,Cu,604.0,594.0,3.02,2.97,0.99,1.0
+0,Cu,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Cu,600.0,600.0,3.0,3.0,1.0,1.0
+0,Cu,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Cu,600.0,600.0,3.0,3.0,1.0,1.0
+0,Cu,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Cu,600.0,600.0,3.0,3.0,1.0,1.0
+0,Cu,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,Cu,604.0,594.0,3.02,2.97,0.99,1.0
 0,Cu,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,Cu,600.0,600.0,3.0,3.0,1.0,1.0
-0,Cu,First by Graaskamp: 0.05,552.0,632.0,2.76,3.16,1.0,0.92
-0,First by Graaskamp: 0.05,Cu,632.0,552.0,3.16,2.76,0.92,1.0
-0,Cu,First by Downing,3.0,998.0,0.015,4.99,1.0,0.005
-0,First by Downing,Cu,998.0,3.0,4.99,0.015,0.005,1.0
-0,Cu,"First by Feld: 1.0, 0.5, 200",471.0,686.0,2.355,3.43,1.0,0.785
-0,"First by Feld: 1.0, 0.5, 200",Cu,686.0,471.0,3.43,2.355,0.785,1.0
-0,Cu,First by Joss: 0.9,552.0,632.0,2.76,3.16,1.0,0.92
-0,First by Joss: 0.9,Cu,632.0,552.0,3.16,2.76,0.92,1.0
-0,Cu,First by Tullock,510.0,660.0,2.55,3.3,1.0,0.85
-0,First by Tullock,Cu,660.0,510.0,3.3,2.55,0.85,1.0
-0,Cu,First by Anonymous,288.0,808.0,1.44,4.04,1.0,0.48
-0,First by Anonymous,Cu,808.0,288.0,4.04,1.44,0.48,1.0
+0,Cu,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Cu,600.0,600.0,3.0,3.0,1.0,1.0
+0,Cu,Graaskamp: 0.05,552.0,632.0,2.76,3.16,1.0,0.92
+0,Graaskamp: 0.05,Cu,632.0,552.0,3.16,2.76,0.92,1.0
+0,Cu,Downing,3.0,998.0,0.015,4.99,1.0,0.005
+0,Downing,Cu,998.0,3.0,4.99,0.015,0.005,1.0
+0,Cu,"Feld: 1.0, 0.5, 200",471.0,686.0,2.355,3.43,1.0,0.785
+0,"Feld: 1.0, 0.5, 200",Cu,686.0,471.0,3.43,2.355,0.785,1.0
+0,Cu,Joss: 0.9,552.0,632.0,2.76,3.16,1.0,0.92
+0,Joss: 0.9,Cu,632.0,552.0,3.16,2.76,0.92,1.0
+0,Cu,Tullock,510.0,660.0,2.55,3.3,1.0,0.85
+0,Tullock,Cu,660.0,510.0,3.3,2.55,0.85,1.0
+0,Cu,Anonymous,288.0,808.0,1.44,4.04,1.0,0.48
+0,Anonymous,Cu,808.0,288.0,4.04,1.44,0.48,1.0
 0,Cu,Random: 0.5,276.0,816.0,1.38,4.08,1.0,0.46
 0,Random: 0.5,Cu,816.0,276.0,4.08,1.38,0.46,1.0
 0,Du,Du,200.0,200.0,1.0,1.0,0.0,0.0
@@ -95,32 +95,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,Du,199.0,204.0,0.995,1.02,0.005,0.0
 0,Du,grok:grok-3-mini,204.0,199.0,1.02,0.995,0.0,0.005
 0,grok:grok-3-mini,Du,199.0,204.0,0.995,1.02,0.005,0.0
-0,Du,First by Tideman and Chieruzzi,204.0,199.0,1.02,0.995,0.0,0.005
-0,First by Tideman and Chieruzzi,Du,199.0,204.0,0.995,1.02,0.005,0.0
-0,Du,First by Nydegger,992.0,2.0,4.96,0.01,0.0,0.99
-0,First by Nydegger,Du,2.0,992.0,0.01,4.96,0.99,0.0
-0,Du,First by Grofman,656.0,86.0,3.28,0.43,0.0,0.57
-0,First by Grofman,Du,86.0,656.0,0.43,3.28,0.57,0.0
-0,Du,First by Shubik,276.0,181.0,1.38,0.905,0.0,0.095
-0,First by Shubik,Du,181.0,276.0,0.905,1.38,0.095,0.0
-0,Du,First by Stein and Rapoport: 0.05,216.0,196.0,1.08,0.98,0.0,0.02
-0,First by Stein and Rapoport: 0.05,Du,196.0,216.0,0.98,1.08,0.02,0.0
+0,Du,Tideman & Chieruzzi,204.0,199.0,1.02,0.995,0.0,0.005
+0,Tideman & Chieruzzi,Du,199.0,204.0,0.995,1.02,0.005,0.0
+0,Du,Nydegger,992.0,2.0,4.96,0.01,0.0,0.99
+0,Nydegger,Du,2.0,992.0,0.01,4.96,0.99,0.0
+0,Du,Grofman,656.0,86.0,3.28,0.43,0.0,0.57
+0,Grofman,Du,86.0,656.0,0.43,3.28,0.57,0.0
+0,Du,Shubik,276.0,181.0,1.38,0.905,0.0,0.095
+0,Shubik,Du,181.0,276.0,0.905,1.38,0.095,0.0
+0,Du,Stein & Rapoport: 0.05,216.0,196.0,1.08,0.98,0.0,0.02
+0,Stein & Rapoport: 0.05,Du,196.0,216.0,0.98,1.08,0.02,0.0
 0,Du,GRIM,204.0,199.0,1.02,0.995,0.0,0.005
 0,GRIM,Du,199.0,204.0,0.995,1.02,0.005,0.0
-0,Du,First by Davis: 10,240.0,190.0,1.2,0.95,0.0,0.05
-0,First by Davis: 10,Du,190.0,240.0,0.95,1.2,0.05,0.0
-0,Du,First by Graaskamp: 0.05,728.0,68.0,3.64,0.34,0.0,0.66
-0,First by Graaskamp: 0.05,Du,68.0,728.0,0.34,3.64,0.66,0.0
-0,Du,First by Downing,200.0,200.0,1.0,1.0,0.0,0.0
-0,First by Downing,Du,200.0,200.0,1.0,1.0,0.0,0.0
-0,Du,"First by Feld: 1.0, 0.5, 200",204.0,199.0,1.02,0.995,0.0,0.005
-0,"First by Feld: 1.0, 0.5, 200",Du,199.0,204.0,0.995,1.02,0.005,0.0
-0,Du,First by Joss: 0.9,204.0,199.0,1.02,0.995,0.0,0.005
-0,First by Joss: 0.9,Du,199.0,204.0,0.995,1.02,0.005,0.0
-0,Du,First by Tullock,244.0,189.0,1.22,0.945,0.0,0.055
-0,First by Tullock,Du,189.0,244.0,0.945,1.22,0.055,0.0
-0,Du,First by Anonymous,540.0,115.0,2.7,0.575,0.0,0.425
-0,First by Anonymous,Du,115.0,540.0,0.575,2.7,0.425,0.0
+0,Du,Davis: 10,240.0,190.0,1.2,0.95,0.0,0.05
+0,Davis: 10,Du,190.0,240.0,0.95,1.2,0.05,0.0
+0,Du,Graaskamp: 0.05,728.0,68.0,3.64,0.34,0.0,0.66
+0,Graaskamp: 0.05,Du,68.0,728.0,0.34,3.64,0.66,0.0
+0,Du,Downing,200.0,200.0,1.0,1.0,0.0,0.0
+0,Downing,Du,200.0,200.0,1.0,1.0,0.0,0.0
+0,Du,"Feld: 1.0, 0.5, 200",204.0,199.0,1.02,0.995,0.0,0.005
+0,"Feld: 1.0, 0.5, 200",Du,199.0,204.0,0.995,1.02,0.005,0.0
+0,Du,Joss: 0.9,204.0,199.0,1.02,0.995,0.0,0.005
+0,Joss: 0.9,Du,199.0,204.0,0.995,1.02,0.005,0.0
+0,Du,Tullock,244.0,189.0,1.22,0.945,0.0,0.055
+0,Tullock,Du,189.0,244.0,0.945,1.22,0.055,0.0
+0,Du,Anonymous,540.0,115.0,2.7,0.575,0.0,0.425
+0,Anonymous,Du,115.0,540.0,0.575,2.7,0.425,0.0
 0,Du,Random: 0.5,596.0,101.0,2.98,0.505,0.0,0.495
 0,Random: 0.5,Du,101.0,596.0,0.505,2.98,0.495,0.0
 0,Tit For Tat,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
@@ -154,32 +154,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
 0,Tit For Tat,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,Tit For Tat,600.0,595.0,3.0,2.975,0.99,0.995
-0,Tit For Tat,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,Tit For Tat,600.0,595.0,3.0,2.975,0.99,0.995
+0,Tit For Tat,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,Tit For Tat,600.0,595.0,3.0,2.975,0.99,0.995
+0,Tit For Tat,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
+0,Tit For Tat,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
+0,Tit For Tat,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
+0,Tit For Tat,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,Tit For Tat,600.0,595.0,3.0,2.975,0.99,0.995
 0,Tit For Tat,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
-0,Tit For Tat,First by Graaskamp: 0.05,525.0,525.0,2.625,2.625,0.625,0.625
-0,First by Graaskamp: 0.05,Tit For Tat,525.0,525.0,2.625,2.625,0.625,0.625
-0,Tit For Tat,First by Downing,597.0,597.0,2.985,2.985,0.99,0.99
-0,First by Downing,Tit For Tat,597.0,597.0,2.985,2.985,0.99,0.99
-0,Tit For Tat,"First by Feld: 1.0, 0.5, 200",286.0,291.0,1.43,1.455,0.155,0.15
-0,"First by Feld: 1.0, 0.5, 200",Tit For Tat,291.0,286.0,1.455,1.43,0.15,0.155
-0,Tit For Tat,First by Joss: 0.9,267.0,272.0,1.335,1.36,0.165,0.16
-0,First by Joss: 0.9,Tit For Tat,272.0,267.0,1.36,1.335,0.16,0.165
-0,Tit For Tat,First by Tullock,279.0,284.0,1.395,1.42,0.185,0.18
-0,First by Tullock,Tit For Tat,284.0,279.0,1.42,1.395,0.18,0.185
-0,Tit For Tat,First by Anonymous,450.0,450.0,2.25,2.25,0.505,0.505
-0,First by Anonymous,Tit For Tat,450.0,450.0,2.25,2.25,0.505,0.505
+0,Tit For Tat,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Tit For Tat,600.0,600.0,3.0,3.0,1.0,1.0
+0,Tit For Tat,Graaskamp: 0.05,525.0,525.0,2.625,2.625,0.625,0.625
+0,Graaskamp: 0.05,Tit For Tat,525.0,525.0,2.625,2.625,0.625,0.625
+0,Tit For Tat,Downing,597.0,597.0,2.985,2.985,0.99,0.99
+0,Downing,Tit For Tat,597.0,597.0,2.985,2.985,0.99,0.99
+0,Tit For Tat,"Feld: 1.0, 0.5, 200",286.0,291.0,1.43,1.455,0.155,0.15
+0,"Feld: 1.0, 0.5, 200",Tit For Tat,291.0,286.0,1.455,1.43,0.15,0.155
+0,Tit For Tat,Joss: 0.9,267.0,272.0,1.335,1.36,0.165,0.16
+0,Joss: 0.9,Tit For Tat,272.0,267.0,1.36,1.335,0.16,0.165
+0,Tit For Tat,Tullock,279.0,284.0,1.395,1.42,0.185,0.18
+0,Tullock,Tit For Tat,284.0,279.0,1.42,1.395,0.18,0.185
+0,Tit For Tat,Anonymous,450.0,450.0,2.25,2.25,0.505,0.505
+0,Anonymous,Tit For Tat,450.0,450.0,2.25,2.25,0.505,0.505
 0,Tit For Tat,Random: 0.5,461.0,466.0,2.305,2.33,0.525,0.52
 0,Random: 0.5,Tit For Tat,466.0,461.0,2.33,2.305,0.52,0.525
 0,spiteful,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
@@ -211,32 +211,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
 0,spiteful,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,spiteful,600.0,595.0,3.0,2.975,0.99,0.995
-0,spiteful,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,spiteful,600.0,595.0,3.0,2.975,0.99,0.995
+0,spiteful,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,spiteful,600.0,595.0,3.0,2.975,0.99,0.995
+0,spiteful,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
+0,spiteful,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
+0,spiteful,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
+0,spiteful,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,spiteful,600.0,595.0,3.0,2.975,0.99,0.995
 0,spiteful,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
-0,spiteful,First by Graaskamp: 0.05,403.0,278.0,2.015,1.39,0.255,0.38
-0,First by Graaskamp: 0.05,spiteful,278.0,403.0,1.39,2.015,0.38,0.255
-0,spiteful,First by Downing,211.0,201.0,1.055,1.005,0.005,0.015
-0,First by Downing,spiteful,201.0,211.0,1.005,1.055,0.015,0.005
-0,spiteful,"First by Feld: 1.0, 0.5, 200",235.0,235.0,1.175,1.175,0.085,0.085
-0,"First by Feld: 1.0, 0.5, 200",spiteful,235.0,235.0,1.175,1.175,0.085,0.085
-0,spiteful,First by Joss: 0.9,207.0,207.0,1.035,1.035,0.015,0.015
-0,First by Joss: 0.9,spiteful,207.0,207.0,1.035,1.035,0.015,0.015
-0,spiteful,First by Tullock,235.0,225.0,1.175,1.125,0.065,0.075
-0,First by Tullock,spiteful,225.0,235.0,1.125,1.175,0.075,0.065
-0,spiteful,First by Anonymous,617.0,107.0,3.085,0.535,0.02,0.53
-0,First by Anonymous,spiteful,107.0,617.0,0.535,3.085,0.53,0.02
+0,spiteful,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,spiteful,600.0,600.0,3.0,3.0,1.0,1.0
+0,spiteful,Graaskamp: 0.05,403.0,278.0,2.015,1.39,0.255,0.38
+0,Graaskamp: 0.05,spiteful,278.0,403.0,1.39,2.015,0.38,0.255
+0,spiteful,Downing,211.0,201.0,1.055,1.005,0.005,0.015
+0,Downing,spiteful,201.0,211.0,1.005,1.055,0.015,0.005
+0,spiteful,"Feld: 1.0, 0.5, 200",235.0,235.0,1.175,1.175,0.085,0.085
+0,"Feld: 1.0, 0.5, 200",spiteful,235.0,235.0,1.175,1.175,0.085,0.085
+0,spiteful,Joss: 0.9,207.0,207.0,1.035,1.035,0.015,0.015
+0,Joss: 0.9,spiteful,207.0,207.0,1.035,1.035,0.015,0.015
+0,spiteful,Tullock,235.0,225.0,1.175,1.125,0.065,0.075
+0,Tullock,spiteful,225.0,235.0,1.125,1.175,0.075,0.065
+0,spiteful,Anonymous,617.0,107.0,3.085,0.535,0.02,0.53
+0,Anonymous,spiteful,107.0,617.0,0.535,3.085,0.53,0.02
 0,spiteful,Random: 0.5,507.0,127.0,2.535,0.635,0.005,0.385
 0,Random: 0.5,spiteful,127.0,507.0,0.635,2.535,0.385,0.005
 0,soft_majo,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
@@ -266,32 +266,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
 0,soft_majo,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Tideman and Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Tideman and Chieruzzi,soft_majo,604.0,594.0,3.02,2.97,0.99,1.0
-0,soft_majo,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,soft_majo,604.0,594.0,3.02,2.97,0.99,1.0
+0,soft_majo,Tideman & Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
+0,Tideman & Chieruzzi,soft_majo,604.0,594.0,3.02,2.97,0.99,1.0
+0,soft_majo,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
+0,soft_majo,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
+0,soft_majo,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
+0,soft_majo,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,soft_majo,604.0,594.0,3.02,2.97,0.99,1.0
 0,soft_majo,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
-0,soft_majo,First by Graaskamp: 0.05,555.0,630.0,2.775,3.15,1.0,0.925
-0,First by Graaskamp: 0.05,soft_majo,630.0,555.0,3.15,2.775,0.925,1.0
-0,soft_majo,First by Downing,598.0,593.0,2.99,2.965,0.98,0.985
-0,First by Downing,soft_majo,593.0,598.0,2.965,2.99,0.985,0.98
-0,soft_majo,"First by Feld: 1.0, 0.5, 200",423.0,718.0,2.115,3.59,1.0,0.705
-0,"First by Feld: 1.0, 0.5, 200",soft_majo,718.0,423.0,3.59,2.115,0.705,1.0
-0,soft_majo,First by Joss: 0.9,203.0,213.0,1.015,1.065,0.02,0.01
-0,First by Joss: 0.9,soft_majo,213.0,203.0,1.065,1.015,0.01,0.02
-0,soft_majo,First by Tullock,564.0,624.0,2.82,3.12,1.0,0.94
-0,First by Tullock,soft_majo,624.0,564.0,3.12,2.82,0.94,1.0
-0,soft_majo,First by Anonymous,406.0,576.0,2.03,2.88,0.675,0.505
-0,First by Anonymous,soft_majo,576.0,406.0,2.88,2.03,0.505,0.675
+0,soft_majo,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,soft_majo,600.0,600.0,3.0,3.0,1.0,1.0
+0,soft_majo,Graaskamp: 0.05,555.0,630.0,2.775,3.15,1.0,0.925
+0,Graaskamp: 0.05,soft_majo,630.0,555.0,3.15,2.775,0.925,1.0
+0,soft_majo,Downing,598.0,593.0,2.99,2.965,0.98,0.985
+0,Downing,soft_majo,593.0,598.0,2.965,2.99,0.985,0.98
+0,soft_majo,"Feld: 1.0, 0.5, 200",423.0,718.0,2.115,3.59,1.0,0.705
+0,"Feld: 1.0, 0.5, 200",soft_majo,718.0,423.0,3.59,2.115,0.705,1.0
+0,soft_majo,Joss: 0.9,203.0,213.0,1.015,1.065,0.02,0.01
+0,Joss: 0.9,soft_majo,213.0,203.0,1.065,1.015,0.01,0.02
+0,soft_majo,Tullock,564.0,624.0,2.82,3.12,1.0,0.94
+0,Tullock,soft_majo,624.0,564.0,3.12,2.82,0.94,1.0
+0,soft_majo,Anonymous,406.0,576.0,2.03,2.88,0.675,0.505
+0,Anonymous,soft_majo,576.0,406.0,2.88,2.03,0.505,0.675
 0,soft_majo,Random: 0.5,311.0,766.0,1.555,3.83,0.945,0.49
 0,Random: 0.5,soft_majo,766.0,311.0,3.83,1.555,0.49,0.945
 0,hard_majo,hard_majo,200.0,200.0,1.0,1.0,0.0,0.0
@@ -319,32 +319,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,hard_majo,212.0,207.0,1.06,1.035,0.015,0.02
 0,hard_majo,grok:grok-3-mini,500.0,500.0,2.5,2.5,0.5,0.5
 0,grok:grok-3-mini,hard_majo,500.0,500.0,2.5,2.5,0.5,0.5
-0,hard_majo,First by Tideman and Chieruzzi,206.0,206.0,1.03,1.03,0.01,0.01
-0,First by Tideman and Chieruzzi,hard_majo,206.0,206.0,1.03,1.03,0.01,0.01
-0,hard_majo,First by Nydegger,601.0,581.0,3.005,2.905,0.96,0.98
-0,First by Nydegger,hard_majo,581.0,601.0,2.905,3.005,0.98,0.96
-0,hard_majo,First by Grofman,598.0,548.0,2.99,2.74,0.885,0.935
-0,First by Grofman,hard_majo,548.0,598.0,2.74,2.99,0.935,0.885
-0,hard_majo,First by Shubik,274.0,189.0,1.37,0.945,0.01,0.095
-0,First by Shubik,hard_majo,189.0,274.0,0.945,1.37,0.095,0.01
-0,hard_majo,First by Stein and Rapoport: 0.05,596.0,601.0,2.98,3.005,0.995,0.99
-0,First by Stein and Rapoport: 0.05,hard_majo,601.0,596.0,3.005,2.98,0.99,0.995
+0,hard_majo,Tideman & Chieruzzi,206.0,206.0,1.03,1.03,0.01,0.01
+0,Tideman & Chieruzzi,hard_majo,206.0,206.0,1.03,1.03,0.01,0.01
+0,hard_majo,Nydegger,601.0,581.0,3.005,2.905,0.96,0.98
+0,Nydegger,hard_majo,581.0,601.0,2.905,3.005,0.98,0.96
+0,hard_majo,Grofman,598.0,548.0,2.99,2.74,0.885,0.935
+0,Grofman,hard_majo,548.0,598.0,2.74,2.99,0.935,0.885
+0,hard_majo,Shubik,274.0,189.0,1.37,0.945,0.01,0.095
+0,Shubik,hard_majo,189.0,274.0,0.945,1.37,0.095,0.01
+0,hard_majo,Stein & Rapoport: 0.05,596.0,601.0,2.98,3.005,0.995,0.99
+0,Stein & Rapoport: 0.05,hard_majo,601.0,596.0,3.005,2.98,0.99,0.995
 0,hard_majo,GRIM,203.0,203.0,1.015,1.015,0.005,0.005
 0,GRIM,hard_majo,203.0,203.0,1.015,1.015,0.005,0.005
-0,hard_majo,First by Davis: 10,212.0,257.0,1.06,1.285,0.095,0.05
-0,First by Davis: 10,hard_majo,257.0,212.0,1.285,1.06,0.05,0.095
-0,hard_majo,First by Graaskamp: 0.05,275.0,275.0,1.375,1.375,0.125,0.125
-0,First by Graaskamp: 0.05,hard_majo,275.0,275.0,1.375,1.375,0.125,0.125
-0,hard_majo,First by Downing,200.0,200.0,1.0,1.0,0.0,0.0
-0,First by Downing,hard_majo,200.0,200.0,1.0,1.0,0.0,0.0
-0,hard_majo,"First by Feld: 1.0, 0.5, 200",224.0,224.0,1.12,1.12,0.04,0.04
-0,"First by Feld: 1.0, 0.5, 200",hard_majo,224.0,224.0,1.12,1.12,0.04,0.04
-0,hard_majo,First by Joss: 0.9,203.0,203.0,1.015,1.015,0.005,0.005
-0,First by Joss: 0.9,hard_majo,203.0,203.0,1.015,1.015,0.005,0.005
-0,hard_majo,First by Tullock,536.0,641.0,2.68,3.205,0.995,0.89
-0,First by Tullock,hard_majo,641.0,536.0,3.205,2.68,0.89,0.995
-0,hard_majo,First by Anonymous,478.0,398.0,2.39,1.99,0.42,0.5
-0,First by Anonymous,hard_majo,398.0,478.0,1.99,2.39,0.5,0.42
+0,hard_majo,Davis: 10,212.0,257.0,1.06,1.285,0.095,0.05
+0,Davis: 10,hard_majo,257.0,212.0,1.285,1.06,0.05,0.095
+0,hard_majo,Graaskamp: 0.05,275.0,275.0,1.375,1.375,0.125,0.125
+0,Graaskamp: 0.05,hard_majo,275.0,275.0,1.375,1.375,0.125,0.125
+0,hard_majo,Downing,200.0,200.0,1.0,1.0,0.0,0.0
+0,Downing,hard_majo,200.0,200.0,1.0,1.0,0.0,0.0
+0,hard_majo,"Feld: 1.0, 0.5, 200",224.0,224.0,1.12,1.12,0.04,0.04
+0,"Feld: 1.0, 0.5, 200",hard_majo,224.0,224.0,1.12,1.12,0.04,0.04
+0,hard_majo,Joss: 0.9,203.0,203.0,1.015,1.015,0.005,0.005
+0,Joss: 0.9,hard_majo,203.0,203.0,1.015,1.015,0.005,0.005
+0,hard_majo,Tullock,536.0,641.0,2.68,3.205,0.995,0.89
+0,Tullock,hard_majo,641.0,536.0,3.205,2.68,0.89,0.995
+0,hard_majo,Anonymous,478.0,398.0,2.39,1.99,0.42,0.5
+0,Anonymous,hard_majo,398.0,478.0,1.99,2.39,0.5,0.42
 0,hard_majo,Random: 0.5,510.0,275.0,2.55,1.375,0.24,0.475
 0,Random: 0.5,hard_majo,275.0,510.0,1.375,2.55,0.475,0.24
 0,per_cd,per_cd,400.0,400.0,2.0,2.0,0.5,0.5
@@ -370,32 +370,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,per_cd,597.0,107.0,2.985,0.535,0.01,0.5
 0,per_cd,grok:grok-3-mini,503.0,498.0,2.515,2.49,0.5,0.505
 0,grok:grok-3-mini,per_cd,498.0,503.0,2.49,2.515,0.505,0.5
-0,per_cd,First by Tideman and Chieruzzi,143.0,588.0,0.715,2.94,0.5,0.055
-0,First by Tideman and Chieruzzi,per_cd,588.0,143.0,2.94,0.715,0.055,0.5
-0,per_cd,First by Nydegger,503.0,498.0,2.515,2.49,0.5,0.505
-0,First by Nydegger,per_cd,498.0,503.0,2.49,2.515,0.505,0.5
-0,per_cd,First by Grofman,517.0,427.0,2.585,2.135,0.5,0.59
-0,First by Grofman,per_cd,427.0,517.0,2.135,2.585,0.59,0.5
-0,per_cd,First by Shubik,206.0,561.0,1.03,2.805,0.5,0.145
-0,First by Shubik,per_cd,561.0,206.0,2.805,1.03,0.145,0.5
-0,per_cd,First by Stein and Rapoport: 0.05,134.0,589.0,0.67,2.945,0.5,0.045
-0,First by Stein and Rapoport: 0.05,per_cd,589.0,134.0,2.945,0.67,0.045,0.5
+0,per_cd,Tideman & Chieruzzi,143.0,588.0,0.715,2.94,0.5,0.055
+0,Tideman & Chieruzzi,per_cd,588.0,143.0,2.94,0.715,0.055,0.5
+0,per_cd,Nydegger,503.0,498.0,2.515,2.49,0.5,0.505
+0,Nydegger,per_cd,498.0,503.0,2.49,2.515,0.505,0.5
+0,per_cd,Grofman,517.0,427.0,2.585,2.135,0.5,0.59
+0,Grofman,per_cd,427.0,517.0,2.135,2.585,0.59,0.5
+0,per_cd,Shubik,206.0,561.0,1.03,2.805,0.5,0.145
+0,Shubik,per_cd,561.0,206.0,2.805,1.03,0.145,0.5
+0,per_cd,Stein & Rapoport: 0.05,134.0,589.0,0.67,2.945,0.5,0.045
+0,Stein & Rapoport: 0.05,per_cd,589.0,134.0,2.945,0.67,0.045,0.5
 0,per_cd,GRIM,107.0,597.0,0.535,2.985,0.5,0.01
 0,GRIM,per_cd,597.0,107.0,2.985,0.535,0.01,0.5
-0,per_cd,First by Davis: 10,135.0,585.0,0.675,2.925,0.5,0.05
-0,First by Davis: 10,per_cd,585.0,135.0,2.925,0.675,0.05,0.5
-0,per_cd,First by Graaskamp: 0.05,215.0,570.0,1.075,2.85,0.5,0.145
-0,First by Graaskamp: 0.05,per_cd,570.0,215.0,2.85,1.075,0.145,0.5
-0,per_cd,First by Downing,103.0,598.0,0.515,2.99,0.5,0.005
-0,First by Downing,per_cd,598.0,103.0,2.99,0.515,0.005,0.5
-0,per_cd,"First by Feld: 1.0, 0.5, 200",399.0,524.0,1.995,2.62,0.5,0.375
-0,"First by Feld: 1.0, 0.5, 200",per_cd,524.0,399.0,2.62,1.995,0.375,0.5
-0,per_cd,First by Joss: 0.9,459.0,509.0,2.295,2.545,0.5,0.45
-0,First by Joss: 0.9,per_cd,509.0,459.0,2.545,2.295,0.45,0.5
-0,per_cd,First by Tullock,370.0,480.0,1.85,2.4,0.5,0.39
-0,First by Tullock,per_cd,480.0,370.0,2.4,1.85,0.39,0.5
-0,per_cd,First by Anonymous,437.0,457.0,2.185,2.285,0.5,0.48
-0,First by Anonymous,per_cd,457.0,437.0,2.285,2.185,0.48,0.5
+0,per_cd,Davis: 10,135.0,585.0,0.675,2.925,0.5,0.05
+0,Davis: 10,per_cd,585.0,135.0,2.925,0.675,0.05,0.5
+0,per_cd,Graaskamp: 0.05,215.0,570.0,1.075,2.85,0.5,0.145
+0,Graaskamp: 0.05,per_cd,570.0,215.0,2.85,1.075,0.145,0.5
+0,per_cd,Downing,103.0,598.0,0.515,2.99,0.5,0.005
+0,Downing,per_cd,598.0,103.0,2.99,0.515,0.005,0.5
+0,per_cd,"Feld: 1.0, 0.5, 200",399.0,524.0,1.995,2.62,0.5,0.375
+0,"Feld: 1.0, 0.5, 200",per_cd,524.0,399.0,2.62,1.995,0.375,0.5
+0,per_cd,Joss: 0.9,459.0,509.0,2.295,2.545,0.5,0.45
+0,Joss: 0.9,per_cd,509.0,459.0,2.545,2.295,0.45,0.5
+0,per_cd,Tullock,370.0,480.0,1.85,2.4,0.5,0.39
+0,Tullock,per_cd,480.0,370.0,2.4,1.85,0.39,0.5
+0,per_cd,Anonymous,437.0,457.0,2.185,2.285,0.5,0.48
+0,Anonymous,per_cd,457.0,437.0,2.285,2.185,0.48,0.5
 0,per_cd,Random: 0.5,460.0,440.0,2.3,2.2,0.5,0.52
 0,Random: 0.5,per_cd,440.0,460.0,2.2,2.3,0.52,0.5
 0,per_ccd,per_ccd,468.0,468.0,2.34,2.34,0.67,0.67
@@ -419,32 +419,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,per_ccd,728.0,83.0,3.64,0.415,0.025,0.67
 0,per_ccd,grok:grok-3-mini,534.0,534.0,2.67,2.67,0.67,0.67
 0,grok:grok-3-mini,per_ccd,534.0,534.0,2.67,2.67,0.67,0.67
-0,per_ccd,First by Tideman and Chieruzzi,273.0,653.0,1.365,3.265,0.67,0.29
-0,First by Tideman and Chieruzzi,per_ccd,653.0,273.0,3.265,1.365,0.29,0.67
-0,per_ccd,First by Nydegger,732.0,402.0,3.66,2.01,0.67,1.0
-0,First by Nydegger,per_ccd,402.0,732.0,2.01,3.66,1.0,0.67
-0,per_ccd,First by Grofman,499.0,529.0,2.495,2.645,0.67,0.64
-0,First by Grofman,per_ccd,529.0,499.0,2.645,2.495,0.64,0.67
-0,per_ccd,First by Shubik,192.0,682.0,0.96,3.41,0.67,0.18
-0,First by Shubik,per_ccd,682.0,192.0,3.41,0.96,0.18,0.67
-0,per_ccd,First by Stein and Rapoport: 0.05,499.0,549.0,2.495,2.745,0.67,0.62
-0,First by Stein and Rapoport: 0.05,per_ccd,549.0,499.0,2.745,2.495,0.62,0.67
+0,per_ccd,Tideman & Chieruzzi,273.0,653.0,1.365,3.265,0.67,0.29
+0,Tideman & Chieruzzi,per_ccd,653.0,273.0,3.265,1.365,0.29,0.67
+0,per_ccd,Nydegger,732.0,402.0,3.66,2.01,0.67,1.0
+0,Nydegger,per_ccd,402.0,732.0,2.01,3.66,1.0,0.67
+0,per_ccd,Grofman,499.0,529.0,2.495,2.645,0.67,0.64
+0,Grofman,per_ccd,529.0,499.0,2.645,2.495,0.64,0.67
+0,per_ccd,Shubik,192.0,682.0,0.96,3.41,0.67,0.18
+0,Shubik,per_ccd,682.0,192.0,3.41,0.96,0.18,0.67
+0,per_ccd,Stein & Rapoport: 0.05,499.0,549.0,2.495,2.745,0.67,0.62
+0,Stein & Rapoport: 0.05,per_ccd,549.0,499.0,2.745,2.495,0.62,0.67
 0,per_ccd,GRIM,76.0,731.0,0.38,3.655,0.67,0.015
 0,GRIM,per_ccd,731.0,76.0,3.655,0.38,0.015,0.67
-0,per_ccd,First by Davis: 10,99.0,719.0,0.495,3.595,0.67,0.05
-0,First by Davis: 10,per_ccd,719.0,99.0,3.595,0.495,0.05,0.67
-0,per_ccd,First by Graaskamp: 0.05,624.0,459.0,3.12,2.295,0.67,0.835
-0,First by Graaskamp: 0.05,per_ccd,459.0,624.0,2.295,3.12,0.835,0.67
-0,per_ccd,First by Downing,73.0,733.0,0.365,3.665,0.67,0.01
-0,First by Downing,per_ccd,733.0,73.0,3.665,0.365,0.01,0.67
-0,per_ccd,"First by Feld: 1.0, 0.5, 200",419.0,584.0,2.095,2.92,0.67,0.505
-0,"First by Feld: 1.0, 0.5, 200",per_ccd,584.0,419.0,2.92,2.095,0.505,0.67
-0,per_ccd,First by Joss: 0.9,493.0,553.0,2.465,2.765,0.67,0.61
-0,First by Joss: 0.9,per_ccd,553.0,493.0,2.765,2.465,0.61,0.67
-0,per_ccd,First by Tullock,447.0,542.0,2.235,2.71,0.67,0.575
-0,First by Tullock,per_ccd,542.0,447.0,2.71,2.235,0.575,0.67
-0,per_ccd,First by Anonymous,418.0,563.0,2.09,2.815,0.67,0.525
-0,First by Anonymous,per_ccd,563.0,418.0,2.815,2.09,0.525,0.67
+0,per_ccd,Davis: 10,99.0,719.0,0.495,3.595,0.67,0.05
+0,Davis: 10,per_ccd,719.0,99.0,3.595,0.495,0.05,0.67
+0,per_ccd,Graaskamp: 0.05,624.0,459.0,3.12,2.295,0.67,0.835
+0,Graaskamp: 0.05,per_ccd,459.0,624.0,2.295,3.12,0.835,0.67
+0,per_ccd,Downing,73.0,733.0,0.365,3.665,0.67,0.01
+0,Downing,per_ccd,733.0,73.0,3.665,0.365,0.01,0.67
+0,per_ccd,"Feld: 1.0, 0.5, 200",419.0,584.0,2.095,2.92,0.67,0.505
+0,"Feld: 1.0, 0.5, 200",per_ccd,584.0,419.0,2.92,2.095,0.505,0.67
+0,per_ccd,Joss: 0.9,493.0,553.0,2.465,2.765,0.67,0.61
+0,Joss: 0.9,per_ccd,553.0,493.0,2.765,2.465,0.61,0.67
+0,per_ccd,Tullock,447.0,542.0,2.235,2.71,0.67,0.575
+0,Tullock,per_ccd,542.0,447.0,2.71,2.235,0.575,0.67
+0,per_ccd,Anonymous,418.0,563.0,2.09,2.815,0.67,0.525
+0,Anonymous,per_ccd,563.0,418.0,2.815,2.09,0.525,0.67
 0,per_ccd,Random: 0.5,395.0,570.0,1.975,2.85,0.67,0.495
 0,Random: 0.5,per_ccd,570.0,395.0,2.85,1.975,0.495,0.67
 0,per_ddc,per_ddc,332.0,332.0,1.66,1.66,0.33,0.33
@@ -466,32 +466,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,per_ddc,463.0,138.0,2.315,0.69,0.005,0.33
 0,per_ddc,grok:grok-3-mini,402.0,397.0,2.01,1.985,0.33,0.335
 0,grok:grok-3-mini,per_ddc,397.0,402.0,1.985,2.01,0.335,0.33
-0,per_ddc,First by Tideman and Chieruzzi,234.0,439.0,1.17,2.195,0.33,0.125
-0,First by Tideman and Chieruzzi,per_ddc,439.0,234.0,2.195,1.17,0.125,0.33
-0,per_ddc,First by Nydegger,138.0,463.0,0.69,2.315,0.33,0.005
-0,First by Nydegger,per_ddc,463.0,138.0,2.315,0.69,0.005,0.33
-0,per_ddc,First by Grofman,587.0,297.0,2.935,1.485,0.33,0.62
-0,First by Grofman,per_ddc,297.0,587.0,1.485,2.935,0.62,0.33
-0,per_ddc,First by Shubik,213.0,443.0,1.065,2.215,0.33,0.1
-0,First by Shubik,per_ddc,443.0,213.0,2.215,1.065,0.1,0.33
-0,per_ddc,First by Stein and Rapoport: 0.05,385.0,400.0,1.925,2.0,0.33,0.315
-0,First by Stein and Rapoport: 0.05,per_ddc,400.0,385.0,2.0,1.925,0.315,0.33
+0,per_ddc,Tideman & Chieruzzi,234.0,439.0,1.17,2.195,0.33,0.125
+0,Tideman & Chieruzzi,per_ddc,439.0,234.0,2.195,1.17,0.125,0.33
+0,per_ddc,Nydegger,138.0,463.0,0.69,2.315,0.33,0.005
+0,Nydegger,per_ddc,463.0,138.0,2.315,0.69,0.005,0.33
+0,per_ddc,Grofman,587.0,297.0,2.935,1.485,0.33,0.62
+0,Grofman,per_ddc,297.0,587.0,1.485,2.935,0.62,0.33
+0,per_ddc,Shubik,213.0,443.0,1.065,2.215,0.33,0.1
+0,Shubik,per_ddc,443.0,213.0,2.215,1.065,0.1,0.33
+0,per_ddc,Stein & Rapoport: 0.05,385.0,400.0,1.925,2.0,0.33,0.315
+0,Stein & Rapoport: 0.05,per_ddc,400.0,385.0,2.0,1.925,0.315,0.33
 0,per_ddc,GRIM,138.0,463.0,0.69,2.315,0.33,0.005
 0,GRIM,per_ddc,463.0,138.0,2.315,0.69,0.005,0.33
-0,per_ddc,First by Davis: 10,171.0,451.0,0.855,2.255,0.33,0.05
-0,First by Davis: 10,per_ddc,451.0,171.0,2.255,0.855,0.05,0.33
-0,per_ddc,First by Graaskamp: 0.05,690.0,275.0,3.45,1.375,0.33,0.745
-0,First by Graaskamp: 0.05,per_ddc,275.0,690.0,1.375,3.45,0.745,0.33
-0,per_ddc,First by Downing,134.0,464.0,0.67,2.32,0.33,0.0
-0,First by Downing,per_ddc,464.0,134.0,2.32,0.67,0.0,0.33
-0,per_ddc,"First by Feld: 1.0, 0.5, 200",334.0,414.0,1.67,2.07,0.33,0.25
-0,"First by Feld: 1.0, 0.5, 200",per_ddc,414.0,334.0,2.07,1.67,0.25,0.33
-0,per_ddc,First by Joss: 0.9,382.0,402.0,1.91,2.01,0.33,0.31
-0,First by Joss: 0.9,per_ddc,402.0,382.0,2.01,1.91,0.31,0.33
-0,per_ddc,First by Tullock,335.0,400.0,1.675,2.0,0.33,0.265
-0,First by Tullock,per_ddc,400.0,335.0,2.0,1.675,0.265,0.33
-0,per_ddc,First by Anonymous,506.0,326.0,2.53,1.63,0.33,0.51
-0,First by Anonymous,per_ddc,326.0,506.0,1.63,2.53,0.51,0.33
+0,per_ddc,Davis: 10,171.0,451.0,0.855,2.255,0.33,0.05
+0,Davis: 10,per_ddc,451.0,171.0,2.255,0.855,0.05,0.33
+0,per_ddc,Graaskamp: 0.05,690.0,275.0,3.45,1.375,0.33,0.745
+0,Graaskamp: 0.05,per_ddc,275.0,690.0,1.375,3.45,0.745,0.33
+0,per_ddc,Downing,134.0,464.0,0.67,2.32,0.33,0.0
+0,Downing,per_ddc,464.0,134.0,2.32,0.67,0.0,0.33
+0,per_ddc,"Feld: 1.0, 0.5, 200",334.0,414.0,1.67,2.07,0.33,0.25
+0,"Feld: 1.0, 0.5, 200",per_ddc,414.0,334.0,2.07,1.67,0.25,0.33
+0,per_ddc,Joss: 0.9,382.0,402.0,1.91,2.01,0.33,0.31
+0,Joss: 0.9,per_ddc,402.0,382.0,2.01,1.91,0.31,0.33
+0,per_ddc,Tullock,335.0,400.0,1.675,2.0,0.33,0.265
+0,Tullock,per_ddc,400.0,335.0,2.0,1.675,0.265,0.33
+0,per_ddc,Anonymous,506.0,326.0,2.53,1.63,0.33,0.51
+0,Anonymous,per_ddc,326.0,506.0,1.63,2.53,0.51,0.33
 0,per_ddc,Random: 0.5,489.0,344.0,2.445,1.72,0.33,0.475
 0,Random: 0.5,per_ddc,344.0,489.0,1.72,2.445,0.475,0.33
 0,mistrust,mistrust,200.0,200.0,1.0,1.0,0.0,0.0
@@ -511,32 +511,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,mistrust,208.0,208.0,1.04,1.04,0.015,0.015
 0,mistrust,grok:grok-3-mini,500.0,500.0,2.5,2.5,0.5,0.5
 0,grok:grok-3-mini,mistrust,500.0,500.0,2.5,2.5,0.5,0.5
-0,mistrust,First by Tideman and Chieruzzi,206.0,206.0,1.03,1.03,0.01,0.01
-0,First by Tideman and Chieruzzi,mistrust,206.0,206.0,1.03,1.03,0.01,0.01
-0,mistrust,First by Nydegger,595.0,590.0,2.975,2.95,0.975,0.98
-0,First by Nydegger,mistrust,590.0,595.0,2.95,2.975,0.98,0.975
-0,mistrust,First by Grofman,586.0,581.0,2.93,2.905,0.94,0.945
-0,First by Grofman,mistrust,581.0,586.0,2.905,2.93,0.945,0.94
-0,mistrust,First by Shubik,257.0,257.0,1.285,1.285,0.095,0.095
-0,First by Shubik,mistrust,257.0,257.0,1.285,1.285,0.095,0.095
-0,mistrust,First by Stein and Rapoport: 0.05,597.0,597.0,2.985,2.985,0.99,0.99
-0,First by Stein and Rapoport: 0.05,mistrust,597.0,597.0,2.985,2.985,0.99,0.99
+0,mistrust,Tideman & Chieruzzi,206.0,206.0,1.03,1.03,0.01,0.01
+0,Tideman & Chieruzzi,mistrust,206.0,206.0,1.03,1.03,0.01,0.01
+0,mistrust,Nydegger,595.0,590.0,2.975,2.95,0.975,0.98
+0,Nydegger,mistrust,590.0,595.0,2.95,2.975,0.98,0.975
+0,mistrust,Grofman,586.0,581.0,2.93,2.905,0.94,0.945
+0,Grofman,mistrust,581.0,586.0,2.905,2.93,0.945,0.94
+0,mistrust,Shubik,257.0,257.0,1.285,1.285,0.095,0.095
+0,Shubik,mistrust,257.0,257.0,1.285,1.285,0.095,0.095
+0,mistrust,Stein & Rapoport: 0.05,597.0,597.0,2.985,2.985,0.99,0.99
+0,Stein & Rapoport: 0.05,mistrust,597.0,597.0,2.985,2.985,0.99,0.99
 0,mistrust,GRIM,203.0,203.0,1.015,1.015,0.005,0.005
 0,GRIM,mistrust,203.0,203.0,1.015,1.015,0.005,0.005
-0,mistrust,First by Davis: 10,221.0,221.0,1.105,1.105,0.05,0.05
-0,First by Davis: 10,mistrust,221.0,221.0,1.105,1.105,0.05,0.05
-0,mistrust,First by Graaskamp: 0.05,275.0,275.0,1.375,1.375,0.125,0.125
-0,First by Graaskamp: 0.05,mistrust,275.0,275.0,1.375,1.375,0.125,0.125
-0,mistrust,First by Downing,200.0,200.0,1.0,1.0,0.0,0.0
-0,First by Downing,mistrust,200.0,200.0,1.0,1.0,0.0,0.0
-0,mistrust,"First by Feld: 1.0, 0.5, 200",236.0,236.0,1.18,1.18,0.06,0.06
-0,"First by Feld: 1.0, 0.5, 200",mistrust,236.0,236.0,1.18,1.18,0.06,0.06
-0,mistrust,First by Joss: 0.9,236.0,236.0,1.18,1.18,0.06,0.06
-0,First by Joss: 0.9,mistrust,236.0,236.0,1.18,1.18,0.06,0.06
-0,mistrust,First by Tullock,324.0,324.0,1.62,1.62,0.265,0.265
-0,First by Tullock,mistrust,324.0,324.0,1.62,1.62,0.265,0.265
-0,mistrust,First by Anonymous,478.0,478.0,2.39,2.39,0.555,0.555
-0,First by Anonymous,mistrust,478.0,478.0,2.39,2.39,0.555,0.555
+0,mistrust,Davis: 10,221.0,221.0,1.105,1.105,0.05,0.05
+0,Davis: 10,mistrust,221.0,221.0,1.105,1.105,0.05,0.05
+0,mistrust,Graaskamp: 0.05,275.0,275.0,1.375,1.375,0.125,0.125
+0,Graaskamp: 0.05,mistrust,275.0,275.0,1.375,1.375,0.125,0.125
+0,mistrust,Downing,200.0,200.0,1.0,1.0,0.0,0.0
+0,Downing,mistrust,200.0,200.0,1.0,1.0,0.0,0.0
+0,mistrust,"Feld: 1.0, 0.5, 200",236.0,236.0,1.18,1.18,0.06,0.06
+0,"Feld: 1.0, 0.5, 200",mistrust,236.0,236.0,1.18,1.18,0.06,0.06
+0,mistrust,Joss: 0.9,236.0,236.0,1.18,1.18,0.06,0.06
+0,Joss: 0.9,mistrust,236.0,236.0,1.18,1.18,0.06,0.06
+0,mistrust,Tullock,324.0,324.0,1.62,1.62,0.265,0.265
+0,Tullock,mistrust,324.0,324.0,1.62,1.62,0.265,0.265
+0,mistrust,Anonymous,478.0,478.0,2.39,2.39,0.555,0.555
+0,Anonymous,mistrust,478.0,478.0,2.39,2.39,0.555,0.555
 0,mistrust,Random: 0.5,444.0,444.0,2.22,2.22,0.48,0.48
 0,Random: 0.5,mistrust,444.0,444.0,2.22,2.22,0.48,0.48
 0,WSLS,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
@@ -554,32 +554,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
 0,WSLS,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,WSLS,600.0,595.0,3.0,2.975,0.99,0.995
-0,WSLS,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,WSLS,600.0,595.0,3.0,2.975,0.99,0.995
+0,WSLS,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,WSLS,600.0,595.0,3.0,2.975,0.99,0.995
+0,WSLS,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
+0,WSLS,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
+0,WSLS,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
+0,WSLS,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,WSLS,600.0,595.0,3.0,2.975,0.99,0.995
 0,WSLS,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
-0,WSLS,First by Graaskamp: 0.05,674.0,419.0,3.37,2.095,0.65,0.905
-0,First by Graaskamp: 0.05,WSLS,419.0,674.0,2.095,3.37,0.905,0.65
-0,WSLS,First by Downing,109.0,599.0,0.545,2.995,0.505,0.015
-0,First by Downing,WSLS,599.0,109.0,2.995,0.545,0.015,0.505
-0,WSLS,"First by Feld: 1.0, 0.5, 200",365.0,465.0,1.825,2.325,0.45,0.35
-0,"First by Feld: 1.0, 0.5, 200",WSLS,465.0,365.0,2.325,1.825,0.35,0.45
-0,WSLS,First by Joss: 0.9,387.0,417.0,1.935,2.085,0.36,0.33
-0,First by Joss: 0.9,WSLS,417.0,387.0,2.085,1.935,0.33,0.36
-0,WSLS,First by Tullock,398.0,468.0,1.99,2.34,0.49,0.42
-0,First by Tullock,WSLS,468.0,398.0,2.34,1.99,0.42,0.49
-0,WSLS,First by Anonymous,453.0,458.0,2.265,2.29,0.52,0.515
-0,First by Anonymous,WSLS,458.0,453.0,2.29,2.265,0.515,0.52
+0,WSLS,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,WSLS,600.0,600.0,3.0,3.0,1.0,1.0
+0,WSLS,Graaskamp: 0.05,674.0,419.0,3.37,2.095,0.65,0.905
+0,Graaskamp: 0.05,WSLS,419.0,674.0,2.095,3.37,0.905,0.65
+0,WSLS,Downing,109.0,599.0,0.545,2.995,0.505,0.015
+0,Downing,WSLS,599.0,109.0,2.995,0.545,0.015,0.505
+0,WSLS,"Feld: 1.0, 0.5, 200",365.0,465.0,1.825,2.325,0.45,0.35
+0,"Feld: 1.0, 0.5, 200",WSLS,465.0,365.0,2.325,1.825,0.35,0.45
+0,WSLS,Joss: 0.9,387.0,417.0,1.935,2.085,0.36,0.33
+0,Joss: 0.9,WSLS,417.0,387.0,2.085,1.935,0.33,0.36
+0,WSLS,Tullock,398.0,468.0,1.99,2.34,0.49,0.42
+0,Tullock,WSLS,468.0,398.0,2.34,1.99,0.42,0.49
+0,WSLS,Anonymous,453.0,458.0,2.265,2.29,0.52,0.515
+0,Anonymous,WSLS,458.0,453.0,2.29,2.265,0.515,0.52
 0,WSLS,Random: 0.5,477.0,432.0,2.385,2.16,0.485,0.53
 0,Random: 0.5,WSLS,432.0,477.0,2.16,2.385,0.53,0.485
 0,TFTT,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
@@ -595,32 +595,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
 0,TFTT,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Tideman and Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Tideman and Chieruzzi,TFTT,604.0,594.0,3.02,2.97,0.99,1.0
-0,TFTT,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,TFTT,604.0,594.0,3.02,2.97,0.99,1.0
+0,TFTT,Tideman & Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
+0,Tideman & Chieruzzi,TFTT,604.0,594.0,3.02,2.97,0.99,1.0
+0,TFTT,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
+0,TFTT,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
+0,TFTT,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
+0,TFTT,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,TFTT,604.0,594.0,3.02,2.97,0.99,1.0
 0,TFTT,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
-0,TFTT,First by Graaskamp: 0.05,558.0,628.0,2.79,3.14,1.0,0.93
-0,First by Graaskamp: 0.05,TFTT,628.0,558.0,3.14,2.79,0.93,1.0
-0,TFTT,First by Downing,286.0,626.0,1.43,3.13,0.67,0.33
-0,First by Downing,TFTT,626.0,286.0,3.13,1.43,0.33,0.67
-0,TFTT,"First by Feld: 1.0, 0.5, 200",360.0,410.0,1.8,2.05,0.475,0.425
-0,"First by Feld: 1.0, 0.5, 200",TFTT,410.0,360.0,2.05,1.8,0.425,0.475
-0,TFTT,First by Joss: 0.9,527.0,647.0,2.635,3.235,0.995,0.875
-0,First by Joss: 0.9,TFTT,647.0,527.0,3.235,2.635,0.875,0.995
-0,TFTT,First by Tullock,561.0,626.0,2.805,3.13,1.0,0.935
-0,First by Tullock,TFTT,626.0,561.0,3.13,2.805,0.935,1.0
-0,TFTT,First by Anonymous,388.0,628.0,1.94,3.14,0.775,0.535
-0,First by Anonymous,TFTT,628.0,388.0,3.14,1.94,0.535,0.775
+0,TFTT,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,TFTT,600.0,600.0,3.0,3.0,1.0,1.0
+0,TFTT,Graaskamp: 0.05,558.0,628.0,2.79,3.14,1.0,0.93
+0,Graaskamp: 0.05,TFTT,628.0,558.0,3.14,2.79,0.93,1.0
+0,TFTT,Downing,286.0,626.0,1.43,3.13,0.67,0.33
+0,Downing,TFTT,626.0,286.0,3.13,1.43,0.33,0.67
+0,TFTT,"Feld: 1.0, 0.5, 200",360.0,410.0,1.8,2.05,0.475,0.425
+0,"Feld: 1.0, 0.5, 200",TFTT,410.0,360.0,2.05,1.8,0.425,0.475
+0,TFTT,Joss: 0.9,527.0,647.0,2.635,3.235,0.995,0.875
+0,Joss: 0.9,TFTT,647.0,527.0,3.235,2.635,0.875,0.995
+0,TFTT,Tullock,561.0,626.0,2.805,3.13,1.0,0.935
+0,Tullock,TFTT,626.0,561.0,3.13,2.805,0.935,1.0
+0,TFTT,Anonymous,388.0,628.0,1.94,3.14,0.775,0.535
+0,Anonymous,TFTT,628.0,388.0,3.14,1.94,0.535,0.775
 0,TFTT,Random: 0.5,386.0,646.0,1.93,3.23,0.795,0.535
 0,Random: 0.5,TFTT,646.0,386.0,3.23,1.93,0.535,0.795
 0,hard_tft,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
@@ -634,32 +634,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
 0,hard_tft,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,hard_tft,600.0,595.0,3.0,2.975,0.99,0.995
-0,hard_tft,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,hard_tft,600.0,595.0,3.0,2.975,0.99,0.995
+0,hard_tft,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,hard_tft,600.0,595.0,3.0,2.975,0.99,0.995
+0,hard_tft,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,hard_tft,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,hard_tft,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,hard_tft,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,hard_tft,600.0,595.0,3.0,2.975,0.99,0.995
 0,hard_tft,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,hard_tft,First by Graaskamp: 0.05,609.0,529.0,3.045,2.645,0.825,0.905
-0,First by Graaskamp: 0.05,hard_tft,529.0,609.0,2.645,3.045,0.905,0.825
-0,hard_tft,First by Downing,206.0,206.0,1.03,1.03,0.01,0.01
-0,First by Downing,hard_tft,206.0,206.0,1.03,1.03,0.01,0.01
-0,hard_tft,"First by Feld: 1.0, 0.5, 200",251.0,251.0,1.255,1.255,0.125,0.125
-0,"First by Feld: 1.0, 0.5, 200",hard_tft,251.0,251.0,1.255,1.255,0.125,0.125
-0,hard_tft,First by Joss: 0.9,251.0,251.0,1.255,1.255,0.125,0.125
-0,First by Joss: 0.9,hard_tft,251.0,251.0,1.255,1.255,0.125,0.125
-0,hard_tft,First by Tullock,254.0,249.0,1.27,1.245,0.12,0.125
-0,First by Tullock,hard_tft,249.0,254.0,1.245,1.27,0.125,0.12
-0,hard_tft,First by Anonymous,509.0,284.0,2.545,1.42,0.27,0.495
-0,First by Anonymous,hard_tft,284.0,509.0,1.42,2.545,0.495,0.27
+0,hard_tft,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,hard_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,hard_tft,Graaskamp: 0.05,609.0,529.0,3.045,2.645,0.825,0.905
+0,Graaskamp: 0.05,hard_tft,529.0,609.0,2.645,3.045,0.905,0.825
+0,hard_tft,Downing,206.0,206.0,1.03,1.03,0.01,0.01
+0,Downing,hard_tft,206.0,206.0,1.03,1.03,0.01,0.01
+0,hard_tft,"Feld: 1.0, 0.5, 200",251.0,251.0,1.255,1.255,0.125,0.125
+0,"Feld: 1.0, 0.5, 200",hard_tft,251.0,251.0,1.255,1.255,0.125,0.125
+0,hard_tft,Joss: 0.9,251.0,251.0,1.255,1.255,0.125,0.125
+0,Joss: 0.9,hard_tft,251.0,251.0,1.255,1.255,0.125,0.125
+0,hard_tft,Tullock,254.0,249.0,1.27,1.245,0.12,0.125
+0,Tullock,hard_tft,249.0,254.0,1.245,1.27,0.125,0.12
+0,hard_tft,Anonymous,509.0,284.0,2.545,1.42,0.27,0.495
+0,Anonymous,hard_tft,284.0,509.0,1.42,2.545,0.495,0.27
 0,hard_tft,Random: 0.5,531.0,271.0,2.655,1.355,0.245,0.505
 0,Random: 0.5,hard_tft,271.0,531.0,1.355,2.655,0.505,0.245
 0,slow_tft,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
@@ -671,32 +671,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
 0,slow_tft,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Tideman and Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Tideman and Chieruzzi,slow_tft,604.0,594.0,3.02,2.97,0.99,1.0
-0,slow_tft,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,slow_tft,604.0,594.0,3.02,2.97,0.99,1.0
+0,slow_tft,Tideman & Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
+0,Tideman & Chieruzzi,slow_tft,604.0,594.0,3.02,2.97,0.99,1.0
+0,slow_tft,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,slow_tft,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,slow_tft,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,slow_tft,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,slow_tft,604.0,594.0,3.02,2.97,0.99,1.0
 0,slow_tft,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
-0,slow_tft,First by Graaskamp: 0.05,558.0,628.0,2.79,3.14,1.0,0.93
-0,First by Graaskamp: 0.05,slow_tft,628.0,558.0,3.14,2.79,0.93,1.0
-0,slow_tft,First by Downing,206.0,206.0,1.03,1.03,0.01,0.01
-0,First by Downing,slow_tft,206.0,206.0,1.03,1.03,0.01,0.01
-0,slow_tft,"First by Feld: 1.0, 0.5, 200",345.0,390.0,1.725,1.95,0.43,0.385
-0,"First by Feld: 1.0, 0.5, 200",slow_tft,390.0,345.0,1.95,1.725,0.385,0.43
-0,slow_tft,First by Joss: 0.9,259.0,279.0,1.295,1.395,0.175,0.155
-0,First by Joss: 0.9,slow_tft,279.0,259.0,1.395,1.295,0.155,0.175
-0,slow_tft,First by Tullock,543.0,628.0,2.715,3.14,0.97,0.885
-0,First by Tullock,slow_tft,628.0,543.0,3.14,2.715,0.885,0.97
-0,slow_tft,First by Anonymous,430.0,400.0,2.15,2.0,0.41,0.44
-0,First by Anonymous,slow_tft,400.0,430.0,2.0,2.15,0.44,0.41
+0,slow_tft,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,slow_tft,600.0,600.0,3.0,3.0,1.0,1.0
+0,slow_tft,Graaskamp: 0.05,558.0,628.0,2.79,3.14,1.0,0.93
+0,Graaskamp: 0.05,slow_tft,628.0,558.0,3.14,2.79,0.93,1.0
+0,slow_tft,Downing,206.0,206.0,1.03,1.03,0.01,0.01
+0,Downing,slow_tft,206.0,206.0,1.03,1.03,0.01,0.01
+0,slow_tft,"Feld: 1.0, 0.5, 200",345.0,390.0,1.725,1.95,0.43,0.385
+0,"Feld: 1.0, 0.5, 200",slow_tft,390.0,345.0,1.95,1.725,0.385,0.43
+0,slow_tft,Joss: 0.9,259.0,279.0,1.295,1.395,0.175,0.155
+0,Joss: 0.9,slow_tft,279.0,259.0,1.395,1.295,0.155,0.175
+0,slow_tft,Tullock,543.0,628.0,2.715,3.14,0.97,0.885
+0,Tullock,slow_tft,628.0,543.0,3.14,2.715,0.885,0.97
+0,slow_tft,Anonymous,430.0,400.0,2.15,2.0,0.41,0.44
+0,Anonymous,slow_tft,400.0,430.0,2.0,2.15,0.44,0.41
 0,slow_tft,Random: 0.5,457.0,417.0,2.285,2.085,0.455,0.495
 0,Random: 0.5,slow_tft,417.0,457.0,2.085,2.285,0.495,0.455
 0,GrdTFT,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
@@ -706,32 +706,32 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
 0,GrdTFT,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,GrdTFT,600.0,595.0,3.0,2.975,0.99,0.995
-0,GrdTFT,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,GrdTFT,600.0,595.0,3.0,2.975,0.99,0.995
+0,GrdTFT,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,GrdTFT,600.0,595.0,3.0,2.975,0.99,0.995
+0,GrdTFT,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
+0,GrdTFT,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
+0,GrdTFT,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
+0,GrdTFT,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,GrdTFT,600.0,595.0,3.0,2.975,0.99,0.995
 0,GrdTFT,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
-0,GrdTFT,First by Graaskamp: 0.05,710.0,395.0,3.55,1.975,0.61,0.925
-0,First by Graaskamp: 0.05,GrdTFT,395.0,710.0,1.975,3.55,0.925,0.61
-0,GrdTFT,First by Downing,228.0,328.0,1.14,1.64,0.19,0.09
-0,First by Downing,GrdTFT,328.0,228.0,1.64,1.14,0.09,0.19
-0,GrdTFT,"First by Feld: 1.0, 0.5, 200",417.0,497.0,2.085,2.485,0.645,0.565
-0,"First by Feld: 1.0, 0.5, 200",GrdTFT,497.0,417.0,2.485,2.085,0.565,0.645
-0,GrdTFT,First by Joss: 0.9,416.0,481.0,2.08,2.405,0.61,0.545
-0,First by Joss: 0.9,GrdTFT,481.0,416.0,2.405,2.08,0.545,0.61
-0,GrdTFT,First by Tullock,305.0,385.0,1.525,1.925,0.35,0.27
-0,First by Tullock,GrdTFT,385.0,305.0,1.925,1.525,0.27,0.35
-0,GrdTFT,First by Anonymous,521.0,266.0,2.605,1.33,0.235,0.49
-0,First by Anonymous,GrdTFT,266.0,521.0,1.33,2.605,0.49,0.235
+0,GrdTFT,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,GrdTFT,600.0,600.0,3.0,3.0,1.0,1.0
+0,GrdTFT,Graaskamp: 0.05,710.0,395.0,3.55,1.975,0.61,0.925
+0,Graaskamp: 0.05,GrdTFT,395.0,710.0,1.975,3.55,0.925,0.61
+0,GrdTFT,Downing,228.0,328.0,1.14,1.64,0.19,0.09
+0,Downing,GrdTFT,328.0,228.0,1.64,1.14,0.09,0.19
+0,GrdTFT,"Feld: 1.0, 0.5, 200",417.0,497.0,2.085,2.485,0.645,0.565
+0,"Feld: 1.0, 0.5, 200",GrdTFT,497.0,417.0,2.485,2.085,0.565,0.645
+0,GrdTFT,Joss: 0.9,416.0,481.0,2.08,2.405,0.61,0.545
+0,Joss: 0.9,GrdTFT,481.0,416.0,2.405,2.08,0.545,0.61
+0,GrdTFT,Tullock,305.0,385.0,1.525,1.925,0.35,0.27
+0,Tullock,GrdTFT,385.0,305.0,1.925,1.525,0.27,0.35
+0,GrdTFT,Anonymous,521.0,266.0,2.605,1.33,0.235,0.49
+0,Anonymous,GrdTFT,266.0,521.0,1.33,2.605,0.49,0.235
 0,GrdTFT,Random: 0.5,537.0,262.0,2.685,1.31,0.24,0.515
 0,Random: 0.5,GrdTFT,262.0,537.0,1.31,2.685,0.515,0.24
 0,prober,prober,204.0,204.0,1.02,1.02,0.01,0.01
@@ -739,287 +739,287 @@ repetition,player_a,player_b,score_a,score_b,avg_a,avg_b,cooperation_a,cooperati
 0,mem2,prober,599.0,599.0,2.995,2.995,0.995,0.995
 0,prober,grok:grok-3-mini,599.0,599.0,2.995,2.995,0.995,0.995
 0,grok:grok-3-mini,prober,599.0,599.0,2.995,2.995,0.995,0.995
-0,prober,First by Tideman and Chieruzzi,594.0,599.0,2.97,2.995,0.99,0.985
-0,First by Tideman and Chieruzzi,prober,599.0,594.0,2.995,2.97,0.985,0.99
-0,prober,First by Nydegger,496.0,501.0,2.48,2.505,0.5,0.495
-0,First by Nydegger,prober,501.0,496.0,2.505,2.48,0.495,0.5
-0,prober,First by Grofman,684.0,84.0,3.42,0.42,0.01,0.61
-0,First by Grofman,prober,84.0,684.0,0.42,3.42,0.61,0.01
-0,prober,First by Shubik,599.0,599.0,2.995,2.995,0.995,0.995
-0,First by Shubik,prober,599.0,599.0,2.995,2.995,0.995,0.995
-0,prober,First by Stein and Rapoport: 0.05,212.0,202.0,1.06,1.01,0.01,0.02
-0,First by Stein and Rapoport: 0.05,prober,202.0,212.0,1.01,1.06,0.02,0.01
+0,prober,Tideman & Chieruzzi,594.0,599.0,2.97,2.995,0.99,0.985
+0,Tideman & Chieruzzi,prober,599.0,594.0,2.995,2.97,0.985,0.99
+0,prober,Nydegger,496.0,501.0,2.48,2.505,0.5,0.495
+0,Nydegger,prober,501.0,496.0,2.505,2.48,0.495,0.5
+0,prober,Grofman,684.0,84.0,3.42,0.42,0.01,0.61
+0,Grofman,prober,84.0,684.0,0.42,3.42,0.61,0.01
+0,prober,Shubik,599.0,599.0,2.995,2.995,0.995,0.995
+0,Shubik,prober,599.0,599.0,2.995,2.995,0.995,0.995
+0,prober,Stein & Rapoport: 0.05,212.0,202.0,1.06,1.01,0.01,0.02
+0,Stein & Rapoport: 0.05,prober,202.0,212.0,1.01,1.06,0.02,0.01
 0,prober,GRIM,202.0,207.0,1.01,1.035,0.01,0.005
 0,GRIM,prober,207.0,202.0,1.035,1.01,0.005,0.01
-0,prober,First by Davis: 10,236.0,196.0,1.18,0.98,0.01,0.05
-0,First by Davis: 10,prober,196.0,236.0,0.98,1.18,0.05,0.01
-0,prober,First by Graaskamp: 0.05,584.0,584.0,2.92,2.92,0.92,0.92
-0,First by Graaskamp: 0.05,prober,584.0,584.0,2.92,2.92,0.92,0.92
-0,prober,First by Downing,198.0,208.0,0.99,1.04,0.01,0.0
-0,First by Downing,prober,208.0,198.0,1.04,0.99,0.0,0.01
-0,prober,"First by Feld: 1.0, 0.5, 200",269.0,274.0,1.345,1.37,0.135,0.13
-0,"First by Feld: 1.0, 0.5, 200",prober,274.0,269.0,1.37,1.345,0.13,0.135
-0,prober,First by Joss: 0.9,240.0,245.0,1.2,1.225,0.075,0.07
-0,First by Joss: 0.9,prober,245.0,240.0,1.225,1.2,0.07,0.075
-0,prober,First by Tullock,240.0,195.0,1.2,0.975,0.01,0.055
-0,First by Tullock,prober,195.0,240.0,0.975,1.2,0.055,0.01
-0,prober,First by Anonymous,475.0,475.0,2.375,2.375,0.555,0.555
-0,First by Anonymous,prober,475.0,475.0,2.375,2.375,0.555,0.555
+0,prober,Davis: 10,236.0,196.0,1.18,0.98,0.01,0.05
+0,Davis: 10,prober,196.0,236.0,0.98,1.18,0.05,0.01
+0,prober,Graaskamp: 0.05,584.0,584.0,2.92,2.92,0.92,0.92
+0,Graaskamp: 0.05,prober,584.0,584.0,2.92,2.92,0.92,0.92
+0,prober,Downing,198.0,208.0,0.99,1.04,0.01,0.0
+0,Downing,prober,208.0,198.0,1.04,0.99,0.0,0.01
+0,prober,"Feld: 1.0, 0.5, 200",269.0,274.0,1.345,1.37,0.135,0.13
+0,"Feld: 1.0, 0.5, 200",prober,274.0,269.0,1.37,1.345,0.13,0.135
+0,prober,Joss: 0.9,240.0,245.0,1.2,1.225,0.075,0.07
+0,Joss: 0.9,prober,245.0,240.0,1.225,1.2,0.07,0.075
+0,prober,Tullock,240.0,195.0,1.2,0.975,0.01,0.055
+0,Tullock,prober,195.0,240.0,0.975,1.2,0.055,0.01
+0,prober,Anonymous,475.0,475.0,2.375,2.375,0.555,0.555
+0,Anonymous,prober,475.0,475.0,2.375,2.375,0.555,0.555
 0,prober,Random: 0.5,425.0,425.0,2.125,2.125,0.43,0.43
 0,Random: 0.5,prober,425.0,425.0,2.125,2.125,0.43,0.43
 0,mem2,mem2,600.0,600.0,3.0,3.0,1.0,1.0
 0,mem2,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
 0,grok:grok-3-mini,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,mem2,600.0,595.0,3.0,2.975,0.99,0.995
-0,mem2,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,mem2,600.0,595.0,3.0,2.975,0.99,0.995
+0,mem2,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,mem2,600.0,595.0,3.0,2.975,0.99,0.995
+0,mem2,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,mem2,600.0,600.0,3.0,3.0,1.0,1.0
+0,mem2,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,mem2,600.0,600.0,3.0,3.0,1.0,1.0
+0,mem2,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,mem2,600.0,600.0,3.0,3.0,1.0,1.0
+0,mem2,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,mem2,600.0,595.0,3.0,2.975,0.99,0.995
 0,mem2,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,mem2,600.0,600.0,3.0,3.0,1.0,1.0
-0,mem2,First by Graaskamp: 0.05,428.0,278.0,2.14,1.39,0.265,0.415
-0,First by Graaskamp: 0.05,mem2,278.0,428.0,1.39,2.14,0.415,0.265
-0,mem2,First by Downing,211.0,201.0,1.055,1.005,0.005,0.015
-0,First by Downing,mem2,201.0,211.0,1.005,1.055,0.015,0.005
-0,mem2,"First by Feld: 1.0, 0.5, 200",232.0,232.0,1.16,1.16,0.075,0.075
-0,"First by Feld: 1.0, 0.5, 200",mem2,232.0,232.0,1.16,1.16,0.075,0.075
-0,mem2,First by Joss: 0.9,264.0,264.0,1.32,1.32,0.155,0.155
-0,First by Joss: 0.9,mem2,264.0,264.0,1.32,1.32,0.155,0.155
-0,mem2,First by Tullock,248.0,233.0,1.24,1.165,0.085,0.1
-0,First by Tullock,mem2,233.0,248.0,1.165,1.24,0.1,0.085
-0,mem2,First by Anonymous,616.0,106.0,3.08,0.53,0.015,0.525
-0,First by Anonymous,mem2,106.0,616.0,0.53,3.08,0.525,0.015
+0,mem2,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,mem2,600.0,600.0,3.0,3.0,1.0,1.0
+0,mem2,Graaskamp: 0.05,428.0,278.0,2.14,1.39,0.265,0.415
+0,Graaskamp: 0.05,mem2,278.0,428.0,1.39,2.14,0.415,0.265
+0,mem2,Downing,211.0,201.0,1.055,1.005,0.005,0.015
+0,Downing,mem2,201.0,211.0,1.005,1.055,0.015,0.005
+0,mem2,"Feld: 1.0, 0.5, 200",232.0,232.0,1.16,1.16,0.075,0.075
+0,"Feld: 1.0, 0.5, 200",mem2,232.0,232.0,1.16,1.16,0.075,0.075
+0,mem2,Joss: 0.9,264.0,264.0,1.32,1.32,0.155,0.155
+0,Joss: 0.9,mem2,264.0,264.0,1.32,1.32,0.155,0.155
+0,mem2,Tullock,248.0,233.0,1.24,1.165,0.085,0.1
+0,Tullock,mem2,233.0,248.0,1.165,1.24,0.1,0.085
+0,mem2,Anonymous,616.0,106.0,3.08,0.53,0.015,0.525
+0,Anonymous,mem2,106.0,616.0,0.53,3.08,0.525,0.015
 0,mem2,Random: 0.5,632.0,102.0,3.16,0.51,0.015,0.545
 0,Random: 0.5,mem2,102.0,632.0,0.51,3.16,0.545,0.015
 0,grok:grok-3-mini,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,grok:grok-3-mini,600.0,595.0,3.0,2.975,0.99,0.995
-0,grok:grok-3-mini,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,grok:grok-3-mini,600.0,595.0,3.0,2.975,0.99,0.995
+0,grok:grok-3-mini,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,grok:grok-3-mini,600.0,595.0,3.0,2.975,0.99,0.995
+0,grok:grok-3-mini,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
+0,grok:grok-3-mini,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
+0,grok:grok-3-mini,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
+0,grok:grok-3-mini,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,grok:grok-3-mini,600.0,595.0,3.0,2.975,0.99,0.995
 0,grok:grok-3-mini,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
 0,GRIM,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
-0,grok:grok-3-mini,First by Graaskamp: 0.05,525.0,525.0,2.625,2.625,0.625,0.625
-0,First by Graaskamp: 0.05,grok:grok-3-mini,525.0,525.0,2.625,2.625,0.625,0.625
-0,grok:grok-3-mini,First by Downing,597.0,597.0,2.985,2.985,0.99,0.99
-0,First by Downing,grok:grok-3-mini,597.0,597.0,2.985,2.985,0.99,0.99
-0,grok:grok-3-mini,"First by Feld: 1.0, 0.5, 200",261.0,266.0,1.305,1.33,0.12,0.115
-0,"First by Feld: 1.0, 0.5, 200",grok:grok-3-mini,266.0,261.0,1.33,1.305,0.115,0.12
-0,grok:grok-3-mini,First by Joss: 0.9,239.0,244.0,1.195,1.22,0.075,0.07
-0,First by Joss: 0.9,grok:grok-3-mini,244.0,239.0,1.22,1.195,0.07,0.075
-0,grok:grok-3-mini,First by Tullock,294.0,299.0,1.47,1.495,0.23,0.225
-0,First by Tullock,grok:grok-3-mini,299.0,294.0,1.495,1.47,0.225,0.23
-0,grok:grok-3-mini,First by Anonymous,466.0,471.0,2.33,2.355,0.55,0.545
-0,First by Anonymous,grok:grok-3-mini,471.0,466.0,2.355,2.33,0.545,0.55
+0,grok:grok-3-mini,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,grok:grok-3-mini,600.0,600.0,3.0,3.0,1.0,1.0
+0,grok:grok-3-mini,Graaskamp: 0.05,525.0,525.0,2.625,2.625,0.625,0.625
+0,Graaskamp: 0.05,grok:grok-3-mini,525.0,525.0,2.625,2.625,0.625,0.625
+0,grok:grok-3-mini,Downing,597.0,597.0,2.985,2.985,0.99,0.99
+0,Downing,grok:grok-3-mini,597.0,597.0,2.985,2.985,0.99,0.99
+0,grok:grok-3-mini,"Feld: 1.0, 0.5, 200",261.0,266.0,1.305,1.33,0.12,0.115
+0,"Feld: 1.0, 0.5, 200",grok:grok-3-mini,266.0,261.0,1.33,1.305,0.115,0.12
+0,grok:grok-3-mini,Joss: 0.9,239.0,244.0,1.195,1.22,0.075,0.07
+0,Joss: 0.9,grok:grok-3-mini,244.0,239.0,1.22,1.195,0.07,0.075
+0,grok:grok-3-mini,Tullock,294.0,299.0,1.47,1.495,0.23,0.225
+0,Tullock,grok:grok-3-mini,299.0,294.0,1.495,1.47,0.225,0.23
+0,grok:grok-3-mini,Anonymous,466.0,471.0,2.33,2.355,0.55,0.545
+0,Anonymous,grok:grok-3-mini,471.0,466.0,2.355,2.33,0.545,0.55
 0,grok:grok-3-mini,Random: 0.5,459.0,459.0,2.295,2.295,0.515,0.515
 0,Random: 0.5,grok:grok-3-mini,459.0,459.0,2.295,2.295,0.515,0.515
-0,First by Tideman and Chieruzzi,First by Tideman and Chieruzzi,596.0,596.0,2.98,2.98,0.99,0.99
-0,First by Tideman and Chieruzzi,First by Nydegger,604.0,594.0,3.02,2.97,0.99,1.0
-0,First by Nydegger,First by Tideman and Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Tideman and Chieruzzi,First by Grofman,600.0,595.0,3.0,2.975,0.99,0.995
-0,First by Grofman,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,First by Shubik,600.0,595.0,3.0,2.975,0.99,0.995
-0,First by Shubik,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,First by Stein and Rapoport: 0.05,596.0,596.0,2.98,2.98,0.99,0.99
-0,First by Stein and Rapoport: 0.05,First by Tideman and Chieruzzi,596.0,596.0,2.98,2.98,0.99,0.99
-0,First by Tideman and Chieruzzi,GRIM,600.0,595.0,3.0,2.975,0.99,0.995
-0,GRIM,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,First by Davis: 10,600.0,595.0,3.0,2.975,0.99,0.995
-0,First by Davis: 10,First by Tideman and Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Tideman and Chieruzzi,First by Graaskamp: 0.05,600.0,550.0,3.0,2.75,0.86,0.91
-0,First by Graaskamp: 0.05,First by Tideman and Chieruzzi,550.0,600.0,2.75,3.0,0.91,0.86
-0,First by Tideman and Chieruzzi,First by Downing,233.0,203.0,1.165,1.015,0.015,0.045
-0,First by Downing,First by Tideman and Chieruzzi,203.0,233.0,1.015,1.165,0.045,0.015
-0,First by Tideman and Chieruzzi,"First by Feld: 1.0, 0.5, 200",210.0,210.0,1.05,1.05,0.02,0.02
-0,"First by Feld: 1.0, 0.5, 200",First by Tideman and Chieruzzi,210.0,210.0,1.05,1.05,0.02,0.02
-0,First by Tideman and Chieruzzi,First by Joss: 0.9,210.0,210.0,1.05,1.05,0.02,0.02
-0,First by Joss: 0.9,First by Tideman and Chieruzzi,210.0,210.0,1.05,1.05,0.02,0.02
-0,First by Tideman and Chieruzzi,First by Tullock,385.0,380.0,1.925,1.9,0.445,0.45
-0,First by Tullock,First by Tideman and Chieruzzi,380.0,385.0,1.9,1.925,0.45,0.445
-0,First by Tideman and Chieruzzi,First by Anonymous,561.0,171.0,2.805,0.855,0.095,0.485
-0,First by Anonymous,First by Tideman and Chieruzzi,171.0,561.0,0.855,2.805,0.485,0.095
-0,First by Tideman and Chieruzzi,Random: 0.5,551.0,161.0,2.755,0.805,0.08,0.47
-0,Random: 0.5,First by Tideman and Chieruzzi,161.0,551.0,0.805,2.755,0.47,0.08
-0,First by Nydegger,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,First by Nydegger,604.0,594.0,3.02,2.97,0.99,1.0
-0,First by Nydegger,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
-0,GRIM,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,First by Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Nydegger,First by Graaskamp: 0.05,561.0,626.0,2.805,3.13,1.0,0.935
-0,First by Graaskamp: 0.05,First by Nydegger,626.0,561.0,3.13,2.805,0.935,1.0
-0,First by Nydegger,First by Downing,15.0,980.0,0.075,4.9,0.98,0.015
-0,First by Downing,First by Nydegger,980.0,15.0,4.9,0.075,0.015,0.98
-0,First by Nydegger,"First by Feld: 1.0, 0.5, 200",465.0,690.0,2.325,3.45,1.0,0.775
-0,"First by Feld: 1.0, 0.5, 200",First by Nydegger,690.0,465.0,3.45,2.325,0.775,1.0
-0,First by Nydegger,First by Joss: 0.9,540.0,640.0,2.7,3.2,1.0,0.9
-0,First by Joss: 0.9,First by Nydegger,640.0,540.0,3.2,2.7,0.9,1.0
-0,First by Nydegger,First by Tullock,540.0,640.0,2.7,3.2,1.0,0.9
-0,First by Tullock,First by Nydegger,640.0,540.0,3.2,2.7,0.9,1.0
-0,First by Nydegger,First by Anonymous,314.0,774.0,1.57,3.87,0.97,0.51
-0,First by Anonymous,First by Nydegger,774.0,314.0,3.87,1.57,0.51,0.97
-0,First by Nydegger,Random: 0.5,297.0,802.0,1.485,4.01,1.0,0.495
-0,Random: 0.5,First by Nydegger,802.0,297.0,4.01,1.485,0.495,1.0
-0,First by Grofman,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,First by Stein and Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
-0,First by Stein and Rapoport: 0.05,First by Grofman,604.0,594.0,3.02,2.97,0.99,1.0
-0,First by Grofman,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
-0,GRIM,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,First by Grofman,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Grofman,First by Graaskamp: 0.05,619.0,524.0,3.095,2.62,0.815,0.91
-0,First by Graaskamp: 0.05,First by Grofman,524.0,619.0,2.62,3.095,0.91,0.815
-0,First by Grofman,First by Downing,90.0,655.0,0.45,3.275,0.57,0.005
-0,First by Downing,First by Grofman,655.0,90.0,3.275,0.45,0.005,0.57
-0,First by Grofman,"First by Feld: 1.0, 0.5, 200",430.0,575.0,2.15,2.875,0.735,0.59
-0,"First by Feld: 1.0, 0.5, 200",First by Grofman,575.0,430.0,2.875,2.15,0.59,0.735
-0,First by Grofman,First by Joss: 0.9,523.0,578.0,2.615,2.89,0.845,0.79
-0,First by Joss: 0.9,First by Grofman,578.0,523.0,2.89,2.615,0.79,0.845
-0,First by Grofman,First by Tullock,421.0,536.0,2.105,2.68,0.625,0.51
-0,First by Tullock,First by Grofman,536.0,421.0,2.68,2.105,0.51,0.625
-0,First by Grofman,First by Anonymous,406.0,561.0,2.03,2.805,0.665,0.51
-0,First by Anonymous,First by Grofman,561.0,406.0,2.805,2.03,0.51,0.665
-0,First by Grofman,Random: 0.5,386.0,591.0,1.93,2.955,0.705,0.5
-0,Random: 0.5,First by Grofman,591.0,386.0,2.955,1.93,0.5,0.705
-0,First by Shubik,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,First by Shubik,600.0,595.0,3.0,2.975,0.99,0.995
-0,First by Shubik,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
-0,GRIM,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,First by Shubik,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Shubik,First by Graaskamp: 0.05,591.0,356.0,2.955,1.78,0.47,0.705
-0,First by Graaskamp: 0.05,First by Shubik,356.0,591.0,1.78,2.955,0.705,0.47
-0,First by Shubik,First by Downing,257.0,272.0,1.285,1.36,0.125,0.11
-0,First by Downing,First by Shubik,272.0,257.0,1.36,1.285,0.11,0.125
-0,First by Shubik,"First by Feld: 1.0, 0.5, 200",317.0,347.0,1.585,1.735,0.31,0.28
-0,"First by Feld: 1.0, 0.5, 200",First by Shubik,347.0,317.0,1.735,1.585,0.28,0.31
-0,First by Shubik,First by Joss: 0.9,264.0,289.0,1.32,1.445,0.165,0.14
-0,First by Joss: 0.9,First by Shubik,289.0,264.0,1.445,1.32,0.14,0.165
-0,First by Shubik,First by Tullock,236.0,296.0,1.18,1.48,0.165,0.105
-0,First by Tullock,First by Shubik,296.0,236.0,1.48,1.18,0.105,0.165
-0,First by Shubik,First by Anonymous,514.0,229.0,2.57,1.145,0.17,0.455
-0,First by Anonymous,First by Shubik,229.0,514.0,1.145,2.57,0.455,0.17
-0,First by Shubik,Random: 0.5,552.0,212.0,2.76,1.06,0.155,0.495
-0,Random: 0.5,First by Shubik,212.0,552.0,1.06,2.76,0.495,0.155
-0,First by Stein and Rapoport: 0.05,First by Stein and Rapoport: 0.05,596.0,596.0,2.98,2.98,0.99,0.99
-0,First by Stein and Rapoport: 0.05,GRIM,600.0,595.0,3.0,2.975,0.99,0.995
-0,GRIM,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,First by Davis: 10,600.0,595.0,3.0,2.975,0.99,0.995
-0,First by Davis: 10,First by Stein and Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
-0,First by Stein and Rapoport: 0.05,First by Graaskamp: 0.05,526.0,521.0,2.63,2.605,0.62,0.625
-0,First by Graaskamp: 0.05,First by Stein and Rapoport: 0.05,521.0,526.0,2.605,2.63,0.625,0.62
-0,First by Stein and Rapoport: 0.05,First by Downing,505.0,220.0,2.525,1.1,0.175,0.46
-0,First by Downing,First by Stein and Rapoport: 0.05,220.0,505.0,1.1,2.525,0.46,0.175
-0,First by Stein and Rapoport: 0.05,"First by Feld: 1.0, 0.5, 200",273.0,273.0,1.365,1.365,0.14,0.14
-0,"First by Feld: 1.0, 0.5, 200",First by Stein and Rapoport: 0.05,273.0,273.0,1.365,1.365,0.14,0.14
-0,First by Stein and Rapoport: 0.05,First by Joss: 0.9,220.0,225.0,1.1,1.125,0.045,0.04
-0,First by Joss: 0.9,First by Stein and Rapoport: 0.05,225.0,220.0,1.125,1.1,0.04,0.045
-0,First by Stein and Rapoport: 0.05,First by Tullock,314.0,319.0,1.57,1.595,0.255,0.25
-0,First by Tullock,First by Stein and Rapoport: 0.05,319.0,314.0,1.595,1.57,0.25,0.255
-0,First by Stein and Rapoport: 0.05,First by Anonymous,621.0,126.0,3.105,0.63,0.05,0.545
-0,First by Anonymous,First by Stein and Rapoport: 0.05,126.0,621.0,0.63,3.105,0.545,0.05
-0,First by Stein and Rapoport: 0.05,Random: 0.5,611.0,126.0,3.055,0.63,0.045,0.53
-0,Random: 0.5,First by Stein and Rapoport: 0.05,126.0,611.0,0.63,3.055,0.53,0.045
+0,Tideman & Chieruzzi,Tideman & Chieruzzi,596.0,596.0,2.98,2.98,0.99,0.99
+0,Tideman & Chieruzzi,Nydegger,604.0,594.0,3.02,2.97,0.99,1.0
+0,Nydegger,Tideman & Chieruzzi,594.0,604.0,2.97,3.02,1.0,0.99
+0,Tideman & Chieruzzi,Grofman,600.0,595.0,3.0,2.975,0.99,0.995
+0,Grofman,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,Shubik,600.0,595.0,3.0,2.975,0.99,0.995
+0,Shubik,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,Stein & Rapoport: 0.05,596.0,596.0,2.98,2.98,0.99,0.99
+0,Stein & Rapoport: 0.05,Tideman & Chieruzzi,596.0,596.0,2.98,2.98,0.99,0.99
+0,Tideman & Chieruzzi,GRIM,600.0,595.0,3.0,2.975,0.99,0.995
+0,GRIM,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,Davis: 10,600.0,595.0,3.0,2.975,0.99,0.995
+0,Davis: 10,Tideman & Chieruzzi,595.0,600.0,2.975,3.0,0.995,0.99
+0,Tideman & Chieruzzi,Graaskamp: 0.05,600.0,550.0,3.0,2.75,0.86,0.91
+0,Graaskamp: 0.05,Tideman & Chieruzzi,550.0,600.0,2.75,3.0,0.91,0.86
+0,Tideman & Chieruzzi,Downing,233.0,203.0,1.165,1.015,0.015,0.045
+0,Downing,Tideman & Chieruzzi,203.0,233.0,1.015,1.165,0.045,0.015
+0,Tideman & Chieruzzi,"Feld: 1.0, 0.5, 200",210.0,210.0,1.05,1.05,0.02,0.02
+0,"Feld: 1.0, 0.5, 200",Tideman & Chieruzzi,210.0,210.0,1.05,1.05,0.02,0.02
+0,Tideman & Chieruzzi,Joss: 0.9,210.0,210.0,1.05,1.05,0.02,0.02
+0,Joss: 0.9,Tideman & Chieruzzi,210.0,210.0,1.05,1.05,0.02,0.02
+0,Tideman & Chieruzzi,Tullock,385.0,380.0,1.925,1.9,0.445,0.45
+0,Tullock,Tideman & Chieruzzi,380.0,385.0,1.9,1.925,0.45,0.445
+0,Tideman & Chieruzzi,Anonymous,561.0,171.0,2.805,0.855,0.095,0.485
+0,Anonymous,Tideman & Chieruzzi,171.0,561.0,0.855,2.805,0.485,0.095
+0,Tideman & Chieruzzi,Random: 0.5,551.0,161.0,2.755,0.805,0.08,0.47
+0,Random: 0.5,Tideman & Chieruzzi,161.0,551.0,0.805,2.755,0.47,0.08
+0,Nydegger,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,Nydegger,604.0,594.0,3.02,2.97,0.99,1.0
+0,Nydegger,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
+0,GRIM,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Nydegger,600.0,600.0,3.0,3.0,1.0,1.0
+0,Nydegger,Graaskamp: 0.05,561.0,626.0,2.805,3.13,1.0,0.935
+0,Graaskamp: 0.05,Nydegger,626.0,561.0,3.13,2.805,0.935,1.0
+0,Nydegger,Downing,15.0,980.0,0.075,4.9,0.98,0.015
+0,Downing,Nydegger,980.0,15.0,4.9,0.075,0.015,0.98
+0,Nydegger,"Feld: 1.0, 0.5, 200",465.0,690.0,2.325,3.45,1.0,0.775
+0,"Feld: 1.0, 0.5, 200",Nydegger,690.0,465.0,3.45,2.325,0.775,1.0
+0,Nydegger,Joss: 0.9,540.0,640.0,2.7,3.2,1.0,0.9
+0,Joss: 0.9,Nydegger,640.0,540.0,3.2,2.7,0.9,1.0
+0,Nydegger,Tullock,540.0,640.0,2.7,3.2,1.0,0.9
+0,Tullock,Nydegger,640.0,540.0,3.2,2.7,0.9,1.0
+0,Nydegger,Anonymous,314.0,774.0,1.57,3.87,0.97,0.51
+0,Anonymous,Nydegger,774.0,314.0,3.87,1.57,0.51,0.97
+0,Nydegger,Random: 0.5,297.0,802.0,1.485,4.01,1.0,0.495
+0,Random: 0.5,Nydegger,802.0,297.0,4.01,1.485,0.495,1.0
+0,Grofman,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Stein & Rapoport: 0.05,594.0,604.0,2.97,3.02,1.0,0.99
+0,Stein & Rapoport: 0.05,Grofman,604.0,594.0,3.02,2.97,0.99,1.0
+0,Grofman,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
+0,GRIM,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Grofman,600.0,600.0,3.0,3.0,1.0,1.0
+0,Grofman,Graaskamp: 0.05,619.0,524.0,3.095,2.62,0.815,0.91
+0,Graaskamp: 0.05,Grofman,524.0,619.0,2.62,3.095,0.91,0.815
+0,Grofman,Downing,90.0,655.0,0.45,3.275,0.57,0.005
+0,Downing,Grofman,655.0,90.0,3.275,0.45,0.005,0.57
+0,Grofman,"Feld: 1.0, 0.5, 200",430.0,575.0,2.15,2.875,0.735,0.59
+0,"Feld: 1.0, 0.5, 200",Grofman,575.0,430.0,2.875,2.15,0.59,0.735
+0,Grofman,Joss: 0.9,523.0,578.0,2.615,2.89,0.845,0.79
+0,Joss: 0.9,Grofman,578.0,523.0,2.89,2.615,0.79,0.845
+0,Grofman,Tullock,421.0,536.0,2.105,2.68,0.625,0.51
+0,Tullock,Grofman,536.0,421.0,2.68,2.105,0.51,0.625
+0,Grofman,Anonymous,406.0,561.0,2.03,2.805,0.665,0.51
+0,Anonymous,Grofman,561.0,406.0,2.805,2.03,0.51,0.665
+0,Grofman,Random: 0.5,386.0,591.0,1.93,2.955,0.705,0.5
+0,Random: 0.5,Grofman,591.0,386.0,2.955,1.93,0.5,0.705
+0,Shubik,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,Shubik,600.0,595.0,3.0,2.975,0.99,0.995
+0,Shubik,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
+0,GRIM,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Shubik,600.0,600.0,3.0,3.0,1.0,1.0
+0,Shubik,Graaskamp: 0.05,591.0,356.0,2.955,1.78,0.47,0.705
+0,Graaskamp: 0.05,Shubik,356.0,591.0,1.78,2.955,0.705,0.47
+0,Shubik,Downing,257.0,272.0,1.285,1.36,0.125,0.11
+0,Downing,Shubik,272.0,257.0,1.36,1.285,0.11,0.125
+0,Shubik,"Feld: 1.0, 0.5, 200",317.0,347.0,1.585,1.735,0.31,0.28
+0,"Feld: 1.0, 0.5, 200",Shubik,347.0,317.0,1.735,1.585,0.28,0.31
+0,Shubik,Joss: 0.9,264.0,289.0,1.32,1.445,0.165,0.14
+0,Joss: 0.9,Shubik,289.0,264.0,1.445,1.32,0.14,0.165
+0,Shubik,Tullock,236.0,296.0,1.18,1.48,0.165,0.105
+0,Tullock,Shubik,296.0,236.0,1.48,1.18,0.105,0.165
+0,Shubik,Anonymous,514.0,229.0,2.57,1.145,0.17,0.455
+0,Anonymous,Shubik,229.0,514.0,1.145,2.57,0.455,0.17
+0,Shubik,Random: 0.5,552.0,212.0,2.76,1.06,0.155,0.495
+0,Random: 0.5,Shubik,212.0,552.0,1.06,2.76,0.495,0.155
+0,Stein & Rapoport: 0.05,Stein & Rapoport: 0.05,596.0,596.0,2.98,2.98,0.99,0.99
+0,Stein & Rapoport: 0.05,GRIM,600.0,595.0,3.0,2.975,0.99,0.995
+0,GRIM,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,Davis: 10,600.0,595.0,3.0,2.975,0.99,0.995
+0,Davis: 10,Stein & Rapoport: 0.05,595.0,600.0,2.975,3.0,0.995,0.99
+0,Stein & Rapoport: 0.05,Graaskamp: 0.05,526.0,521.0,2.63,2.605,0.62,0.625
+0,Graaskamp: 0.05,Stein & Rapoport: 0.05,521.0,526.0,2.605,2.63,0.625,0.62
+0,Stein & Rapoport: 0.05,Downing,505.0,220.0,2.525,1.1,0.175,0.46
+0,Downing,Stein & Rapoport: 0.05,220.0,505.0,1.1,2.525,0.46,0.175
+0,Stein & Rapoport: 0.05,"Feld: 1.0, 0.5, 200",273.0,273.0,1.365,1.365,0.14,0.14
+0,"Feld: 1.0, 0.5, 200",Stein & Rapoport: 0.05,273.0,273.0,1.365,1.365,0.14,0.14
+0,Stein & Rapoport: 0.05,Joss: 0.9,220.0,225.0,1.1,1.125,0.045,0.04
+0,Joss: 0.9,Stein & Rapoport: 0.05,225.0,220.0,1.125,1.1,0.04,0.045
+0,Stein & Rapoport: 0.05,Tullock,314.0,319.0,1.57,1.595,0.255,0.25
+0,Tullock,Stein & Rapoport: 0.05,319.0,314.0,1.595,1.57,0.25,0.255
+0,Stein & Rapoport: 0.05,Anonymous,621.0,126.0,3.105,0.63,0.05,0.545
+0,Anonymous,Stein & Rapoport: 0.05,126.0,621.0,0.63,3.105,0.545,0.05
+0,Stein & Rapoport: 0.05,Random: 0.5,611.0,126.0,3.055,0.63,0.045,0.53
+0,Random: 0.5,Stein & Rapoport: 0.05,126.0,611.0,0.63,3.055,0.53,0.045
 0,GRIM,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
-0,GRIM,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
-0,GRIM,First by Graaskamp: 0.05,407.0,277.0,2.035,1.385,0.255,0.385
-0,First by Graaskamp: 0.05,GRIM,277.0,407.0,1.385,2.035,0.385,0.255
-0,GRIM,First by Downing,211.0,201.0,1.055,1.005,0.005,0.015
-0,First by Downing,GRIM,201.0,211.0,1.005,1.055,0.015,0.005
-0,GRIM,"First by Feld: 1.0, 0.5, 200",307.0,307.0,1.535,1.535,0.265,0.265
-0,"First by Feld: 1.0, 0.5, 200",GRIM,307.0,307.0,1.535,1.535,0.265,0.265
-0,GRIM,First by Joss: 0.9,205.0,205.0,1.025,1.025,0.01,0.01
-0,First by Joss: 0.9,GRIM,205.0,205.0,1.025,1.025,0.01,0.01
-0,GRIM,First by Tullock,267.0,257.0,1.335,1.285,0.145,0.155
-0,First by Tullock,GRIM,257.0,267.0,1.285,1.335,0.155,0.145
-0,GRIM,First by Anonymous,577.0,117.0,2.885,0.585,0.02,0.48
-0,First by Anonymous,GRIM,117.0,577.0,0.585,2.885,0.48,0.02
+0,GRIM,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,GRIM,600.0,600.0,3.0,3.0,1.0,1.0
+0,GRIM,Graaskamp: 0.05,407.0,277.0,2.035,1.385,0.255,0.385
+0,Graaskamp: 0.05,GRIM,277.0,407.0,1.385,2.035,0.385,0.255
+0,GRIM,Downing,211.0,201.0,1.055,1.005,0.005,0.015
+0,Downing,GRIM,201.0,211.0,1.005,1.055,0.015,0.005
+0,GRIM,"Feld: 1.0, 0.5, 200",307.0,307.0,1.535,1.535,0.265,0.265
+0,"Feld: 1.0, 0.5, 200",GRIM,307.0,307.0,1.535,1.535,0.265,0.265
+0,GRIM,Joss: 0.9,205.0,205.0,1.025,1.025,0.01,0.01
+0,Joss: 0.9,GRIM,205.0,205.0,1.025,1.025,0.01,0.01
+0,GRIM,Tullock,267.0,257.0,1.335,1.285,0.145,0.155
+0,Tullock,GRIM,257.0,267.0,1.285,1.335,0.155,0.145
+0,GRIM,Anonymous,577.0,117.0,2.885,0.585,0.02,0.48
+0,Anonymous,GRIM,117.0,577.0,0.585,2.885,0.48,0.02
 0,GRIM,Random: 0.5,545.0,120.0,2.725,0.6,0.01,0.435
 0,Random: 0.5,GRIM,120.0,545.0,0.6,2.725,0.435,0.01
-0,First by Davis: 10,First by Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
-0,First by Davis: 10,First by Graaskamp: 0.05,411.0,276.0,2.055,1.38,0.255,0.39
-0,First by Graaskamp: 0.05,First by Davis: 10,276.0,411.0,1.38,2.055,0.39,0.255
-0,First by Davis: 10,First by Downing,209.0,234.0,1.045,1.17,0.05,0.025
-0,First by Downing,First by Davis: 10,234.0,209.0,1.17,1.045,0.025,0.05
-0,First by Davis: 10,"First by Feld: 1.0, 0.5, 200",245.0,245.0,1.225,1.225,0.11,0.11
-0,"First by Feld: 1.0, 0.5, 200",First by Davis: 10,245.0,245.0,1.225,1.225,0.11,0.11
-0,First by Davis: 10,First by Joss: 0.9,218.0,223.0,1.09,1.115,0.05,0.045
-0,First by Joss: 0.9,First by Davis: 10,223.0,218.0,1.115,1.09,0.045,0.05
-0,First by Davis: 10,First by Tullock,259.0,239.0,1.295,1.195,0.105,0.125
-0,First by Tullock,First by Davis: 10,239.0,259.0,1.195,1.295,0.125,0.105
-0,First by Davis: 10,First by Anonymous,615.0,130.0,3.075,0.65,0.05,0.535
-0,First by Anonymous,First by Davis: 10,130.0,615.0,0.65,3.075,0.535,0.05
-0,First by Davis: 10,Random: 0.5,585.0,135.0,2.925,0.675,0.05,0.5
-0,Random: 0.5,First by Davis: 10,135.0,585.0,0.675,2.925,0.5,0.05
-0,First by Graaskamp: 0.05,First by Graaskamp: 0.05,300.0,300.0,1.5,1.5,0.25,0.25
-0,First by Graaskamp: 0.05,First by Downing,633.0,543.0,3.165,2.715,0.9,0.99
-0,First by Downing,First by Graaskamp: 0.05,543.0,633.0,2.715,3.165,0.99,0.9
-0,First by Graaskamp: 0.05,"First by Feld: 1.0, 0.5, 200",443.0,648.0,2.215,3.24,0.88,0.675
-0,"First by Feld: 1.0, 0.5, 200",First by Graaskamp: 0.05,648.0,443.0,3.24,2.215,0.675,0.88
-0,First by Graaskamp: 0.05,First by Joss: 0.9,293.0,293.0,1.465,1.465,0.18,0.18
-0,First by Joss: 0.9,First by Graaskamp: 0.05,293.0,293.0,1.465,1.465,0.18,0.18
-0,First by Graaskamp: 0.05,First by Tullock,527.0,617.0,2.635,3.085,0.905,0.815
-0,First by Tullock,First by Graaskamp: 0.05,617.0,527.0,3.085,2.635,0.815,0.905
-0,First by Graaskamp: 0.05,First by Anonymous,575.0,195.0,2.875,0.975,0.145,0.525
-0,First by Anonymous,First by Graaskamp: 0.05,195.0,575.0,0.975,2.875,0.525,0.145
-0,First by Graaskamp: 0.05,Random: 0.5,601.0,176.0,3.005,0.88,0.12,0.545
-0,Random: 0.5,First by Graaskamp: 0.05,176.0,601.0,0.88,3.005,0.545,0.12
-0,First by Downing,First by Downing,200.0,200.0,1.0,1.0,0.0,0.0
-0,First by Downing,"First by Feld: 1.0, 0.5, 200",453.0,693.0,2.265,3.465,0.99,0.75
-0,"First by Feld: 1.0, 0.5, 200",First by Downing,693.0,453.0,3.465,2.265,0.75,0.99
-0,First by Downing,First by Joss: 0.9,552.0,627.0,2.76,3.135,0.99,0.915
-0,First by Joss: 0.9,First by Downing,627.0,552.0,3.135,2.76,0.915,0.99
-0,First by Downing,First by Tullock,238.0,208.0,1.19,1.04,0.025,0.055
-0,First by Tullock,First by Downing,208.0,238.0,1.04,1.19,0.055,0.025
-0,First by Downing,First by Anonymous,600.0,100.0,3.0,0.5,0.0,0.5
-0,First by Anonymous,First by Downing,100.0,600.0,0.5,3.0,0.5,0.0
-0,First by Downing,Random: 0.5,579.0,129.0,2.895,0.645,0.035,0.485
-0,Random: 0.5,First by Downing,129.0,579.0,0.645,2.895,0.485,0.035
-0,"First by Feld: 1.0, 0.5, 200","First by Feld: 1.0, 0.5, 200",261.0,266.0,1.305,1.33,0.115,0.11
-0,"First by Feld: 1.0, 0.5, 200",First by Joss: 0.9,226.0,231.0,1.13,1.155,0.06,0.055
-0,First by Joss: 0.9,"First by Feld: 1.0, 0.5, 200",231.0,226.0,1.155,1.13,0.055,0.06
-0,"First by Feld: 1.0, 0.5, 200",First by Tullock,316.0,296.0,1.58,1.48,0.225,0.245
-0,First by Tullock,"First by Feld: 1.0, 0.5, 200",296.0,316.0,1.48,1.58,0.245,0.225
-0,"First by Feld: 1.0, 0.5, 200",First by Anonymous,504.0,379.0,2.52,1.895,0.4,0.525
-0,First by Anonymous,"First by Feld: 1.0, 0.5, 200",379.0,504.0,1.895,2.52,0.525,0.4
-0,"First by Feld: 1.0, 0.5, 200",Random: 0.5,503.0,358.0,2.515,1.79,0.37,0.515
-0,Random: 0.5,"First by Feld: 1.0, 0.5, 200",358.0,503.0,1.79,2.515,0.515,0.37
-0,First by Joss: 0.9,First by Joss: 0.9,211.0,211.0,1.055,1.055,0.025,0.025
-0,First by Joss: 0.9,First by Tullock,234.0,219.0,1.17,1.095,0.05,0.065
-0,First by Tullock,First by Joss: 0.9,219.0,234.0,1.095,1.17,0.065,0.05
-0,First by Joss: 0.9,First by Anonymous,461.0,416.0,2.305,2.08,0.45,0.495
-0,First by Anonymous,First by Joss: 0.9,416.0,461.0,2.08,2.305,0.495,0.45
-0,First by Joss: 0.9,Random: 0.5,487.0,382.0,2.435,1.91,0.42,0.525
-0,Random: 0.5,First by Joss: 0.9,382.0,487.0,1.91,2.435,0.525,0.42
-0,First by Tullock,First by Tullock,268.0,278.0,1.34,1.39,0.16,0.15
-0,First by Tullock,First by Anonymous,451.0,436.0,2.255,2.18,0.48,0.495
-0,First by Anonymous,First by Tullock,436.0,451.0,2.18,2.255,0.495,0.48
-0,First by Tullock,Random: 0.5,476.0,396.0,2.38,1.98,0.42,0.5
-0,Random: 0.5,First by Tullock,396.0,476.0,1.98,2.38,0.5,0.42
-0,First by Anonymous,First by Anonymous,418.0,483.0,2.09,2.415,0.535,0.47
-0,First by Anonymous,Random: 0.5,434.0,459.0,2.17,2.295,0.495,0.47
-0,Random: 0.5,First by Anonymous,459.0,434.0,2.295,2.17,0.47,0.495
+0,Davis: 10,Davis: 10,600.0,600.0,3.0,3.0,1.0,1.0
+0,Davis: 10,Graaskamp: 0.05,411.0,276.0,2.055,1.38,0.255,0.39
+0,Graaskamp: 0.05,Davis: 10,276.0,411.0,1.38,2.055,0.39,0.255
+0,Davis: 10,Downing,209.0,234.0,1.045,1.17,0.05,0.025
+0,Downing,Davis: 10,234.0,209.0,1.17,1.045,0.025,0.05
+0,Davis: 10,"Feld: 1.0, 0.5, 200",245.0,245.0,1.225,1.225,0.11,0.11
+0,"Feld: 1.0, 0.5, 200",Davis: 10,245.0,245.0,1.225,1.225,0.11,0.11
+0,Davis: 10,Joss: 0.9,218.0,223.0,1.09,1.115,0.05,0.045
+0,Joss: 0.9,Davis: 10,223.0,218.0,1.115,1.09,0.045,0.05
+0,Davis: 10,Tullock,259.0,239.0,1.295,1.195,0.105,0.125
+0,Tullock,Davis: 10,239.0,259.0,1.195,1.295,0.125,0.105
+0,Davis: 10,Anonymous,615.0,130.0,3.075,0.65,0.05,0.535
+0,Anonymous,Davis: 10,130.0,615.0,0.65,3.075,0.535,0.05
+0,Davis: 10,Random: 0.5,585.0,135.0,2.925,0.675,0.05,0.5
+0,Random: 0.5,Davis: 10,135.0,585.0,0.675,2.925,0.5,0.05
+0,Graaskamp: 0.05,Graaskamp: 0.05,300.0,300.0,1.5,1.5,0.25,0.25
+0,Graaskamp: 0.05,Downing,633.0,543.0,3.165,2.715,0.9,0.99
+0,Downing,Graaskamp: 0.05,543.0,633.0,2.715,3.165,0.99,0.9
+0,Graaskamp: 0.05,"Feld: 1.0, 0.5, 200",443.0,648.0,2.215,3.24,0.88,0.675
+0,"Feld: 1.0, 0.5, 200",Graaskamp: 0.05,648.0,443.0,3.24,2.215,0.675,0.88
+0,Graaskamp: 0.05,Joss: 0.9,293.0,293.0,1.465,1.465,0.18,0.18
+0,Joss: 0.9,Graaskamp: 0.05,293.0,293.0,1.465,1.465,0.18,0.18
+0,Graaskamp: 0.05,Tullock,527.0,617.0,2.635,3.085,0.905,0.815
+0,Tullock,Graaskamp: 0.05,617.0,527.0,3.085,2.635,0.815,0.905
+0,Graaskamp: 0.05,Anonymous,575.0,195.0,2.875,0.975,0.145,0.525
+0,Anonymous,Graaskamp: 0.05,195.0,575.0,0.975,2.875,0.525,0.145
+0,Graaskamp: 0.05,Random: 0.5,601.0,176.0,3.005,0.88,0.12,0.545
+0,Random: 0.5,Graaskamp: 0.05,176.0,601.0,0.88,3.005,0.545,0.12
+0,Downing,Downing,200.0,200.0,1.0,1.0,0.0,0.0
+0,Downing,"Feld: 1.0, 0.5, 200",453.0,693.0,2.265,3.465,0.99,0.75
+0,"Feld: 1.0, 0.5, 200",Downing,693.0,453.0,3.465,2.265,0.75,0.99
+0,Downing,Joss: 0.9,552.0,627.0,2.76,3.135,0.99,0.915
+0,Joss: 0.9,Downing,627.0,552.0,3.135,2.76,0.915,0.99
+0,Downing,Tullock,238.0,208.0,1.19,1.04,0.025,0.055
+0,Tullock,Downing,208.0,238.0,1.04,1.19,0.055,0.025
+0,Downing,Anonymous,600.0,100.0,3.0,0.5,0.0,0.5
+0,Anonymous,Downing,100.0,600.0,0.5,3.0,0.5,0.0
+0,Downing,Random: 0.5,579.0,129.0,2.895,0.645,0.035,0.485
+0,Random: 0.5,Downing,129.0,579.0,0.645,2.895,0.485,0.035
+0,"Feld: 1.0, 0.5, 200","Feld: 1.0, 0.5, 200",261.0,266.0,1.305,1.33,0.115,0.11
+0,"Feld: 1.0, 0.5, 200",Joss: 0.9,226.0,231.0,1.13,1.155,0.06,0.055
+0,Joss: 0.9,"Feld: 1.0, 0.5, 200",231.0,226.0,1.155,1.13,0.055,0.06
+0,"Feld: 1.0, 0.5, 200",Tullock,316.0,296.0,1.58,1.48,0.225,0.245
+0,Tullock,"Feld: 1.0, 0.5, 200",296.0,316.0,1.48,1.58,0.245,0.225
+0,"Feld: 1.0, 0.5, 200",Anonymous,504.0,379.0,2.52,1.895,0.4,0.525
+0,Anonymous,"Feld: 1.0, 0.5, 200",379.0,504.0,1.895,2.52,0.525,0.4
+0,"Feld: 1.0, 0.5, 200",Random: 0.5,503.0,358.0,2.515,1.79,0.37,0.515
+0,Random: 0.5,"Feld: 1.0, 0.5, 200",358.0,503.0,1.79,2.515,0.515,0.37
+0,Joss: 0.9,Joss: 0.9,211.0,211.0,1.055,1.055,0.025,0.025
+0,Joss: 0.9,Tullock,234.0,219.0,1.17,1.095,0.05,0.065
+0,Tullock,Joss: 0.9,219.0,234.0,1.095,1.17,0.065,0.05
+0,Joss: 0.9,Anonymous,461.0,416.0,2.305,2.08,0.45,0.495
+0,Anonymous,Joss: 0.9,416.0,461.0,2.08,2.305,0.495,0.45
+0,Joss: 0.9,Random: 0.5,487.0,382.0,2.435,1.91,0.42,0.525
+0,Random: 0.5,Joss: 0.9,382.0,487.0,1.91,2.435,0.525,0.42
+0,Tullock,Tullock,268.0,278.0,1.34,1.39,0.16,0.15
+0,Tullock,Anonymous,451.0,436.0,2.255,2.18,0.48,0.495
+0,Anonymous,Tullock,436.0,451.0,2.18,2.255,0.495,0.48
+0,Tullock,Random: 0.5,476.0,396.0,2.38,1.98,0.42,0.5
+0,Random: 0.5,Tullock,396.0,476.0,1.98,2.38,0.5,0.42
+0,Anonymous,Anonymous,418.0,483.0,2.09,2.415,0.535,0.47
+0,Anonymous,Random: 0.5,434.0,459.0,2.17,2.295,0.495,0.47
+0,Random: 0.5,Anonymous,459.0,434.0,2.295,2.17,0.47,0.495
 0,Random: 0.5,Random: 0.5,480.0,430.0,2.4,2.15,0.505,0.555

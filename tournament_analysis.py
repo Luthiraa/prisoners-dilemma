@@ -44,6 +44,21 @@ NAMED_FIELD = [
     "grok",
 ]
 
+NAME_REPLACEMENTS = {
+    "First by Tideman and Chieruzzi": "Tideman & Chieruzzi",
+    "First by Stein and Rapoport": "Stein & Rapoport",
+    "First by Nydegger": "Nydegger",
+    "First by Grofman": "Grofman",
+    "First by Shubik": "Shubik",
+    "First by Davis": "Davis",
+    "First by Graaskamp": "Graaskamp",
+    "First by Downing": "Downing",
+    "First by Feld": "Feld",
+    "First by Joss": "Joss",
+    "First by Tullock": "Tullock",
+    "First by Anonymous": "Anonymous",
+}
+
 
 @dataclass
 class MatchRecord:
@@ -156,23 +171,53 @@ def compute_space_coordinates(matrix: pd.DataFrame) -> pd.DataFrame:
     return coord_df
 
 
+def normalize_strategy_labels(frame: pd.DataFrame) -> pd.DataFrame:
+    updated = frame.copy()
+    for column in updated.columns:
+        if updated[column].dtype == object:
+            updated[column] = updated[column].replace(NAME_REPLACEMENTS, regex=True)
+    return updated
+
+
 def style_axes(ax: plt.Axes) -> None:
-    ax.set_facecolor("#f7f3ea")
-    ax.grid(True, alpha=0.18, linestyle="--", linewidth=0.8)
+    ax.set_facecolor("#07111f")
+    ax.grid(True, alpha=0.14, linestyle="--", linewidth=0.8, color="#9fd3ff")
     for spine in ax.spines.values():
         spine.set_visible(False)
+    ax.tick_params(colors="#d9ecff")
+    ax.xaxis.label.set_color("#e9f6ff")
+    ax.yaxis.label.set_color("#e9f6ff")
+    ax.title.set_color("#f7fbff")
+
+
+def add_cosmic_backdrop(ax: plt.Axes) -> None:
+    x0, x1 = ax.get_xlim()
+    y0, y1 = ax.get_ylim()
+    gradient = np.linspace(0, 1, 400)
+    field = np.outer(np.ones(400), gradient)
+    ax.imshow(
+        field,
+        extent=[x0, x1, y0, y1],
+        origin="lower",
+        cmap=plt.cm.get_cmap("mako") if "mako" in plt.colormaps() else plt.cm.Blues,
+        alpha=0.22,
+        aspect="auto",
+        zorder=0,
+    )
 
 
 def plot_rank_lollipop(standings: pd.DataFrame, path: Path) -> None:
     fig, ax = plt.subplots(figsize=(13, 10))
     style_axes(ax)
     plot_df = standings.sort_values("average_score_per_turn")
-    colors = plt.cm.cividis(np.linspace(0.15, 0.95, len(plot_df)))
-    ax.hlines(plot_df["strategy"], 0, plot_df["average_score_per_turn"], color=colors, linewidth=2.5, alpha=0.85)
-    ax.scatter(plot_df["average_score_per_turn"], plot_df["strategy"], s=120, c=colors, edgecolor="black", linewidth=0.4, zorder=3)
-    ax.set_title("Tournament Ranking Skyline", fontsize=18, weight="bold")
+    colors = plt.cm.turbo(np.linspace(0.1, 0.95, len(plot_df)))
+    ax.hlines(plot_df["strategy"], 0, plot_df["average_score_per_turn"], color=colors, linewidth=3.0, alpha=0.88)
+    ax.scatter(plot_df["average_score_per_turn"], plot_df["strategy"], s=150, c=colors, edgecolor="#f7fbff", linewidth=0.5, zorder=3)
+    ax.scatter(plot_df["average_score_per_turn"], plot_df["strategy"], s=420, c=colors, alpha=0.10, linewidth=0, zorder=2)
+    ax.set_title("Score Skyline", fontsize=20, weight="bold")
     ax.set_xlabel("Average Score Per Turn")
     ax.set_ylabel("")
+    add_cosmic_backdrop(ax)
     fig.tight_layout()
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
@@ -180,13 +225,16 @@ def plot_rank_lollipop(standings: pd.DataFrame, path: Path) -> None:
 
 def plot_heatmap(matrix: pd.DataFrame, path: Path) -> None:
     fig, ax = plt.subplots(figsize=(15, 13))
-    image = ax.imshow(matrix.values, cmap="magma", aspect="auto")
+    image = ax.imshow(matrix.values, cmap="inferno", aspect="auto")
+    ax.set_facecolor("#050816")
     ax.set_xticks(np.arange(len(matrix.columns)))
     ax.set_yticks(np.arange(len(matrix.index)))
-    ax.set_xticklabels(matrix.columns, rotation=90, fontsize=8)
-    ax.set_yticklabels(matrix.index, fontsize=8)
-    ax.set_title("Pairwise Payoff Heatmap", fontsize=18, weight="bold")
-    fig.colorbar(image, ax=ax, fraction=0.025, pad=0.01, label="Average score per turn")
+    ax.set_xticklabels(matrix.columns, rotation=90, fontsize=8, color="#dfefff")
+    ax.set_yticklabels(matrix.index, fontsize=8, color="#dfefff")
+    ax.set_title("Pairwise Pressure Map", fontsize=20, weight="bold", color="#f8fbff")
+    cbar = fig.colorbar(image, ax=ax, fraction=0.025, pad=0.01, label="Average score per turn")
+    cbar.ax.yaxis.label.set_color("#dfefff")
+    cbar.ax.tick_params(colors="#dfefff")
     fig.tight_layout()
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
@@ -196,24 +244,43 @@ def plot_strategy_space(space_df: pd.DataFrame, standings: pd.DataFrame, path: P
     merged = space_df.merge(standings, on="strategy", how="left")
     fig, ax = plt.subplots(figsize=(14, 11))
     style_axes(ax)
-    ax.axhline(0, color="#222222", linewidth=1.0, alpha=0.4)
-    ax.axvline(0, color="#222222", linewidth=1.0, alpha=0.4)
+    ax.axhline(0, color="#9fd3ff", linewidth=1.1, alpha=0.35)
+    ax.axvline(0, color="#9fd3ff", linewidth=1.1, alpha=0.35)
+    for radius in [1, 2, 3]:
+        ax.add_patch(plt.Circle((0, 0), radius, fill=False, color="#6ac6ff", alpha=0.12, linewidth=1.0))
     scatter = ax.scatter(
         merged["x"],
         merged["y"],
         s=200 + 2200 * merged["average_cooperation"],
         c=merged["average_score_per_turn"],
-        cmap="viridis",
-        alpha=0.88,
-        edgecolor="black",
-        linewidth=0.5,
+        cmap="turbo",
+        alpha=0.93,
+        edgecolor="#f5fbff",
+        linewidth=0.55,
+    )
+    ax.scatter(
+        merged["x"],
+        merged["y"],
+        s=600 + 2600 * merged["average_cooperation"],
+        c=merged["average_score_per_turn"],
+        cmap="turbo",
+        alpha=0.10,
+        linewidth=0,
+        zorder=1,
     )
     for _, row in merged.iterrows():
-        ax.text(row["x"] + 0.03, row["y"] + 0.03, row["strategy"], fontsize=8)
-    ax.set_title("Strategy Space With Coordinates", fontsize=18, weight="bold")
+        ax.text(row["x"] + 0.035, row["y"] + 0.035, row["strategy"], fontsize=8, color="#eef8ff")
+    ax.text(0.02, 0.97, "High score\ncooperators", transform=ax.transAxes, va="top", color="#9fe870", fontsize=10, weight="bold")
+    ax.text(0.82, 0.97, "punishers /\nvolatile", transform=ax.transAxes, va="top", color="#ffb37a", fontsize=10, weight="bold")
+    ax.text(0.02, 0.08, "stable\nreciprocators", transform=ax.transAxes, va="bottom", color="#8fd3ff", fontsize=10, weight="bold")
+    ax.text(0.82, 0.08, "exploiters /\nfragile", transform=ax.transAxes, va="bottom", color="#ff8db6", fontsize=10, weight="bold")
+    ax.set_title("Strategy Orbit Map", fontsize=21, weight="bold")
     ax.set_xlabel("Coordinate X")
     ax.set_ylabel("Coordinate Y")
-    fig.colorbar(scatter, ax=ax, fraction=0.03, pad=0.02, label="Average score per turn")
+    add_cosmic_backdrop(ax)
+    cbar = fig.colorbar(scatter, ax=ax, fraction=0.03, pad=0.02, label="Average score per turn")
+    cbar.ax.yaxis.label.set_color("#dfefff")
+    cbar.ax.tick_params(colors="#dfefff")
     fig.tight_layout()
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
@@ -227,17 +294,28 @@ def plot_cooperation_bubble(standings: pd.DataFrame, path: Path) -> None:
         standings["average_score_per_turn"],
         s=240 + 4000 * standings["volatility"],
         c=standings["rank"],
-        cmap="plasma_r",
-        alpha=0.82,
-        edgecolor="black",
+        cmap="Spectral_r",
+        alpha=0.86,
+        edgecolor="#f4fbff",
         linewidth=0.5,
     )
+    ax.scatter(
+        standings["average_cooperation"],
+        standings["average_score_per_turn"],
+        s=450 + 4500 * standings["volatility"],
+        c="#7df9ff",
+        alpha=0.06,
+        linewidth=0,
+    )
     for _, row in standings.iterrows():
-        ax.text(row["average_cooperation"] + 0.005, row["average_score_per_turn"] + 0.005, row["strategy"], fontsize=8)
-    ax.set_title("Cooperation vs Score Bubble Field", fontsize=18, weight="bold")
+        ax.text(row["average_cooperation"] + 0.005, row["average_score_per_turn"] + 0.005, row["strategy"], fontsize=8, color="#ecf8ff")
+    ax.set_title("Cooperation Tension Field", fontsize=20, weight="bold")
     ax.set_xlabel("Average cooperation rate")
     ax.set_ylabel("Average score per turn")
-    fig.colorbar(scatter, ax=ax, fraction=0.03, pad=0.02, label="Rank")
+    add_cosmic_backdrop(ax)
+    cbar = fig.colorbar(scatter, ax=ax, fraction=0.03, pad=0.02, label="Rank")
+    cbar.ax.yaxis.label.set_color("#dfefff")
+    cbar.ax.tick_params(colors="#dfefff")
     fig.tight_layout()
     fig.savefig(path, dpi=220, bbox_inches="tight")
     plt.close(fig)
@@ -249,16 +327,41 @@ def plot_polar_constellation(space_df: pd.DataFrame, standings: pd.DataFrame, pa
     ax = fig.add_subplot(111, projection="polar")
     theta = np.radians((merged["angle_deg"] + 360) % 360)
     radius = merged["average_score_per_turn"] + 0.35 * merged["average_cooperation"]
-    colors = plt.cm.coolwarm(merged["average_cooperation"])
-    ax.scatter(theta, radius, s=100 + 1500 * merged["volatility"], c=colors, alpha=0.85, edgecolor="black", linewidth=0.5)
+    colors = plt.cm.twilight_shifted(merged["average_cooperation"])
+    ax.set_facecolor("#050816")
+    ax.scatter(theta, radius, s=100 + 1500 * merged["volatility"], c=colors, alpha=0.90, edgecolor="#f4fbff", linewidth=0.5)
     label_df = merged.sort_values("average_score_per_turn", ascending=False).head(18)
     for _, row in label_df.iterrows():
-        ax.text(math.radians((row["angle_deg"] + 360) % 360), row["average_score_per_turn"] + 0.35 * row["average_cooperation"] + 0.03, row["strategy"], fontsize=8)
-    ax.set_title("Polar Constellation of Tournament Personalities", va="bottom", fontsize=18, weight="bold")
+        ax.text(math.radians((row["angle_deg"] + 360) % 360), row["average_score_per_turn"] + 0.35 * row["average_cooperation"] + 0.03, row["strategy"], fontsize=8, color="#eef8ff")
+    ax.set_title("Tournament Constellation", va="bottom", fontsize=20, weight="bold", color="#f8fbff")
     ax.set_rticks([])
-    ax.grid(alpha=0.25)
+    ax.grid(alpha=0.25, color="#8dd4ff")
     fig.tight_layout()
     fig.savefig(path, dpi=180)
+    plt.close(fig)
+
+
+def plot_summary_metric(summary: pd.DataFrame, metric: str, title: str, path: Path) -> None:
+    plot_df = summary.sort_values(metric, ascending=True)
+    plot_df = plot_df.reset_index(drop=True)
+    display_labels = plot_df["strategy"].tolist()
+    fig_height = max(12, len(plot_df) * 0.46)
+    fig, ax = plt.subplots(figsize=(18, fig_height))
+    style_axes(ax)
+    colors = plt.cm.turbo(np.linspace(0.12, 0.95, len(plot_df)))
+    values = plot_df[metric].to_numpy()
+    y_positions = np.arange(len(plot_df))
+    ax.barh(y_positions, values, color=colors, alpha=0.88, height=0.72)
+    ax.scatter(values, y_positions, s=110, color="#f6fbff", edgecolor="#07111f", linewidth=0.7, zorder=3)
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(display_labels, color="#000000", fontsize=11, fontweight="semibold")
+    ax.set_xlabel("Average score per turn")
+    ax.set_title(title, fontsize=21, weight="bold")
+    ax.set_xlim(0, max(values) + 0.28)
+    for y, value in zip(y_positions, values):
+        ax.text(value + 0.015, y, f"{value:.3f}", va="center", fontsize=10, color="#f3fbff", fontweight="bold")
+    fig.subplots_adjust(left=0.34, right=0.97, top=0.94, bottom=0.04)
+    fig.savefig(path, dpi=220)
     plt.close(fig)
 
 

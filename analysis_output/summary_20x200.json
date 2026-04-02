@@ -1,0 +1,199 @@
+{
+  "rounds": 200,
+  "repetitions": 20,
+  "seed": 7,
+  "top_10_average": [
+    {
+      "strategy": "GrdTFT",
+      "total_score": 348777.0,
+      "average_score_per_turn": 2.7248203125,
+      "average_cooperation": 0.77103125,
+      "volatility": 0.5978434173756809,
+      "match_count": 640,
+      "rank": 1
+    },
+    {
+      "strategy": "soft_majo",
+      "total_score": 346494.0,
+      "average_score_per_turn": 2.706984375,
+      "average_cooperation": 0.8709453125,
+      "volatility": 0.4981574498347882,
+      "match_count": 640,
+      "rank": 2
+    },
+    {
+      "strategy": "Stein & Rapoport: 0.05",
+      "total_score": 339849.0,
+      "average_score_per_turn": 2.6550703125,
+      "average_cooperation": 0.69465625,
+      "volatility": 0.6596525640218188,
+      "match_count": 640,
+      "rank": 3
+    },
+    {
+      "strategy": "Tit For Tat",
+      "total_score": 337576.0,
+      "average_score_per_turn": 2.6373125,
+      "average_cooperation": 0.7710546875000001,
+      "volatility": 0.5839195277321864,
+      "match_count": 640,
+      "rank": 4
+    },
+    {
+      "strategy": "grok:grok-3-mini",
+      "total_score": 337163.0,
+      "average_score_per_turn": 2.6340859375,
+      "average_cooperation": 0.7693749999999999,
+      "volatility": 0.589956153742558,
+      "match_count": 640,
+      "rank": 5
+    },
+    {
+      "strategy": "Grofman",
+      "total_score": 331511.0,
+      "average_score_per_turn": 2.5899296875,
+      "average_cooperation": 0.878125,
+      "volatility": 0.7318581746825457,
+      "match_count": 640,
+      "rank": 6
+    },
+    {
+      "strategy": "Shubik",
+      "total_score": 330650.0,
+      "average_score_per_turn": 2.583203125,
+      "average_cooperation": 0.6652265625,
+      "volatility": 0.753866022967542,
+      "match_count": 640,
+      "rank": 7
+    },
+    {
+      "strategy": "Nydegger",
+      "total_score": 330452.0,
+      "average_score_per_turn": 2.58165625,
+      "average_cooperation": 0.9343125000000001,
+      "volatility": 0.7752868562713044,
+      "match_count": 640,
+      "rank": 8
+    },
+    {
+      "strategy": "TFTT",
+      "total_score": 329383.0,
+      "average_score_per_turn": 2.5733046875,
+      "average_cooperation": 0.8901875,
+      "volatility": 0.6545479339109319,
+      "match_count": 640,
+      "rank": 9
+    },
+    {
+      "strategy": "Tideman & Chieruzzi",
+      "total_score": 328651.0,
+      "average_score_per_turn": 2.5675859375,
+      "average_cooperation": 0.6482421875,
+      "volatility": 0.7729185742972168,
+      "match_count": 640,
+      "rank": 10
+    }
+  ],
+  "top_10_median": [
+    {
+      "strategy": "GrdTFT",
+      "total_score": 348777.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.77103125,
+      "volatility": 0.5978434173756809,
+      "match_count": 640,
+      "rank": 1
+    },
+    {
+      "strategy": "Stein & Rapoport: 0.05",
+      "total_score": 339849.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.99,
+      "average_cooperation": 0.69465625,
+      "volatility": 0.6596525640218188,
+      "match_count": 640,
+      "rank": 2
+    },
+    {
+      "strategy": "Grofman",
+      "total_score": 331511.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 1.0,
+      "average_cooperation": 0.878125,
+      "volatility": 0.7318581746825457,
+      "match_count": 640,
+      "rank": 3
+    },
+    {
+      "strategy": "Shubik",
+      "total_score": 330650.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.6652265625,
+      "volatility": 0.753866022967542,
+      "match_count": 640,
+      "rank": 4
+    },
+    {
+      "strategy": "Tideman & Chieruzzi",
+      "total_score": 328651.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.99,
+      "average_cooperation": 0.6482421875,
+      "volatility": 0.7729185742972168,
+      "match_count": 640,
+      "rank": 5
+    },
+    {
+      "strategy": "mem2",
+      "total_score": 327112.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.6144609375,
+      "volatility": 0.7961604826192439,
+      "match_count": 640,
+      "rank": 6
+    },
+    {
+      "strategy": "hard_tft",
+      "total_score": 326340.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.657,
+      "volatility": 0.783311466456353,
+      "match_count": 640,
+      "rank": 7
+    },
+    {
+      "strategy": "Davis: 10",
+      "total_score": 318921.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.59628125,
+      "volatility": 0.8199345338536785,
+      "match_count": 640,
+      "rank": 8
+    },
+    {
+      "strategy": "WSLS",
+      "total_score": 318761.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.7766328125,
+      "volatility": 0.7953437061135034,
+      "match_count": 640,
+      "rank": 9
+    },
+    {
+      "strategy": "spiteful",
+      "total_score": 318626.0,
+      "median_score_per_turn": 3.0,
+      "median_cooperation": 0.9975,
+      "average_cooperation": 0.5813046875000001,
+      "volatility": 0.8421714005991228,
+      "match_count": 640,
+      "rank": 10
+    }
+  ]
+}

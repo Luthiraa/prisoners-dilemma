@@ -45,6 +45,10 @@ def load_xai_api_key(secret_path: str = ".secret") -> str | None:
     return None
 
 
+def clean_classic_label(label: str) -> str:
+    return label.replace("First by ", "")
+
+
 @dataclass(frozen=True)
 class PayoffMatrix:
     temptation: float = 5.0
@@ -525,6 +529,7 @@ class MEM2(Strategy):
 
 class GrokStrategy(Strategy):
     strategy_name = "grok"
+    _policy_cache: Dict[tuple[str, str], str] = {}
 
     def __init__(self, model: str = "grok-3-mini", secret_path: str = ".secret", timeout_seconds: float = 20.0, replan_interval: int = 0) -> None:
         self.model = model
@@ -557,6 +562,9 @@ class GrokStrategy(Strategy):
     def _query_grok(self, prompt: str) -> str | None:
         if not self.api_key:
             return None
+        cache_key = (self.model, prompt)
+        if cache_key in self._policy_cache:
+            return self._policy_cache[cache_key]
         payload = json.dumps(
             {
                 "model": self.model,
@@ -588,7 +596,9 @@ class GrokStrategy(Strategy):
             return None
         for policy in ["TFT", "GRIM", "WSLS", "TF2T", "HARD_TFT", "SOFT_MAJO", "ALL_C", "ALL_D"]:
             if policy in content:
-                return policy.lower()
+                chosen = policy.lower()
+                self._policy_cache[cache_key] = chosen
+                return chosen
         return None
 
     def _policy_move(self, policy: str, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
@@ -620,13 +630,13 @@ class GrokStrategy(Strategy):
 
 
 class FirstByDavis(Strategy):
-    strategy_name = "First by Davis"
+    strategy_name = "Davis"
 
     def __init__(self, rounds_to_cooperate: int = 10) -> None:
         self.rounds_to_cooperate = rounds_to_cooperate
 
     def name(self) -> str:
-        return f"First by Davis: {self.rounds_to_cooperate}"
+        return f"Davis: {self.rounds_to_cooperate}"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if len(my_history) < self.rounds_to_cooperate:
@@ -638,7 +648,7 @@ class FirstByDavis(Strategy):
 
 
 class FirstByDowning(Strategy):
-    strategy_name = "First by Downing"
+    strategy_name = "Downing"
 
     def __init__(self) -> None:
         self.reset()
@@ -648,7 +658,7 @@ class FirstByDowning(Strategy):
         self.responses_to_d = 0
 
     def name(self) -> str:
-        return "First by Downing"
+        return "Downing"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         round_number = len(my_history) + 1
@@ -677,7 +687,7 @@ class FirstByDowning(Strategy):
 
 
 class FirstByFeld(Strategy):
-    strategy_name = "First by Feld"
+    strategy_name = "Feld"
     stochastic = True
 
     def __init__(self, start_coop_prob: float = 1.0, end_coop_prob: float = 0.5, rounds_of_decay: int = 200) -> None:
@@ -686,7 +696,7 @@ class FirstByFeld(Strategy):
         self.rounds_of_decay = rounds_of_decay
 
     def name(self) -> str:
-        return f"First by Feld: {self.start_coop_prob:.1f}, {self.end_coop_prob:.1f}, {self.rounds_of_decay}"
+        return f"Feld: {self.start_coop_prob:.1f}, {self.end_coop_prob:.1f}, {self.rounds_of_decay}"
 
     def _cooperation_probability(self, rounds_played: int) -> float:
         diff = self.end_coop_prob - self.start_coop_prob
@@ -706,7 +716,7 @@ class FirstByFeld(Strategy):
 
 
 class FirstByGraaskamp(Strategy):
-    strategy_name = "First by Graaskamp"
+    strategy_name = "Graaskamp"
     stochastic = True
 
     def __init__(self, alpha: float = 0.05) -> None:
@@ -718,7 +728,7 @@ class FirstByGraaskamp(Strategy):
         self.next_random_defection_turn: int | None = None
 
     def name(self) -> str:
-        return f"First by Graaskamp: {self.alpha:.2f}"
+        return f"Graaskamp: {self.alpha:.2f}"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if not my_history:
@@ -747,11 +757,11 @@ class FirstByGraaskamp(Strategy):
 
 
 class FirstByGrofman(Strategy):
-    strategy_name = "First by Grofman"
+    strategy_name = "Grofman"
     stochastic = True
 
     def name(self) -> str:
-        return "First by Grofman"
+        return "Grofman"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if not my_history or my_history[-1] == opponent_history[-1]:
@@ -768,14 +778,14 @@ class FirstByJoss(MemoryOneStrategy):
         self.joss_p = p
 
     def name(self) -> str:
-        return f"First by Joss: {self.joss_p:.1f}"
+        return f"Joss: {self.joss_p:.1f}"
 
     def clone(self) -> Strategy:
         return FirstByJoss(self.joss_p)
 
 
 class FirstByNydegger(Strategy):
-    strategy_name = "First by Nydegger"
+    strategy_name = "Nydegger"
 
     def __init__(self) -> None:
         self.As = {1, 6, 7, 17, 22, 23, 26, 29, 30, 31, 33, 38, 39, 45, 49, 54, 55, 58, 61}
@@ -787,7 +797,7 @@ class FirstByNydegger(Strategy):
         }
 
     def name(self) -> str:
-        return "First by Nydegger"
+        return "Nydegger"
 
     def score_history(self, my_history: Sequence[str], opponent_history: Sequence[str]) -> int:
         score = 0
@@ -811,7 +821,7 @@ class FirstByNydegger(Strategy):
 
 
 class FirstByShubik(Strategy):
-    strategy_name = "First by Shubik"
+    strategy_name = "Shubik"
 
     def __init__(self) -> None:
         self.reset()
@@ -822,7 +832,7 @@ class FirstByShubik(Strategy):
         self.retaliation_remaining = 0
 
     def name(self) -> str:
-        return "First by Shubik"
+        return "Shubik"
 
     def _decrease_retaliation_counter(self) -> None:
         if self.is_retaliating:
@@ -849,14 +859,14 @@ class FirstByShubik(Strategy):
 
 
 class FirstByTullock(Strategy):
-    strategy_name = "First by Tullock"
+    strategy_name = "Tullock"
     stochastic = True
 
     def __init__(self) -> None:
         self.rounds_to_cooperate = 11
 
     def name(self) -> str:
-        return "First by Tullock"
+        return "Tullock"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if len(my_history) < self.rounds_to_cooperate:
@@ -870,11 +880,11 @@ class FirstByTullock(Strategy):
 
 
 class FirstByAnonymous(Strategy):
-    strategy_name = "First by Anonymous"
+    strategy_name = "Anonymous"
     stochastic = True
 
     def name(self) -> str:
-        return "First by Anonymous"
+        return "Anonymous"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         return COOPERATE if rng.random() < (rng.uniform(3, 7) / 10) else DEFECT
@@ -884,7 +894,7 @@ class FirstByAnonymous(Strategy):
 
 
 class FirstBySteinAndRapoport(Strategy):
-    strategy_name = "First by Stein and Rapoport"
+    strategy_name = "Stein & Rapoport"
 
     def __init__(self, alpha: float = 0.05) -> None:
         self.alpha = alpha
@@ -894,7 +904,7 @@ class FirstBySteinAndRapoport(Strategy):
         self.opponent_is_random = False
 
     def name(self) -> str:
-        return f"First by Stein and Rapoport: {self.alpha:.2f}"
+        return f"Stein & Rapoport: {self.alpha:.2f}"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if match_length - len(my_history) <= 2:
@@ -914,7 +924,7 @@ class FirstBySteinAndRapoport(Strategy):
 
 
 class FirstByTidemanAndChieruzzi(Strategy):
-    strategy_name = "First by Tideman and Chieruzzi"
+    strategy_name = "Tideman & Chieruzzi"
 
     def __init__(self) -> None:
         self.reset()
@@ -930,7 +940,7 @@ class FirstByTidemanAndChieruzzi(Strategy):
         self.remembered_number_of_opponent_defections = 0
 
     def name(self) -> str:
-        return "First by Tideman and Chieruzzi"
+        return "Tideman & Chieruzzi"
 
     def _decrease_retaliation_counter(self) -> None:
         if self.is_retaliating:
@@ -1046,19 +1056,19 @@ AXELROD_FIRST_TOURNAMENT: List[NamedFactory] = [
 
 AXELROD_FIRST_REPORTED_RANKS = [
     "Tit For Tat",
-    "First by Tideman and Chieruzzi",
-    "First by Nydegger",
-    "First by Grofman",
-    "First by Shubik",
-    "First by Stein and Rapoport",
+    "Tideman & Chieruzzi",
+    "Nydegger",
+    "Grofman",
+    "Shubik",
+    "Stein & Rapoport",
     "GRIM",
-    "First by Davis",
-    "First by Graaskamp",
-    "First by Downing",
-    "First by Feld",
-    "First by Joss",
-    "First by Tullock",
-    "First by Anonymous",
+    "Davis",
+    "Graaskamp",
+    "Downing",
+    "Feld",
+    "Joss",
+    "Tullock",
+    "Anonymous",
     "Random",
 ]
 
