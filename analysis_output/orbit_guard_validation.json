@@ -1,0 +1,294 @@
+{
+  "strategy": "OrbitGuard",
+  "seeds_tested": 10,
+  "repetitions_per_seed": 20,
+  "rounds_per_match": 200,
+  "rank_counts": {
+    "1": 10
+  },
+  "mean_average_score_per_turn": 2.7552818181818117,
+  "min_gap_to_best_other": 0.0214621212121191,
+  "max_gap_to_best_other": 0.030719696969694343,
+  "rows": [
+    {
+      "seed": 0,
+      "rank": 1,
+      "average_score_per_turn": 2.752863636363628,
+      "gap_to_best_other": 0.022045454545447818,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.752863636363628
+        ],
+        [
+          "GrdTFT",
+          2.7308181818181803
+        ],
+        [
+          "soft_majo",
+          2.717075757575756
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.657893939393939
+        ],
+        [
+          "Tit For Tat",
+          2.647477272727266
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "rank": 1,
+      "average_score_per_turn": 2.7590075757575687,
+      "gap_to_best_other": 0.02505303030302608,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7590075757575687
+        ],
+        [
+          "GrdTFT",
+          2.7339545454545426
+        ],
+        [
+          "soft_majo",
+          2.713803030303029
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.6614393939393945
+        ],
+        [
+          "Tit For Tat",
+          2.644340909090902
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "rank": 1,
+      "average_score_per_turn": 2.756015151515145,
+      "gap_to_best_other": 0.02399242424242143,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.756015151515145
+        ],
+        [
+          "GrdTFT",
+          2.7320227272727236
+        ],
+        [
+          "soft_majo",
+          2.7163409090909076
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.6566969696969696
+        ],
+        [
+          "grok:grok-3-mini",
+          2.6527272727272653
+        ]
+      ]
+    },
+    {
+      "seed": 3,
+      "rank": 1,
+      "average_score_per_turn": 2.7555151515151453,
+      "gap_to_best_other": 0.021651515151513312,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7555151515151453
+        ],
+        [
+          "GrdTFT",
+          2.733863636363632
+        ],
+        [
+          "soft_majo",
+          2.7204242424242406
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.65390909090909
+        ],
+        [
+          "grok:grok-3-mini",
+          2.64459848484848
+        ]
+      ]
+    },
+    {
+      "seed": 4,
+      "rank": 1,
+      "average_score_per_turn": 2.7597803030302965,
+      "gap_to_best_other": 0.030719696969694343,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7597803030302965
+        ],
+        [
+          "GrdTFT",
+          2.729060606060602
+        ],
+        [
+          "soft_majo",
+          2.713893939393937
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.662507575757574
+        ],
+        [
+          "grok:grok-3-mini",
+          2.6448712121212057
+        ]
+      ]
+    },
+    {
+      "seed": 5,
+      "rank": 1,
+      "average_score_per_turn": 2.750128787878782,
+      "gap_to_best_other": 0.0214621212121191,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.750128787878782
+        ],
+        [
+          "GrdTFT",
+          2.728666666666663
+        ],
+        [
+          "soft_majo",
+          2.7129621212121204
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.6645984848484843
+        ],
+        [
+          "grok:grok-3-mini",
+          2.649636363636357
+        ]
+      ]
+    },
+    {
+      "seed": 6,
+      "rank": 1,
+      "average_score_per_turn": 2.7559621212121144,
+      "gap_to_best_other": 0.025037878787876444,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7559621212121144
+        ],
+        [
+          "GrdTFT",
+          2.730924242424238
+        ],
+        [
+          "soft_majo",
+          2.721954545454545
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.659727272727272
+        ],
+        [
+          "Tit For Tat",
+          2.6484242424242357
+        ]
+      ]
+    },
+    {
+      "seed": 7,
+      "rank": 1,
+      "average_score_per_turn": 2.7537878787878727,
+      "gap_to_best_other": 0.026106060606060133,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7537878787878727
+        ],
+        [
+          "GrdTFT",
+          2.7276818181818125
+        ],
+        [
+          "soft_majo",
+          2.714719696969695
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.6641439393939392
+        ],
+        [
+          "Tit For Tat",
+          2.649393939393933
+        ]
+      ]
+    },
+    {
+      "seed": 8,
+      "rank": 1,
+      "average_score_per_turn": 2.7554166666666613,
+      "gap_to_best_other": 0.02443181818181772,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7554166666666613
+        ],
+        [
+          "GrdTFT",
+          2.7309848484848436
+        ],
+        [
+          "soft_majo",
+          2.714007575757573
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.660780303030302
+        ],
+        [
+          "Tit For Tat",
+          2.6474621212121145
+        ]
+      ]
+    },
+    {
+      "seed": 9,
+      "rank": 1,
+      "average_score_per_turn": 2.7543409090909012,
+      "gap_to_best_other": 0.023545454545451427,
+      "top_5": [
+        [
+          "OrbitGuard",
+          2.7543409090909012
+        ],
+        [
+          "GrdTFT",
+          2.73079545454545
+        ],
+        [
+          "soft_majo",
+          2.7140606060606047
+        ],
+        [
+          "Stein & Rapoport: 0.05",
+          2.6587803030303006
+        ],
+        [
+          "grok:grok-3-mini",
+          2.648522727272722
+        ]
+      ]
+    }
+  ]
+}

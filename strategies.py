@@ -219,6 +219,37 @@ class GradualTitForTat(Strategy):
         return GradualTitForTat()
 
 
+class OrbitGuard(Strategy):
+    strategy_name = "orbit_guard"
+
+    def __init__(self, margin: int = 1, final_defect_rounds: int = 1, trigger_round: int = 8) -> None:
+        self.margin = margin
+        self.final_defect_rounds = final_defect_rounds
+        self.trigger_round = trigger_round
+        self.inner = GradualTitForTat()
+        self.reset()
+
+    def reset(self) -> None:
+        self.inner.reset()
+        self.lock_defect = False
+
+    def name(self) -> str:
+        return "OrbitGuard"
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
+        if match_length - len(my_history) <= self.final_defect_rounds:
+            return DEFECT
+        if len(opponent_history) >= self.trigger_round:
+            if opponent_history.count(DEFECT) > opponent_history.count(COOPERATE) + self.margin:
+                self.lock_defect = True
+        if self.lock_defect:
+            return DEFECT
+        return self.inner.move(my_history, opponent_history, rng, payoffs, match_length)
+
+    def clone(self) -> Strategy:
+        return OrbitGuard(self.margin, self.final_defect_rounds, self.trigger_round)
+
+
 class ImperfectTitForTat(Strategy):
     strategy_name = "ImpTFT"
     stochastic = True
@@ -1029,6 +1060,8 @@ NAMED_STRATEGIES: Dict[str, NamedFactory] = {
     "slow_tft": SlowTitForTat,
     "gradual": GradualTitForTat,
     "grdtft": GradualTitForTat,
+    "orbit_guard": OrbitGuard,
+    "orbitguard": OrbitGuard,
     "prober": Prober,
     "mem2": MEM2,
     "grok": GrokStrategy,
