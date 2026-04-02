@@ -219,8 +219,8 @@ class GradualTitForTat(Strategy):
         return GradualTitForTat()
 
 
-class OrbitGuard(Strategy):
-    strategy_name = "orbit_guard"
+class EleanorStrategy(Strategy):
+    strategy_name = "eleanor"
 
     def __init__(self, margin: int = 1, final_defect_rounds: int = 1, trigger_round: int = 8) -> None:
         self.margin = margin
@@ -234,7 +234,7 @@ class OrbitGuard(Strategy):
         self.lock_defect = False
 
     def name(self) -> str:
-        return "OrbitGuard"
+        return "Eleanor"
 
     def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
         if match_length - len(my_history) <= self.final_defect_rounds:
@@ -247,7 +247,7 @@ class OrbitGuard(Strategy):
         return self.inner.move(my_history, opponent_history, rng, payoffs, match_length)
 
     def clone(self) -> Strategy:
-        return OrbitGuard(self.margin, self.final_defect_rounds, self.trigger_round)
+        return EleanorStrategy(self.margin, self.final_defect_rounds, self.trigger_round)
 
 
 class ImperfectTitForTat(Strategy):
@@ -1060,8 +1060,9 @@ NAMED_STRATEGIES: Dict[str, NamedFactory] = {
     "slow_tft": SlowTitForTat,
     "gradual": GradualTitForTat,
     "grdtft": GradualTitForTat,
-    "orbit_guard": OrbitGuard,
-    "orbitguard": OrbitGuard,
+    "eleanor": EleanorStrategy,
+    "orbit_guard": EleanorStrategy,
+    "orbitguard": EleanorStrategy,
     "prober": Prober,
     "mem2": MEM2,
     "grok": GrokStrategy,
