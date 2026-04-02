@@ -7,7 +7,7 @@ import math
 import random
 from dataclasses import asdict, dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Sequence
+from typing import Callable, Dict, Iterable, List, Sequence
 
 
 COOPERATE = "C"
@@ -487,3 +487,184 @@ class LinearRelationZD(MemoryOneStrategy):
 class GoodStrategy(MemoryOneStrategy):
     def __init__(self, p: float = 1.0, q: float = 0.0, r: float = 1.0, s: float = 0.0) -> None:
         super().__init__(p, q, r, s, label="GOOD", initial=1.0)
+
+
+class Spiteful(GrimTrigger):
+    strategy_name = "spiteful"
+
+    def clone(self) -> Strategy:
+        return Spiteful()
+
+
+class SoftMajority(Strategy):
+    strategy_name = "soft_majo"
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        cooperations = opponent_history.count(COOPERATE)
+        defections = opponent_history.count(DEFECT)
+        return COOPERATE if cooperations >= defections else DEFECT
+
+    def clone(self) -> Strategy:
+        return SoftMajority()
+
+
+class HardMajority(Strategy):
+    strategy_name = "hard_majo"
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        if not opponent_history:
+            return DEFECT
+        cooperations = opponent_history.count(COOPERATE)
+        defections = opponent_history.count(DEFECT)
+        return DEFECT if defections >= cooperations else COOPERATE
+
+    def clone(self) -> Strategy:
+        return HardMajority()
+
+
+class PeriodicStrategy(Strategy):
+    def __init__(self, pattern: str, label: str) -> None:
+        if not pattern or any(move not in {COOPERATE, DEFECT} for move in pattern):
+            raise ValueError("Periodic strategies require a non-empty C/D pattern.")
+        self.pattern = pattern
+        self.label = label
+
+    def name(self) -> str:
+        return self.label
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        return self.pattern[len(my_history) % len(self.pattern)]
+
+    def clone(self) -> Strategy:
+        return PeriodicStrategy(self.pattern, self.label)
+
+
+class Mistrust(SuspiciousTitForTat):
+    strategy_name = "mistrust"
+
+    def clone(self) -> Strategy:
+        return Mistrust()
+
+
+class HardTitForTat(Strategy):
+    strategy_name = "hard_tft"
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        if len(opponent_history) < 2:
+            return COOPERATE
+        return DEFECT if DEFECT in opponent_history[-2:] else COOPERATE
+
+    def clone(self) -> Strategy:
+        return HardTitForTat()
+
+
+class SlowTitForTat(Strategy):
+    strategy_name = "slow_tft"
+
+    def __init__(self) -> None:
+        self.reset()
+
+    def reset(self) -> None:
+        self.retaliating = False
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        if len(opponent_history) < 2:
+            return COOPERATE
+        if self.retaliating:
+            if opponent_history[-2:] == [COOPERATE, COOPERATE]:
+                self.retaliating = False
+                return COOPERATE
+            return DEFECT
+        if opponent_history[-2:] == [DEFECT, DEFECT]:
+            self.retaliating = True
+            return DEFECT
+        return COOPERATE
+
+    def clone(self) -> Strategy:
+        return SlowTitForTat()
+
+
+class Prober(Strategy):
+    strategy_name = "prober"
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        opening = [DEFECT, COOPERATE, COOPERATE]
+        if len(my_history) < len(opening):
+            return opening[len(my_history)]
+        if opponent_history[1:3] == [COOPERATE, COOPERATE]:
+            return DEFECT
+        return COOPERATE if opponent_history[-1] == COOPERATE else DEFECT
+
+    def clone(self) -> Strategy:
+        return Prober()
+
+
+class MEM2(Strategy):
+    strategy_name = "mem2"
+
+    def __init__(self) -> None:
+        self.reset()
+
+    def reset(self) -> None:
+        self.play_as = "TFT"
+        self.shift_counter = 3
+        self.alld_counter = 0
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix) -> str:
+        self.shift_counter -= 1
+        if self.shift_counter == 0 and self.alld_counter < 2:
+            self.shift_counter = 2
+            last_two = list(zip(my_history[-2:], opponent_history[-2:]))
+            if last_two and set(last_two) == {(COOPERATE, COOPERATE)}:
+                self.play_as = "TFT"
+            elif set(last_two) == {(COOPERATE, DEFECT), (DEFECT, COOPERATE)}:
+                self.play_as = "TFTT"
+            else:
+                self.play_as = "ALLD"
+                self.alld_counter += 1
+        if self.play_as == "ALLD":
+            return DEFECT
+        if self.play_as == "TFTT":
+            return DEFECT if len(opponent_history) >= 2 and opponent_history[-2:] == [DEFECT, DEFECT] else COOPERATE
+        return COOPERATE if not opponent_history else opponent_history[-1]
+
+    def clone(self) -> Strategy:
+        return MEM2()
+
+
+NAMED_STRATEGIES: Dict[str, Callable[[], Strategy]] = {
+    "all_c": UnconditionalCooperator,
+    "cu": UnconditionalCooperator,
+    "all_d": UnconditionalDefector,
+    "du": UnconditionalDefector,
+    "tit_for_tat": TitForTat,
+    "tft": TitForTat,
+    "spiteful": Spiteful,
+    "grim": GrimTrigger,
+    "soft_majo": SoftMajority,
+    "hard_majo": HardMajority,
+    "per_ddc": lambda: PeriodicStrategy("DDC", "per_ddc"),
+    "per_ccd": lambda: PeriodicStrategy("CCD", "per_ccd"),
+    "mistrust": Mistrust,
+    "suspicious_tft": SuspiciousTitForTat,
+    "per_cd": lambda: PeriodicStrategy("CD", "per_cd"),
+    "pavlov": Pavlov,
+    "wsls": Pavlov,
+    "tf2t": TitForTwoTats,
+    "tftt": TitForTwoTats,
+    "hard_tft": HardTitForTat,
+    "slow_tft": SlowTitForTat,
+    "gradual": GradualTitForTat,
+    "grdtft": GradualTitForTat,
+    "prober": Prober,
+    "mem2": MEM2,
+}
+
+
+def create_named_strategy(name: str) -> Strategy:
+    key = name.strip().lower()
+    try:
+        return NAMED_STRATEGIES[key]()
+    except KeyError as exc:
+        available = ", ".join(sorted(NAMED_STRATEGIES))
+        raise ValueError(f"Unknown named strategy '{name}'. Available: {available}") from exc

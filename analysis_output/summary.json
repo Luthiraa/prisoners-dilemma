@@ -1,0 +1,131 @@
+{
+  "rounds": 200,
+  "repetitions": 1,
+  "seed": 7,
+  "players": [
+    "GrdTFT",
+    "First by Stein and Rapoport: 0.05",
+    "Tit For Tat",
+    "grok:grok-3-mini",
+    "soft_majo",
+    "First by Nydegger",
+    "TFTT",
+    "First by Tideman and Chieruzzi",
+    "First by Shubik",
+    "mem2",
+    "slow_tft",
+    "hard_tft",
+    "First by Grofman",
+    "First by Davis: 10",
+    "WSLS",
+    "GRIM",
+    "spiteful",
+    "Cu",
+    "First by Graaskamp: 0.05",
+    "First by Downing",
+    "prober",
+    "per_ccd",
+    "hard_majo",
+    "First by Feld: 1.0, 0.5, 200",
+    "First by Tullock",
+    "mistrust",
+    "per_cd",
+    "Random: 0.5",
+    "First by Anonymous",
+    "Du",
+    "per_ddc",
+    "First by Joss: 0.9"
+  ],
+  "top_10": [
+    {
+      "strategy": "GrdTFT",
+      "total_score": 17493.0,
+      "average_score_per_turn": 2.73328125,
+      "average_cooperation": 0.77125,
+      "match_count": 32,
+      "volatility": 0.604933493245332,
+      "rank": 1
+    },
+    {
+      "strategy": "First by Stein and Rapoport: 0.05",
+      "total_score": 17020.0,
+      "average_score_per_turn": 2.659375,
+      "average_cooperation": 0.6921875,
+      "match_count": 32,
+      "volatility": 0.6745102763510916,
+      "rank": 2
+    },
+    {
+      "strategy": "Tit For Tat",
+      "total_score": 16882.0,
+      "average_score_per_turn": 2.6378125,
+      "average_cooperation": 0.7703125,
+      "match_count": 32,
+      "volatility": 0.5881160976838151,
+      "rank": 3
+    },
+    {
+      "strategy": "grok:grok-3-mini",
+      "total_score": 16858.0,
+      "average_score_per_turn": 2.6340625,
+      "average_cooperation": 0.76890625,
+      "match_count": 32,
+      "volatility": 0.600916554643955,
+      "rank": 4
+    },
+    {
+      "strategy": "soft_majo",
+      "total_score": 16811.0,
+      "average_score_per_turn": 2.62671875,
+      "average_cooperation": 0.86328125,
+      "match_count": 32,
+      "volatility": 0.6116564096844441,
+      "rank": 5
+    },
+    {
+      "strategy": "First by Nydegger",
+      "total_score": 16557.0,
+      "average_score_per_turn": 2.58703125,
+      "average_cooperation": 0.93453125,
+      "match_count": 32,
+      "volatility": 0.783291091788874,
+      "rank": 6
+    },
+    {
+      "strategy": "TFTT",
+      "total_score": 16479.0,
+      "average_score_per_turn": 2.57484375,
+      "average_cooperation": 0.88796875,
+      "match_count": 32,
+      "volatility": 0.6642840972770321,
+      "rank": 7
+    },
+    {
+      "strategy": "First by Tideman and Chieruzzi",
+      "total_score": 16452.0,
+      "average_score_per_turn": 2.570625,
+      "average_cooperation": 0.65109375,
+      "match_count": 32,
+      "volatility": 0.779428812781224,
+      "rank": 8
+    },
+    {
+      "strategy": "First by Shubik",
+      "total_score": 16433.0,
+      "average_score_per_turn": 2.56765625,
+      "average_cooperation": 0.66421875,
+      "match_count": 32,
+      "volatility": 0.7560124426939442,
+      "rank": 9
+    },
+    {
+      "strategy": "mem2",
+      "total_score": 16427.0,
+      "average_score_per_turn": 2.56671875,
+      "average_cooperation": 0.61484375,
+      "match_count": 32,
+      "volatility": 0.81038283403686,
+      "rank": 10
+    }
+  ]
+}
