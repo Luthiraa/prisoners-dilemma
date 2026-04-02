@@ -1,4 +1,4 @@
-# Prisoner's Dilemma Tournament Lab
+# Prisoner's Dilemma
 
 Iterated prisoner's dilemma strategies, a reproducible Axelrod-style tournament runner, and a visualization pipeline for exploring how cooperative and exploitative policies cluster against one another.
 
