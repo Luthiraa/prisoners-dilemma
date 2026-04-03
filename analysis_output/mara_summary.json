@@ -1,0 +1,19 @@
+{
+  "strategy": "Mara:grok-4.20-beta-latest-non-reasoning:balanced",
+  "rounds": 200,
+  "repetitions": 5,
+  "seed_count": 5,
+  "rank_counts": {
+    "9": 3,
+    "10": 2
+  },
+  "mean_average_score_per_turn": 2.5873515151515147,
+  "min_gap_to_best_other": -0.14830303030303105,
+  "negative_head_to_head_opponents": {
+    "Graaskamp: 0.05": -0.31299999999999994,
+    "Tullock": -0.295,
+    "Feld: 1.0, 0.5, 200": -0.215,
+    "Joss: 0.9": -0.12100000000000001,
+    "Du": -0.025000000000000022
+  }
+}

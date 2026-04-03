@@ -4,6 +4,7 @@ import math
 import random
 import json
 import os
+import re
 from dataclasses import dataclass
 from typing import Callable, Dict, List, Sequence
 from urllib import error, request
@@ -47,6 +48,30 @@ def load_xai_api_key(secret_path: str = ".secret") -> str | None:
 
 def clean_classic_label(label: str) -> str:
     return label.replace("First by ", "")
+
+
+def clamp(value: float, lower: float, upper: float) -> float:
+    return max(lower, min(upper, value))
+
+
+def extract_json_object(text: str) -> dict | None:
+    text = text.strip()
+    try:
+        payload = json.loads(text)
+        return payload if isinstance(payload, dict) else None
+    except json.JSONDecodeError:
+        match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+        if not match:
+            return None
+        try:
+            payload = json.loads(match.group(0))
+            return payload if isinstance(payload, dict) else None
+        except json.JSONDecodeError:
+            return None
+
+
+def recent_window(values: Sequence[str], size: int) -> Sequence[str]:
+    return values[-size:] if len(values) >= size else values
 
 
 @dataclass(frozen=True)
@@ -248,6 +273,297 @@ class EleanorStrategy(Strategy):
 
     def clone(self) -> Strategy:
         return EleanorStrategy(self.margin, self.final_defect_rounds, self.trigger_round)
+
+
+class NadiaStrategy(Strategy):
+    strategy_name = "nadia"
+
+    def __init__(self) -> None:
+        self.reset()
+
+    def reset(self) -> None:
+        self.trust = 0.4
+        self.pressure = 0.0
+        self.volatility = 0.0
+        self.repair = 0.0
+        self.grace = 0.8
+        self.recorded_rounds = 0
+        self.my_total = 0.0
+        self.opp_total = 0.0
+
+    def name(self) -> str:
+        return "Nadia"
+
+    def _update_internal_state(self, my_history: Sequence[str], opponent_history: Sequence[str], payoffs: PayoffMatrix) -> None:
+        while self.recorded_rounds < len(my_history):
+            my_move = my_history[self.recorded_rounds]
+            opp_move = opponent_history[self.recorded_rounds]
+            my_score, opp_score = payoffs.score(my_move, opp_move)
+            self.my_total += my_score
+            self.opp_total += opp_score
+            betrayal = my_move == COOPERATE and opp_move == DEFECT
+            deadlock = my_move == DEFECT and opp_move == DEFECT
+            mutual_coop = my_move == COOPERATE and opp_move == COOPERATE
+            rescue = my_move == DEFECT and opp_move == COOPERATE
+            if opp_move == COOPERATE:
+                self.trust += 0.762585
+                self.grace += 0.244154
+            else:
+                self.trust -= 1.713076 if betrayal else 1.233415
+                self.grace -= 0.264699
+            if mutual_coop:
+                self.trust += 0.131563
+                self.pressure -= 0.202405
+            if betrayal:
+                self.pressure += 1.206516
+            elif deadlock:
+                self.pressure += 0.200457
+            else:
+                self.pressure -= 0.18
+            if self.recorded_rounds >= 1 and opponent_history[self.recorded_rounds] != opponent_history[self.recorded_rounds - 1]:
+                self.volatility = self.volatility * 0.675209 + 0.406832
+            else:
+                self.volatility *= 0.675209
+            if rescue:
+                self.repair = self.repair * 0.718008 + 0.725213
+            else:
+                self.repair *= 0.718008
+            self.trust = clamp(self.trust, -4.0, 4.0)
+            self.pressure = clamp(self.pressure, 0.0, 5.0)
+            self.grace = clamp(self.grace, -2.0, 2.5)
+            self.repair = clamp(self.repair, 0.0, 2.0)
+            self.recorded_rounds += 1
+
+    def _mutual_coop_streak(self, my_history: Sequence[str], opponent_history: Sequence[str]) -> int:
+        streak = 0
+        for my_move, opp_move in zip(reversed(my_history), reversed(opponent_history)):
+            if my_move == COOPERATE and opp_move == COOPERATE:
+                streak += 1
+            else:
+                break
+        return streak
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
+        self._update_internal_state(my_history, opponent_history, payoffs)
+        rounds_played = len(my_history)
+        rounds_left = match_length - rounds_played
+        if rounds_played == 0:
+            return COOPERATE
+        if rounds_left <= 2:
+            return DEFECT
+        recent_opp = recent_window(opponent_history, 8)
+        recent_my = recent_window(my_history, 8)
+        recent_opp_defect_rate = recent_opp.count(DEFECT) / len(recent_opp) if recent_opp else 0.0
+        recent_opp_coop_rate = recent_opp.count(COOPERATE) / len(recent_opp) if recent_opp else 1.0
+        betrayal_rate = sum(1 for my_move, opp_move in zip(my_history, opponent_history) if my_move == COOPERATE and opp_move == DEFECT) / rounds_played
+        score_gap = (self.my_total - self.opp_total) / rounds_played
+        mutual_coop_streak = self._mutual_coop_streak(my_history, opponent_history)
+
+        if mutual_coop_streak >= 8 and self.pressure < 1.759853 and self.volatility < 1.0:
+            return COOPERATE
+        if self.pressure > 2.931318 and self.trust < 0.482647:
+            return DEFECT
+
+        cooperation_signal = (
+            0.699952
+            + 0.211993 * self.trust
+            - 0.750877 * self.pressure
+            - 0.186467 * self.volatility
+            + 0.435844 * self.repair
+            + 0.377893 * self.grace
+            + 0.673278 * recent_opp_coop_rate
+            - 0.740886 * recent_opp_defect_rate
+            - 0.365868 * betrayal_rate
+            + 0.270138 * score_gap
+        )
+        return COOPERATE if cooperation_signal >= 0.127934 else DEFECT
+
+    def clone(self) -> Strategy:
+        return NadiaStrategy()
+
+
+class MaraStrategy(Strategy):
+    strategy_name = "mara"
+    _plan_cache: Dict[tuple[str, str], dict] = {}
+
+    def __init__(self, model: str = "grok-4.20-beta-latest-non-reasoning", style: str = "balanced", secret_path: str = ".secret", timeout_seconds: float = 25.0) -> None:
+        self.model = model
+        self.style = style
+        self.secret_path = secret_path
+        self.timeout_seconds = timeout_seconds
+        self.api_key = load_xai_api_key(secret_path)
+        self.reset()
+
+    def reset(self) -> None:
+        self.plan: dict | None = None
+        self.my_total = 0.0
+        self.opp_total = 0.0
+        self.recorded_rounds = 0
+        self.replanned_midmatch = False
+
+    def name(self) -> str:
+        return f"Mara:{self.model}:{self.style}"
+
+    def _update_scores(self, my_history: Sequence[str], opponent_history: Sequence[str], payoffs: PayoffMatrix) -> None:
+        while self.recorded_rounds < len(my_history):
+            my_score, opp_score = payoffs.score(my_history[self.recorded_rounds], opponent_history[self.recorded_rounds])
+            self.my_total += my_score
+            self.opp_total += opp_score
+            self.recorded_rounds += 1
+
+    def _features(self, my_history: Sequence[str], opponent_history: Sequence[str], match_length: int) -> dict[str, float]:
+        rounds_played = len(my_history)
+        rounds_left = match_length - rounds_played
+        recent_opp = recent_window(opponent_history, 6)
+        mutual_coop_streak = 0
+        for my_move, opp_move in zip(reversed(my_history), reversed(opponent_history)):
+            if my_move == COOPERATE and opp_move == COOPERATE:
+                mutual_coop_streak += 1
+            else:
+                break
+        opp_flips = 0
+        if len(opponent_history) >= 2:
+            opp_recent = recent_window(opponent_history, 8)
+            opp_flips = sum(1 for index in range(1, len(opp_recent)) if opp_recent[index] != opp_recent[index - 1])
+        rounds_nonzero = max(1, rounds_played)
+        return {
+            "rounds_played": float(rounds_played),
+            "rounds_left": float(rounds_left),
+            "opp_coop_rate": opponent_history.count(COOPERATE) / rounds_nonzero,
+            "opp_defect_rate": opponent_history.count(DEFECT) / rounds_nonzero,
+            "recent_opp_coop_rate": recent_opp.count(COOPERATE) / max(1, len(recent_opp)),
+            "recent_opp_defect_rate": recent_opp.count(DEFECT) / max(1, len(recent_opp)),
+            "mutual_coop_streak": float(mutual_coop_streak),
+            "opponent_flip_rate": opp_flips / max(1, len(recent_window(opponent_history, 8)) - 1),
+            "score_gap_per_turn": (self.my_total - self.opp_total) / rounds_nonzero,
+            "betrayal_rate": sum(1 for my_move, opp_move in zip(my_history, opponent_history) if my_move == COOPERATE and opp_move == DEFECT) / rounds_nonzero,
+            "repair_rate": sum(1 for my_move, opp_move in zip(my_history, opponent_history) if my_move == DEFECT and opp_move == COOPERATE) / rounds_nonzero,
+            "time_pressure": 1.0 - (rounds_left / max(1, match_length)),
+        }
+
+    def _prompt(self, my_history: Sequence[str], opponent_history: Sequence[str], features: dict[str, float], match_length: int) -> str:
+        style_notes = {
+            "balanced": "Optimize for robust tournament wins with careful exploitation and stable cooperation when it is profitable.",
+            "opportunistic": "Maximize score aggressively; exploit weakness early, but avoid being trapped by heavy defectors.",
+            "fortress": "Prioritize safety against exploitation, but still seek profitable cooperative regimes when evidence is strong.",
+        }
+        return (
+            "Invent a fresh one-match control law for the iterated prisoner's dilemma. "
+            "Do not imitate or name classic strategies. "
+            "Do not output prose outside JSON.\n"
+            "Return JSON only with this shape:\n"
+            "{\n"
+            '  "memo": "short note",\n'
+            '  "threshold": number,\n'
+            '  "weights": {\n'
+            '    "bias": number,\n'
+            '    "opp_coop_rate": number,\n'
+            '    "opp_defect_rate": number,\n'
+            '    "recent_opp_coop_rate": number,\n'
+            '    "recent_opp_defect_rate": number,\n'
+            '    "mutual_coop_streak": number,\n'
+            '    "opponent_flip_rate": number,\n'
+            '    "score_gap_per_turn": number,\n'
+            '    "betrayal_rate": number,\n'
+            '    "repair_rate": number,\n'
+            '    "time_pressure": number\n'
+            "  },\n"
+            '  "hard_rules": {\n'
+            '    "endgame_defect_rounds": integer 0..3,\n'
+            '    "defect_if_recent_opp_defect_rate_at_least": number 0..1,\n'
+            '    "defect_if_betrayal_rate_at_least": number 0..1,\n'
+            '    "cooperate_if_mutual_coop_streak_at_least": integer 0..10,\n'
+            '    "repair_mode": true or false\n'
+            "  }\n"
+            "}\n"
+            f"Match length: {match_length}\n"
+            f"My history: {''.join(my_history) or '-'}\n"
+            f"Opponent history: {''.join(opponent_history) or '-'}\n"
+            f"Features: {json.dumps(features, sort_keys=True)}\n"
+            "Goal: maximize total tournament performance and pairwise results. "
+            f"{style_notes.get(self.style, style_notes['balanced'])}"
+        )
+
+    def _query_plan(self, prompt: str) -> dict | None:
+        if not self.api_key:
+            return None
+        cache_key = (self.model, prompt)
+        if cache_key in self._plan_cache:
+            return self._plan_cache[cache_key]
+        payload = json.dumps(
+            {
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": "Return valid JSON only."},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0,
+                "max_tokens": 350,
+            }
+        ).encode("utf-8")
+        req = request.Request(
+            "https://api.x.ai/v1/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with request.urlopen(req, timeout=self.timeout_seconds) as response:
+                body = json.loads(response.read().decode("utf-8"))
+        except (error.URLError, TimeoutError, json.JSONDecodeError, OSError):
+            return None
+        try:
+            content = body["choices"][0]["message"]["content"]
+        except (KeyError, IndexError, AttributeError, TypeError):
+            return None
+        plan = extract_json_object(content)
+        if not isinstance(plan, dict):
+            return None
+        self._plan_cache[cache_key] = plan
+        return plan
+
+    def _cooperation_score(self, features: dict[str, float], plan: dict) -> float:
+        weights = plan.get("weights", {})
+        score = float(weights.get("bias", 0.0))
+        for key, value in features.items():
+            score += float(weights.get(key, 0.0)) * value
+        return score
+
+    def _decide(self, my_history: Sequence[str], opponent_history: Sequence[str], features: dict[str, float], match_length: int) -> str:
+        if not self.plan:
+            return COOPERATE if not opponent_history else opponent_history[-1]
+        hard_rules = self.plan.get("hard_rules", {})
+        if match_length - len(my_history) <= int(hard_rules.get("endgame_defect_rounds", 1)):
+            return DEFECT
+        if features["recent_opp_defect_rate"] >= float(hard_rules.get("defect_if_recent_opp_defect_rate_at_least", 2.0)):
+            return DEFECT
+        if features["betrayal_rate"] >= float(hard_rules.get("defect_if_betrayal_rate_at_least", 2.0)):
+            return DEFECT
+        if features["mutual_coop_streak"] >= float(hard_rules.get("cooperate_if_mutual_coop_streak_at_least", 999)):
+            return COOPERATE
+        if bool(hard_rules.get("repair_mode", False)):
+            if len(opponent_history) >= 2 and list(opponent_history[-2:]) == [COOPERATE, COOPERATE] and my_history and my_history[-1] == DEFECT:
+                return COOPERATE
+        threshold = float(self.plan.get("threshold", 0.0))
+        return COOPERATE if self._cooperation_score(features, self.plan) >= threshold else DEFECT
+
+    def move(self, my_history: Sequence[str], opponent_history: Sequence[str], rng: random.Random, payoffs: PayoffMatrix, match_length: int) -> str:
+        self._update_scores(my_history, opponent_history, payoffs)
+        features = self._features(my_history, opponent_history, match_length)
+        should_plan = self.plan is None
+        should_replan = len(my_history) >= match_length // 2 and not self.replanned_midmatch and features["score_gap_per_turn"] < 0
+        if should_plan or should_replan:
+            prompt = self._prompt(my_history, opponent_history, features, match_length)
+            self.plan = self._query_plan(prompt)
+            if should_replan:
+                self.replanned_midmatch = True
+        return self._decide(my_history, opponent_history, features, match_length)
+
+    def clone(self) -> Strategy:
+        return MaraStrategy(self.model, self.style, self.secret_path, self.timeout_seconds)
 
 
 class ImperfectTitForTat(Strategy):
@@ -1060,6 +1376,8 @@ NAMED_STRATEGIES: Dict[str, NamedFactory] = {
     "slow_tft": SlowTitForTat,
     "gradual": GradualTitForTat,
     "grdtft": GradualTitForTat,
+    "nadia": NadiaStrategy,
+    "mara": MaraStrategy,
     "eleanor": EleanorStrategy,
     "orbit_guard": EleanorStrategy,
     "orbitguard": EleanorStrategy,

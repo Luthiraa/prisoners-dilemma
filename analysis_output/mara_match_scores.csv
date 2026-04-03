@@ -1,0 +1,801 @@
+seed,repetition,opponent,target_avg
+0,0,Cu,3.02
+0,0,Du,0.995
+0,0,Tit For Tat,3.0
+0,0,spiteful,3.0
+0,0,soft_majo,3.02
+0,0,hard_majo,1.015
+0,0,per_cd,2.73
+0,0,per_ccd,2.79
+0,0,per_ddc,2.315
+0,0,mistrust,1.015
+0,0,WSLS,3.0
+0,0,TFTT,3.02
+0,0,hard_tft,3.0
+0,0,slow_tft,3.02
+0,0,GrdTFT,3.0
+0,0,prober,1.065
+0,0,mem2,3.0
+0,0,grok:grok-3-mini,3.0
+0,0,Tideman & Chieruzzi,2.98
+0,0,Nydegger,3.02
+0,0,Grofman,3.0
+0,0,Shubik,3.0
+0,0,Stein & Rapoport: 0.05,2.98
+0,0,GRIM,3.0
+0,0,Davis: 10,3.0
+0,0,Graaskamp: 0.05,2.825
+0,0,Downing,3.01
+0,0,"Feld: 1.0, 0.5, 200",1.13
+0,0,Joss: 0.9,1.04
+0,0,Tullock,2.31
+0,0,Anonymous,2.305
+0,0,Random: 0.5,2.345
+0,1,Cu,3.02
+0,1,Du,0.995
+0,1,Tit For Tat,3.0
+0,1,spiteful,3.0
+0,1,soft_majo,3.02
+0,1,hard_majo,1.015
+0,1,per_cd,2.73
+0,1,per_ccd,2.79
+0,1,per_ddc,2.315
+0,1,mistrust,1.015
+0,1,WSLS,3.0
+0,1,TFTT,3.02
+0,1,hard_tft,3.0
+0,1,slow_tft,3.02
+0,1,GrdTFT,3.0
+0,1,prober,1.065
+0,1,mem2,3.0
+0,1,grok:grok-3-mini,3.0
+0,1,Tideman & Chieruzzi,2.98
+0,1,Nydegger,3.02
+0,1,Grofman,3.0
+0,1,Shubik,3.0
+0,1,Stein & Rapoport: 0.05,2.98
+0,1,GRIM,3.0
+0,1,Davis: 10,3.0
+0,1,Graaskamp: 0.05,2.775
+0,1,Downing,3.01
+0,1,"Feld: 1.0, 0.5, 200",1.955
+0,1,Joss: 0.9,1.04
+0,1,Tullock,2.775
+0,1,Anonymous,2.33
+0,1,Random: 0.5,2.52
+0,2,Cu,3.02
+0,2,Du,0.995
+0,2,Tit For Tat,3.0
+0,2,spiteful,3.0
+0,2,soft_majo,3.02
+0,2,hard_majo,1.015
+0,2,per_cd,2.73
+0,2,per_ccd,2.79
+0,2,per_ddc,2.315
+0,2,mistrust,1.015
+0,2,WSLS,3.0
+0,2,TFTT,3.02
+0,2,hard_tft,3.0
+0,2,slow_tft,3.02
+0,2,GrdTFT,3.0
+0,2,prober,1.065
+0,2,mem2,3.0
+0,2,grok:grok-3-mini,3.0
+0,2,Tideman & Chieruzzi,2.98
+0,2,Nydegger,3.02
+0,2,Grofman,3.0
+0,2,Shubik,3.0
+0,2,Stein & Rapoport: 0.05,2.98
+0,2,GRIM,3.0
+0,2,Davis: 10,3.0
+0,2,Graaskamp: 0.05,2.81
+0,2,Downing,3.01
+0,2,"Feld: 1.0, 0.5, 200",1.295
+0,2,Joss: 0.9,2.82
+0,2,Tullock,2.725
+0,2,Anonymous,2.235
+0,2,Random: 0.5,2.295
+0,3,Cu,3.02
+0,3,Du,0.995
+0,3,Tit For Tat,3.0
+0,3,spiteful,3.0
+0,3,soft_majo,3.02
+0,3,hard_majo,1.015
+0,3,per_cd,2.73
+0,3,per_ccd,2.79
+0,3,per_ddc,2.315
+0,3,mistrust,1.015
+0,3,WSLS,3.0
+0,3,TFTT,3.02
+0,3,hard_tft,3.0
+0,3,slow_tft,3.02
+0,3,GrdTFT,3.0
+0,3,prober,1.065
+0,3,mem2,3.0
+0,3,grok:grok-3-mini,3.0
+0,3,Tideman & Chieruzzi,2.98
+0,3,Nydegger,3.02
+0,3,Grofman,3.0
+0,3,Shubik,3.0
+0,3,Stein & Rapoport: 0.05,2.98
+0,3,GRIM,3.0
+0,3,Davis: 10,3.0
+0,3,Graaskamp: 0.05,2.825
+0,3,Downing,3.01
+0,3,"Feld: 1.0, 0.5, 200",1.46
+0,3,Joss: 0.9,1.535
+0,3,Tullock,2.655
+0,3,Anonymous,2.475
+0,3,Random: 0.5,2.38
+0,4,Cu,3.02
+0,4,Du,0.995
+0,4,Tit For Tat,3.0
+0,4,spiteful,3.0
+0,4,soft_majo,3.02
+0,4,hard_majo,1.015
+0,4,per_cd,2.73
+0,4,per_ccd,2.79
+0,4,per_ddc,2.315
+0,4,mistrust,1.015
+0,4,WSLS,3.0
+0,4,TFTT,3.02
+0,4,hard_tft,3.0
+0,4,slow_tft,3.02
+0,4,GrdTFT,3.0
+0,4,prober,1.065
+0,4,mem2,3.0
+0,4,grok:grok-3-mini,3.0
+0,4,Tideman & Chieruzzi,2.98
+0,4,Nydegger,3.02
+0,4,Grofman,3.0
+0,4,Shubik,3.0
+0,4,Stein & Rapoport: 0.05,2.98
+0,4,GRIM,3.0
+0,4,Davis: 10,3.0
+0,4,Graaskamp: 0.05,2.795
+0,4,Downing,3.01
+0,4,"Feld: 1.0, 0.5, 200",1.68
+0,4,Joss: 0.9,2.12
+0,4,Tullock,2.755
+0,4,Anonymous,2.405
+0,4,Random: 0.5,2.4
+1,0,Cu,3.02
+1,0,Du,0.995
+1,0,Tit For Tat,3.0
+1,0,spiteful,3.0
+1,0,soft_majo,3.02
+1,0,hard_majo,1.015
+1,0,per_cd,2.73
+1,0,per_ccd,2.79
+1,0,per_ddc,2.315
+1,0,mistrust,1.015
+1,0,WSLS,3.0
+1,0,TFTT,3.02
+1,0,hard_tft,3.0
+1,0,slow_tft,3.02
+1,0,GrdTFT,3.0
+1,0,prober,1.065
+1,0,mem2,3.0
+1,0,grok:grok-3-mini,3.0
+1,0,Tideman & Chieruzzi,2.98
+1,0,Nydegger,3.02
+1,0,Grofman,3.0
+1,0,Shubik,3.0
+1,0,Stein & Rapoport: 0.05,2.98
+1,0,GRIM,3.0
+1,0,Davis: 10,3.0
+1,0,Graaskamp: 0.05,2.78
+1,0,Downing,3.01
+1,0,"Feld: 1.0, 0.5, 200",1.485
+1,0,Joss: 0.9,1.335
+1,0,Tullock,2.785
+1,0,Anonymous,2.47
+1,0,Random: 0.5,2.4
+1,1,Cu,3.02
+1,1,Du,0.995
+1,1,Tit For Tat,3.0
+1,1,spiteful,3.0
+1,1,soft_majo,3.02
+1,1,hard_majo,1.015
+1,1,per_cd,2.73
+1,1,per_ccd,2.79
+1,1,per_ddc,2.315
+1,1,mistrust,1.015
+1,1,WSLS,3.0
+1,1,TFTT,3.02
+1,1,hard_tft,3.0
+1,1,slow_tft,3.02
+1,1,GrdTFT,3.0
+1,1,prober,1.065
+1,1,mem2,3.0
+1,1,grok:grok-3-mini,3.0
+1,1,Tideman & Chieruzzi,2.98
+1,1,Nydegger,3.02
+1,1,Grofman,3.0
+1,1,Shubik,3.0
+1,1,Stein & Rapoport: 0.05,2.98
+1,1,GRIM,3.0
+1,1,Davis: 10,3.0
+1,1,Graaskamp: 0.05,2.81
+1,1,Downing,3.01
+1,1,"Feld: 1.0, 0.5, 200",1.88
+1,1,Joss: 0.9,1.03
+1,1,Tullock,2.32
+1,1,Anonymous,2.395
+1,1,Random: 0.5,2.425
+1,2,Cu,3.02
+1,2,Du,0.995
+1,2,Tit For Tat,3.0
+1,2,spiteful,3.0
+1,2,soft_majo,3.02
+1,2,hard_majo,1.015
+1,2,per_cd,2.73
+1,2,per_ccd,2.79
+1,2,per_ddc,2.315
+1,2,mistrust,1.015
+1,2,WSLS,3.0
+1,2,TFTT,3.02
+1,2,hard_tft,3.0
+1,2,slow_tft,3.02
+1,2,GrdTFT,3.0
+1,2,prober,1.065
+1,2,mem2,3.0
+1,2,grok:grok-3-mini,3.0
+1,2,Tideman & Chieruzzi,2.98
+1,2,Nydegger,3.02
+1,2,Grofman,3.02
+1,2,Shubik,3.0
+1,2,Stein & Rapoport: 0.05,2.98
+1,2,GRIM,3.0
+1,2,Davis: 10,3.0
+1,2,Graaskamp: 0.05,2.795
+1,2,Downing,3.01
+1,2,"Feld: 1.0, 0.5, 200",1.73
+1,2,Joss: 0.9,2.27
+1,2,Tullock,2.795
+1,2,Anonymous,2.41
+1,2,Random: 0.5,2.45
+1,3,Cu,3.02
+1,3,Du,0.995
+1,3,Tit For Tat,3.0
+1,3,spiteful,3.0
+1,3,soft_majo,3.02
+1,3,hard_majo,1.015
+1,3,per_cd,2.73
+1,3,per_ccd,2.79
+1,3,per_ddc,2.315
+1,3,mistrust,1.015
+1,3,WSLS,3.0
+1,3,TFTT,3.02
+1,3,hard_tft,3.0
+1,3,slow_tft,3.02
+1,3,GrdTFT,3.0
+1,3,prober,1.065
+1,3,mem2,3.0
+1,3,grok:grok-3-mini,3.0
+1,3,Tideman & Chieruzzi,2.98
+1,3,Nydegger,3.02
+1,3,Grofman,3.02
+1,3,Shubik,3.0
+1,3,Stein & Rapoport: 0.05,2.98
+1,3,GRIM,3.0
+1,3,Davis: 10,3.0
+1,3,Graaskamp: 0.05,2.82
+1,3,Downing,3.01
+1,3,"Feld: 1.0, 0.5, 200",2.07
+1,3,Joss: 0.9,1.04
+1,3,Tullock,2.14
+1,3,Anonymous,2.41
+1,3,Random: 0.5,2.305
+1,4,Cu,3.02
+1,4,Du,0.995
+1,4,Tit For Tat,3.0
+1,4,spiteful,3.0
+1,4,soft_majo,3.02
+1,4,hard_majo,1.015
+1,4,per_cd,2.73
+1,4,per_ccd,2.79
+1,4,per_ddc,2.315
+1,4,mistrust,1.015
+1,4,WSLS,3.0
+1,4,TFTT,3.02
+1,4,hard_tft,3.0
+1,4,slow_tft,3.02
+1,4,GrdTFT,3.0
+1,4,prober,1.065
+1,4,mem2,3.0
+1,4,grok:grok-3-mini,3.0
+1,4,Tideman & Chieruzzi,2.98
+1,4,Nydegger,3.02
+1,4,Grofman,3.0
+1,4,Shubik,3.0
+1,4,Stein & Rapoport: 0.05,2.98
+1,4,GRIM,3.0
+1,4,Davis: 10,3.0
+1,4,Graaskamp: 0.05,2.815
+1,4,Downing,3.01
+1,4,"Feld: 1.0, 0.5, 200",1.22
+1,4,Joss: 0.9,2.745
+1,4,Tullock,2.855
+1,4,Anonymous,2.425
+1,4,Random: 0.5,2.365
+2,0,Cu,3.02
+2,0,Du,0.995
+2,0,Tit For Tat,3.0
+2,0,spiteful,3.0
+2,0,soft_majo,3.02
+2,0,hard_majo,1.015
+2,0,per_cd,2.73
+2,0,per_ccd,2.79
+2,0,per_ddc,2.315
+2,0,mistrust,1.015
+2,0,WSLS,3.0
+2,0,TFTT,3.02
+2,0,hard_tft,3.0
+2,0,slow_tft,3.02
+2,0,GrdTFT,3.0
+2,0,prober,1.065
+2,0,mem2,3.0
+2,0,grok:grok-3-mini,3.0
+2,0,Tideman & Chieruzzi,2.98
+2,0,Nydegger,3.02
+2,0,Grofman,3.0
+2,0,Shubik,3.0
+2,0,Stein & Rapoport: 0.05,2.98
+2,0,GRIM,3.0
+2,0,Davis: 10,3.0
+2,0,Graaskamp: 0.05,2.765
+2,0,Downing,3.01
+2,0,"Feld: 1.0, 0.5, 200",1.825
+2,0,Joss: 0.9,1.12
+2,0,Tullock,2.78
+2,0,Anonymous,2.45
+2,0,Random: 0.5,2.38
+2,1,Cu,3.02
+2,1,Du,0.995
+2,1,Tit For Tat,3.0
+2,1,spiteful,3.0
+2,1,soft_majo,3.02
+2,1,hard_majo,1.015
+2,1,per_cd,2.73
+2,1,per_ccd,2.79
+2,1,per_ddc,2.315
+2,1,mistrust,1.015
+2,1,WSLS,3.0
+2,1,TFTT,3.02
+2,1,hard_tft,3.0
+2,1,slow_tft,3.02
+2,1,GrdTFT,3.0
+2,1,prober,1.065
+2,1,mem2,3.0
+2,1,grok:grok-3-mini,3.0
+2,1,Tideman & Chieruzzi,2.98
+2,1,Nydegger,3.02
+2,1,Grofman,3.02
+2,1,Shubik,3.0
+2,1,Stein & Rapoport: 0.05,2.98
+2,1,GRIM,3.0
+2,1,Davis: 10,3.0
+2,1,Graaskamp: 0.05,2.78
+2,1,Downing,3.01
+2,1,"Feld: 1.0, 0.5, 200",1.795
+2,1,Joss: 0.9,1.31
+2,1,Tullock,2.715
+2,1,Anonymous,2.46
+2,1,Random: 0.5,2.37
+2,2,Cu,3.02
+2,2,Du,0.995
+2,2,Tit For Tat,3.0
+2,2,spiteful,3.0
+2,2,soft_majo,3.02
+2,2,hard_majo,1.015
+2,2,per_cd,2.73
+2,2,per_ccd,2.79
+2,2,per_ddc,2.315
+2,2,mistrust,1.015
+2,2,WSLS,3.0
+2,2,TFTT,3.02
+2,2,hard_tft,3.0
+2,2,slow_tft,3.02
+2,2,GrdTFT,3.0
+2,2,prober,1.065
+2,2,mem2,3.0
+2,2,grok:grok-3-mini,3.0
+2,2,Tideman & Chieruzzi,2.98
+2,2,Nydegger,3.02
+2,2,Grofman,3.02
+2,2,Shubik,3.0
+2,2,Stein & Rapoport: 0.05,2.98
+2,2,GRIM,3.0
+2,2,Davis: 10,3.0
+2,2,Graaskamp: 0.05,2.795
+2,2,Downing,3.01
+2,2,"Feld: 1.0, 0.5, 200",1.785
+2,2,Joss: 0.9,1.075
+2,2,Tullock,2.91
+2,2,Anonymous,2.45
+2,2,Random: 0.5,2.395
+2,3,Cu,3.02
+2,3,Du,0.995
+2,3,Tit For Tat,3.0
+2,3,spiteful,3.0
+2,3,soft_majo,3.02
+2,3,hard_majo,1.015
+2,3,per_cd,2.73
+2,3,per_ccd,2.79
+2,3,per_ddc,2.315
+2,3,mistrust,1.015
+2,3,WSLS,3.0
+2,3,TFTT,3.02
+2,3,hard_tft,3.0
+2,3,slow_tft,3.02
+2,3,GrdTFT,3.0
+2,3,prober,1.065
+2,3,mem2,3.0
+2,3,grok:grok-3-mini,3.0
+2,3,Tideman & Chieruzzi,2.98
+2,3,Nydegger,3.02
+2,3,Grofman,3.02
+2,3,Shubik,3.0
+2,3,Stein & Rapoport: 0.05,2.98
+2,3,GRIM,3.0
+2,3,Davis: 10,3.0
+2,3,Graaskamp: 0.05,2.81
+2,3,Downing,3.01
+2,3,"Feld: 1.0, 0.5, 200",1.41
+2,3,Joss: 0.9,2.805
+2,3,Tullock,2.195
+2,3,Anonymous,2.385
+2,3,Random: 0.5,2.435
+2,4,Cu,3.02
+2,4,Du,0.995
+2,4,Tit For Tat,3.0
+2,4,spiteful,3.0
+2,4,soft_majo,3.02
+2,4,hard_majo,1.015
+2,4,per_cd,2.73
+2,4,per_ccd,2.79
+2,4,per_ddc,2.315
+2,4,mistrust,1.015
+2,4,WSLS,3.0
+2,4,TFTT,3.02
+2,4,hard_tft,3.0
+2,4,slow_tft,3.02
+2,4,GrdTFT,3.0
+2,4,prober,1.065
+2,4,mem2,3.0
+2,4,grok:grok-3-mini,3.0
+2,4,Tideman & Chieruzzi,2.98
+2,4,Nydegger,3.02
+2,4,Grofman,3.0
+2,4,Shubik,3.0
+2,4,Stein & Rapoport: 0.05,2.98
+2,4,GRIM,3.0
+2,4,Davis: 10,3.0
+2,4,Graaskamp: 0.05,2.76
+2,4,Downing,3.01
+2,4,"Feld: 1.0, 0.5, 200",1.805
+2,4,Joss: 0.9,1.04
+2,4,Tullock,2.765
+2,4,Anonymous,2.435
+2,4,Random: 0.5,2.22
+3,0,Cu,3.02
+3,0,Du,0.995
+3,0,Tit For Tat,3.0
+3,0,spiteful,3.0
+3,0,soft_majo,3.02
+3,0,hard_majo,1.015
+3,0,per_cd,2.73
+3,0,per_ccd,2.79
+3,0,per_ddc,2.315
+3,0,mistrust,1.015
+3,0,WSLS,3.0
+3,0,TFTT,3.02
+3,0,hard_tft,3.0
+3,0,slow_tft,3.02
+3,0,GrdTFT,3.0
+3,0,prober,1.065
+3,0,mem2,3.0
+3,0,grok:grok-3-mini,3.0
+3,0,Tideman & Chieruzzi,2.98
+3,0,Nydegger,3.02
+3,0,Grofman,3.0
+3,0,Shubik,3.0
+3,0,Stein & Rapoport: 0.05,2.98
+3,0,GRIM,3.0
+3,0,Davis: 10,3.0
+3,0,Graaskamp: 0.05,2.805
+3,0,Downing,3.01
+3,0,"Feld: 1.0, 0.5, 200",1.935
+3,0,Joss: 0.9,1.075
+3,0,Tullock,2.78
+3,0,Anonymous,2.405
+3,0,Random: 0.5,2.355
+3,1,Cu,3.02
+3,1,Du,0.995
+3,1,Tit For Tat,3.0
+3,1,spiteful,3.0
+3,1,soft_majo,3.02
+3,1,hard_majo,1.015
+3,1,per_cd,2.73
+3,1,per_ccd,2.79
+3,1,per_ddc,2.315
+3,1,mistrust,1.015
+3,1,WSLS,3.0
+3,1,TFTT,3.02
+3,1,hard_tft,3.0
+3,1,slow_tft,3.02
+3,1,GrdTFT,3.0
+3,1,prober,1.065
+3,1,mem2,3.0
+3,1,grok:grok-3-mini,3.0
+3,1,Tideman & Chieruzzi,2.98
+3,1,Nydegger,3.02
+3,1,Grofman,3.0
+3,1,Shubik,3.0
+3,1,Stein & Rapoport: 0.05,2.98
+3,1,GRIM,3.0
+3,1,Davis: 10,3.0
+3,1,Graaskamp: 0.05,2.825
+3,1,Downing,3.01
+3,1,"Feld: 1.0, 0.5, 200",1.445
+3,1,Joss: 0.9,1.155
+3,1,Tullock,2.46
+3,1,Anonymous,2.475
+3,1,Random: 0.5,2.36
+3,2,Cu,3.02
+3,2,Du,0.995
+3,2,Tit For Tat,3.0
+3,2,spiteful,3.0
+3,2,soft_majo,3.02
+3,2,hard_majo,1.015
+3,2,per_cd,2.73
+3,2,per_ccd,2.79
+3,2,per_ddc,2.315
+3,2,mistrust,1.015
+3,2,WSLS,3.0
+3,2,TFTT,3.02
+3,2,hard_tft,3.0
+3,2,slow_tft,3.02
+3,2,GrdTFT,3.0
+3,2,prober,1.065
+3,2,mem2,3.0
+3,2,grok:grok-3-mini,3.0
+3,2,Tideman & Chieruzzi,2.98
+3,2,Nydegger,3.02
+3,2,Grofman,3.02
+3,2,Shubik,3.0
+3,2,Stein & Rapoport: 0.05,2.98
+3,2,GRIM,3.0
+3,2,Davis: 10,3.0
+3,2,Graaskamp: 0.05,2.81
+3,2,Downing,3.01
+3,2,"Feld: 1.0, 0.5, 200",1.815
+3,2,Joss: 0.9,1.065
+3,2,Tullock,2.67
+3,2,Anonymous,2.51
+3,2,Random: 0.5,2.34
+3,3,Cu,3.02
+3,3,Du,0.995
+3,3,Tit For Tat,3.0
+3,3,spiteful,3.0
+3,3,soft_majo,3.02
+3,3,hard_majo,1.015
+3,3,per_cd,2.73
+3,3,per_ccd,2.79
+3,3,per_ddc,2.315
+3,3,mistrust,1.015
+3,3,WSLS,3.0
+3,3,TFTT,3.02
+3,3,hard_tft,3.0
+3,3,slow_tft,3.02
+3,3,GrdTFT,3.0
+3,3,prober,1.065
+3,3,mem2,3.0
+3,3,grok:grok-3-mini,3.0
+3,3,Tideman & Chieruzzi,2.98
+3,3,Nydegger,3.02
+3,3,Grofman,3.0
+3,3,Shubik,3.0
+3,3,Stein & Rapoport: 0.05,2.98
+3,3,GRIM,3.0
+3,3,Davis: 10,3.0
+3,3,Graaskamp: 0.05,2.81
+3,3,Downing,3.01
+3,3,"Feld: 1.0, 0.5, 200",1.89
+3,3,Joss: 0.9,2.025
+3,3,Tullock,2.775
+3,3,Anonymous,2.42
+3,3,Random: 0.5,2.365
+3,4,Cu,3.02
+3,4,Du,0.995
+3,4,Tit For Tat,3.0
+3,4,spiteful,3.0
+3,4,soft_majo,3.02
+3,4,hard_majo,1.015
+3,4,per_cd,2.73
+3,4,per_ccd,2.79
+3,4,per_ddc,2.315
+3,4,mistrust,1.015
+3,4,WSLS,3.0
+3,4,TFTT,3.02
+3,4,hard_tft,3.0
+3,4,slow_tft,3.02
+3,4,GrdTFT,3.0
+3,4,prober,1.065
+3,4,mem2,3.0
+3,4,grok:grok-3-mini,3.0
+3,4,Tideman & Chieruzzi,2.98
+3,4,Nydegger,3.02
+3,4,Grofman,3.0
+3,4,Shubik,3.0
+3,4,Stein & Rapoport: 0.05,2.98
+3,4,GRIM,3.0
+3,4,Davis: 10,3.0
+3,4,Graaskamp: 0.05,2.795
+3,4,Downing,3.01
+3,4,"Feld: 1.0, 0.5, 200",1.49
+3,4,Joss: 0.9,1.11
+3,4,Tullock,2.81
+3,4,Anonymous,2.425
+3,4,Random: 0.5,2.325
+4,0,Cu,3.02
+4,0,Du,0.995
+4,0,Tit For Tat,3.0
+4,0,spiteful,3.0
+4,0,soft_majo,3.02
+4,0,hard_majo,1.015
+4,0,per_cd,2.73
+4,0,per_ccd,2.79
+4,0,per_ddc,2.315
+4,0,mistrust,1.015
+4,0,WSLS,3.0
+4,0,TFTT,3.02
+4,0,hard_tft,3.0
+4,0,slow_tft,3.02
+4,0,GrdTFT,3.0
+4,0,prober,1.065
+4,0,mem2,3.0
+4,0,grok:grok-3-mini,3.0
+4,0,Tideman & Chieruzzi,2.98
+4,0,Nydegger,3.02
+4,0,Grofman,3.0
+4,0,Shubik,3.0
+4,0,Stein & Rapoport: 0.05,2.98
+4,0,GRIM,3.0
+4,0,Davis: 10,3.0
+4,0,Graaskamp: 0.05,2.825
+4,0,Downing,3.01
+4,0,"Feld: 1.0, 0.5, 200",2.04
+4,0,Joss: 0.9,2.745
+4,0,Tullock,1.345
+4,0,Anonymous,2.415
+4,0,Random: 0.5,2.48
+4,1,Cu,3.02
+4,1,Du,0.995
+4,1,Tit For Tat,3.0
+4,1,spiteful,3.0
+4,1,soft_majo,3.02
+4,1,hard_majo,1.015
+4,1,per_cd,2.73
+4,1,per_ccd,2.79
+4,1,per_ddc,2.315
+4,1,mistrust,1.015
+4,1,WSLS,3.0
+4,1,TFTT,3.02
+4,1,hard_tft,3.0
+4,1,slow_tft,3.02
+4,1,GrdTFT,3.0
+4,1,prober,1.065
+4,1,mem2,3.0
+4,1,grok:grok-3-mini,3.0
+4,1,Tideman & Chieruzzi,2.98
+4,1,Nydegger,3.02
+4,1,Grofman,3.02
+4,1,Shubik,3.0
+4,1,Stein & Rapoport: 0.05,2.98
+4,1,GRIM,3.0
+4,1,Davis: 10,3.0
+4,1,Graaskamp: 0.05,2.77
+4,1,Downing,3.01
+4,1,"Feld: 1.0, 0.5, 200",2.04
+4,1,Joss: 0.9,1.075
+4,1,Tullock,2.37
+4,1,Anonymous,2.435
+4,1,Random: 0.5,2.35
+4,2,Cu,3.02
+4,2,Du,0.995
+4,2,Tit For Tat,3.0
+4,2,spiteful,3.0
+4,2,soft_majo,3.02
+4,2,hard_majo,1.015
+4,2,per_cd,2.73
+4,2,per_ccd,2.79
+4,2,per_ddc,2.315
+4,2,mistrust,1.015
+4,2,WSLS,3.0
+4,2,TFTT,3.02
+4,2,hard_tft,3.0
+4,2,slow_tft,3.02
+4,2,GrdTFT,3.0
+4,2,prober,1.065
+4,2,mem2,3.0
+4,2,grok:grok-3-mini,3.0
+4,2,Tideman & Chieruzzi,2.98
+4,2,Nydegger,3.02
+4,2,Grofman,3.0
+4,2,Shubik,3.0
+4,2,Stein & Rapoport: 0.05,2.98
+4,2,GRIM,3.0
+4,2,Davis: 10,3.0
+4,2,Graaskamp: 0.05,2.76
+4,2,Downing,3.01
+4,2,"Feld: 1.0, 0.5, 200",1.755
+4,2,Joss: 0.9,1.065
+4,2,Tullock,2.81
+4,2,Anonymous,2.35
+4,2,Random: 0.5,2.355
+4,3,Cu,3.02
+4,3,Du,0.995
+4,3,Tit For Tat,3.0
+4,3,spiteful,3.0
+4,3,soft_majo,3.02
+4,3,hard_majo,1.015
+4,3,per_cd,2.73
+4,3,per_ccd,2.79
+4,3,per_ddc,2.315
+4,3,mistrust,1.015
+4,3,WSLS,3.0
+4,3,TFTT,3.02
+4,3,hard_tft,3.0
+4,3,slow_tft,3.02
+4,3,GrdTFT,3.0
+4,3,prober,1.065
+4,3,mem2,3.0
+4,3,grok:grok-3-mini,3.0
+4,3,Tideman & Chieruzzi,2.98
+4,3,Nydegger,3.02
+4,3,Grofman,3.0
+4,3,Shubik,3.0
+4,3,Stein & Rapoport: 0.05,2.98
+4,3,GRIM,3.0
+4,3,Davis: 10,3.0
+4,3,Graaskamp: 0.05,2.835
+4,3,Downing,3.01
+4,3,"Feld: 1.0, 0.5, 200",1.655
+4,3,Joss: 0.9,1.195
+4,3,Tullock,2.03
+4,3,Anonymous,2.345
+4,3,Random: 0.5,2.385
+4,4,Cu,3.02
+4,4,Du,0.995
+4,4,Tit For Tat,3.0
+4,4,spiteful,3.0
+4,4,soft_majo,3.02
+4,4,hard_majo,1.015
+4,4,per_cd,2.73
+4,4,per_ccd,2.79
+4,4,per_ddc,2.315
+4,4,mistrust,1.015
+4,4,WSLS,3.0
+4,4,TFTT,3.02
+4,4,hard_tft,3.0
+4,4,slow_tft,3.02
+4,4,GrdTFT,3.0
+4,4,prober,1.065
+4,4,mem2,3.0
+4,4,grok:grok-3-mini,3.0
+4,4,Tideman & Chieruzzi,2.98
+4,4,Nydegger,3.02
+4,4,Grofman,3.02
+4,4,Shubik,3.0
+4,4,Stein & Rapoport: 0.05,2.98
+4,4,GRIM,3.0
+4,4,Davis: 10,3.0
+4,4,Graaskamp: 0.05,2.805
+4,4,Downing,3.01
+4,4,"Feld: 1.0, 0.5, 200",1.7
+4,4,Joss: 0.9,1.89
+4,4,Tullock,2.785
+4,4,Anonymous,2.395
+4,4,Random: 0.5,2.485

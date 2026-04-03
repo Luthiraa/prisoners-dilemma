@@ -1,0 +1,4 @@
+name,rank,average_score_per_turn,gap_to_best_other,best_other,head_mean_margin,head_min_margin,head_negative_count
+Mara:grok-4.20-beta-latest-non-reasoning:balanced,14,2.559393939393938,-0.17766666666666842,GrdTFT,0.17953124999999995,-0.29499999999999993,5
+Mara:grok-4.20-beta-latest-non-reasoning:fortress,28,1.8667878787878776,-0.8596666666666684,GrdTFT,0.27796875,-0.13499999999999995,2
+Mara:grok-4.20-beta-latest-non-reasoning:opportunistic,32,1.780666666666666,-0.8860909090909099,GrdTFT,0.42937499999999995,-0.02499999999999991,1
