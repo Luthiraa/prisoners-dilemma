@@ -1,0 +1,33 @@
+seed,repetition,opponent,target_avg
+0,0,Cu,3.4
+0,0,Du,0.4
+0,0,Tit For Tat,3.4
+0,0,spiteful,3.4
+0,0,soft_majo,3.4
+0,0,hard_majo,2.6
+0,0,per_cd,2.6
+0,0,per_ccd,3.2
+0,0,per_ddc,1.0
+0,0,mistrust,2.6
+0,0,WSLS,3.4
+0,0,TFTT,3.4
+0,0,hard_tft,3.4
+0,0,slow_tft,3.4
+0,0,GrdTFT,3.4
+0,0,prober,3.2
+0,0,mem2,3.4
+0,0,grok:grok-3-mini,3.4
+0,0,Tideman & Chieruzzi,2.0
+0,0,Nydegger,3.4
+0,0,Grofman,3.4
+0,0,Shubik,3.4
+0,0,Stein & Rapoport: 0.05,2.0
+0,0,GRIM,3.4
+0,0,Davis: 10,3.4
+0,0,Graaskamp: 0.05,3.4
+0,0,Downing,1.8
+0,0,"Feld: 1.0, 0.5, 200",3.4
+0,0,Joss: 0.9,2.6
+0,0,Tullock,3.4
+0,0,Anonymous,2.8
+0,0,Random: 0.5,1.8

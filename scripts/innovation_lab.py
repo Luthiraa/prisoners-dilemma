@@ -2,16 +2,21 @@ from __future__ import annotations
 
 import json
 import random
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 
 import pandas as pd
 
-from strategies import COOPERATE, DEFECT, MaraStrategy, NadiaStrategy, PayoffMatrix, Strategy
-from tournament_analysis import build_field
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ipdlab.strategies import COOPERATE, DEFECT, MaraStrategy, NadiaStrategy, PayoffMatrix, Strategy
+from scripts.tournament_analysis import build_field
 
 
-OUTPUT_DIR = Path("analysis_output")
+OUTPUT_DIR = ROOT / "outputs" / "analysis"
 
 
 def play_match(player_a: Strategy, player_b: Strategy, rounds: int, seed: int, payoffs: PayoffMatrix) -> tuple[float, float]:

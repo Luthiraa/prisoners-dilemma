@@ -9,7 +9,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import List, Sequence
 
-from strategies import (
+from .strategies import (
     AXELROD_FIRST_REPORTED_RANKS,
     PayoffMatrix,
     Strategy,

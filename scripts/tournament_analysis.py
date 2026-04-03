@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import math
 import random
+import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import List
@@ -11,14 +12,18 @@ import matplotlib
 import numpy as np
 import pandas as pd
 
-from strategies import PayoffMatrix, Strategy, create_axelrod_first_players, create_named_strategy
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ipdlab.strategies import PayoffMatrix, Strategy, create_axelrod_first_players, create_named_strategy
 
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-OUTPUT_DIR = Path("analysis_output")
+OUTPUT_DIR = ROOT / "outputs" / "analysis"
 ROUNDS = 200
 REPETITIONS = 1
 SEED = 7

@@ -20,7 +20,7 @@ Current implementation:
 
 - class: `MaraStrategy`
 - name: `mara`
-- file: [`strategies.py`](./strategies.py)
+- file: [`ipdlab/strategies.py`](../ipdlab/strategies.py)
 
 Observed result:
 
@@ -30,12 +30,12 @@ Observed result:
 
 Saved outputs:
 
-- [`analysis_output/mara_benchmark.csv`](./analysis_output/mara_benchmark.csv)
-- [`analysis_output/mara_seed_validation.csv`](./analysis_output/mara_seed_validation.csv)
-- [`analysis_output/mara_head_to_head.csv`](./analysis_output/mara_head_to_head.csv)
-- [`analysis_output/mara_seed_consistency.png`](./analysis_output/mara_seed_consistency.png)
-- [`analysis_output/mara_head_to_head.png`](./analysis_output/mara_head_to_head.png)
-- [`analysis_output/mara_match_distribution.png`](./analysis_output/mara_match_distribution.png)
+- [`outputs/analysis/mara_benchmark.csv`](../outputs/analysis/mara_benchmark.csv)
+- [`outputs/analysis/mara_seed_validation.csv`](../outputs/analysis/mara_seed_validation.csv)
+- [`outputs/analysis/mara_head_to_head.csv`](../outputs/analysis/mara_head_to_head.csv)
+- [`outputs/analysis/mara_seed_consistency.png`](../outputs/analysis/mara_seed_consistency.png)
+- [`outputs/analysis/mara_head_to_head.png`](../outputs/analysis/mara_head_to_head.png)
+- [`outputs/analysis/mara_match_distribution.png`](../outputs/analysis/mara_match_distribution.png)
 
 ## 2. Nadia
 
@@ -59,7 +59,7 @@ Current implementation:
 
 - class: `NadiaStrategy`
 - name: `nadia`
-- file: [`strategies.py`](./strategies.py)
+- file: [`ipdlab/strategies.py`](../ipdlab/strategies.py)
 
 Observed result:
 
@@ -69,14 +69,14 @@ Observed result:
 
 Saved outputs:
 
-- [`analysis_output/nadia_search.csv`](./analysis_output/nadia_search.csv)
-- [`analysis_output/nadia_refine.csv`](./analysis_output/nadia_refine.csv)
-- [`analysis_output/nadia_heavy_refine.csv`](./analysis_output/nadia_heavy_refine.csv)
-- [`analysis_output/nadia_seed_validation.csv`](./analysis_output/nadia_seed_validation.csv)
-- [`analysis_output/nadia_head_to_head.csv`](./analysis_output/nadia_head_to_head.csv)
-- [`analysis_output/nadia_seed_consistency.png`](./analysis_output/nadia_seed_consistency.png)
-- [`analysis_output/nadia_head_to_head.png`](./analysis_output/nadia_head_to_head.png)
-- [`analysis_output/nadia_match_distribution.png`](./analysis_output/nadia_match_distribution.png)
+- [`outputs/analysis/nadia_search.csv`](../outputs/analysis/nadia_search.csv)
+- [`outputs/analysis/nadia_refine.csv`](../outputs/analysis/nadia_refine.csv)
+- [`outputs/analysis/nadia_heavy_refine.csv`](../outputs/analysis/nadia_heavy_refine.csv)
+- [`outputs/analysis/nadia_seed_validation.csv`](../outputs/analysis/nadia_seed_validation.csv)
+- [`outputs/analysis/nadia_head_to_head.csv`](../outputs/analysis/nadia_head_to_head.csv)
+- [`outputs/analysis/nadia_seed_consistency.png`](../outputs/analysis/nadia_seed_consistency.png)
+- [`outputs/analysis/nadia_head_to_head.png`](../outputs/analysis/nadia_head_to_head.png)
+- [`outputs/analysis/nadia_match_distribution.png`](../outputs/analysis/nadia_match_distribution.png)
 
 ## Bottom Line
 

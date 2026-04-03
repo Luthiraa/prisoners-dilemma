@@ -2,21 +2,26 @@ from __future__ import annotations
 
 import json
 import random
+import sys
 from pathlib import Path
 
 import matplotlib
 import numpy as np
 import pandas as pd
 
-from strategies import PayoffMatrix, Strategy, create_named_strategy
-from tournament_analysis import build_field, style_axes
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ipdlab.strategies import PayoffMatrix, Strategy, create_named_strategy
+from scripts.tournament_analysis import build_field, style_axes
 
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-OUTPUT_DIR = Path("analysis_output")
+OUTPUT_DIR = ROOT / "outputs" / "analysis"
 ROUNDS = 200
 REPETITIONS = 20
 SEEDS = list(range(10))

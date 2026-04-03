@@ -20,7 +20,7 @@ In the current field used in this repo, Eleanor consistently wins the tournament
 
 ## Exact Behavior
 
-The implementation is in [`strategies.py`](./strategies.py).
+The implementation is in [`ipdlab/strategies.py`](../ipdlab/strategies.py).
 
 At a high level:
 

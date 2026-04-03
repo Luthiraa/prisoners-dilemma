@@ -1,0 +1,19 @@
+{
+  "strategy": "Eleanor",
+  "rounds": 5,
+  "repetitions": 1,
+  "seed_count": 1,
+  "rank_counts": {
+    "1": 1
+  },
+  "mean_average_score_per_turn": 2.9030303030303037,
+  "min_gap_to_best_other": 0.012121212121213532,
+  "negative_head_to_head_opponents": {
+    "Du": -3.0,
+    "per_ddc": -2.0,
+    "Tideman & Chieruzzi": -1.0,
+    "Stein & Rapoport: 0.05": -1.0,
+    "Random: 0.5": -0.9999999999999998,
+    "Downing": -0.9999999999999998
+  }
+}

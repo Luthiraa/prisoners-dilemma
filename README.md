@@ -1,64 +1,103 @@
-# Prisoner's Dilemma
+# Prisoner's Dilemma Lab
 
-Iterated prisoner's dilemma strategies, a reproducible Axelrod-style tournament runner, and a visualization pipeline for exploring how cooperative and exploitative policies cluster against one another.
+Cleaned research repo for iterated prisoner's dilemma experiments, strategy design, tournament benchmarking, and visual analysis.
 
-![Strategy Orbit Map](analysis_output/strategy_space.png)
+![Strategy Orbit Map](outputs/analysis/strategy_space.png)
 
-The plot above is a 2D orbit map built from pairwise tournament payoffs. Nearby points respond similarly against the field, marker size tracks cooperation, and color tracks score. The result reads like a behavioral star chart: tight reciprocators cluster together, fragile exploiters drift outward, and durable high performers anchor the bright core.
+The orbit map above is a 2D projection built from pairwise tournament outcomes. Nearby strategies behave similarly against the field; point size reflects cooperation and color reflects average score. It is the fastest way to see which strategies are stable reciprocators, opportunistic exploiters, or durable tournament winners.
 
-## Structure
+## Layout
 
-- `strategies.py`: strategy definitions and named strategy registry
-- `main.py`: tournament runner and CLI
-- `tournament_analysis.py`: full-field analysis, raw exports, and graph generation
-- `analysis_output/`: generated standings, pairwise matrices, coordinates, and figures
+```text
+.
+├─ ipdlab/              core package
+│  ├─ __init__.py
+│  ├─ cli.py
+│  └─ strategies.py
+├─ scripts/             analysis and profiling entrypoints
+│  ├─ tournament_analysis.py
+│  ├─ innovation_lab.py
+│  ├─ profile_strategy.py
+│  └─ eleanor_analysis.py
+├─ docs/                strategy notes and background writeups
+│  ├─ ELEANOR.md
+│  ├─ INNOVATION.md
+│  ├─ rationale.md
+│  └─ strategies.md
+├─ outputs/analysis/    generated CSVs, JSON summaries, and plots
+├─ archive/             legacy one-file prototype
+│  └─ pd_experiment.py
+├─ README.md
+└─ .gitignore
+```
 
-## Strategy Families
+## Main Pieces
 
-- `all_c`, `all_d`: unconditional baselines that always cooperate or always defect
-- `tit_for_tat`, `mistrust`, `hard_tft`, `slow_tft`, `tf2t`: reciprocity strategies that respond directly to recent opponent actions with different levels of forgiveness
-- `spiteful`, `grim`: trigger strategies that cooperate until a defection, then switch to permanent punishment
-- `soft_majo`, `hard_majo`: majority strategies that compare the opponent's total cooperations and defections so far
-- `per_cd`, `per_ccd`, `per_ddc`: periodic strategies with fixed repeating patterns
-- `pavlov`: win-stay, lose-shift; it repeats successful behavior and flips after disagreement
-- `gradual`: escalates punishment length after repeated defections, then cools down with cooperative rounds
-- `prober`: tests whether an opponent is exploitable with an opening probe sequence
-- `mem2`: a small memory-two controller that switches among local policies based on the last two rounds
-- `grok`: an xAI-backed strategy that asks Grok to choose a policy from a fixed menu, then plays that policy locally
-- Axelrod first-tournament entrants: reconstructed versions of the classic submissions such as Tideman & Chieruzzi, Nydegger, Grofman, Shubik, Stein & Rapoport, Davis, Graaskamp, Downing, Feld, Joss, Tullock, Anonymous, and `Random`
+- [`ipdlab/strategies.py`](D:\prisoner's dilemma\ipdlab\strategies.py): all strategy implementations and the named registry
+- [`ipdlab/cli.py`](D:\prisoner's dilemma\ipdlab\cli.py): tournament CLI for quick runs
+- [`scripts/tournament_analysis.py`](D:\prisoner's dilemma\scripts\tournament_analysis.py): full-field analysis, rankings, space coordinates, and plots
+- [`scripts/innovation_lab.py`](D:\prisoner's dilemma\scripts\innovation_lab.py): search and benchmarking for new strategy experiments
+- [`scripts/profile_strategy.py`](D:\prisoner's dilemma\scripts\profile_strategy.py): focused validation and plots for any one strategy
 
-## Quick Runs
+## Strategy Groups
 
-Run the reconstructed first Axelrod tournament:
+- Baselines: `all_c`, `all_d`, `random`
+- Reciprocal families: `tit_for_tat`, `mistrust`, `tf2t`, `hard_tft`, `slow_tft`, `pavlov`
+- Trigger families: `spiteful`, `grim`
+- Counting families: `soft_majo`, `hard_majo`
+- Periodic families: `per_cd`, `per_ccd`, `per_ddc`
+- Adaptive controllers: `gradual`, `mem2`, `prober`
+- Grok-backed players: `grok`, `mara`
+- Custom project strategies: `eleanor`, `nadia`
+- Reconstructed Axelrod entrants: Tideman & Chieruzzi, Nydegger, Grofman, Shubik, Stein & Rapoport, Davis, Graaskamp, Downing, Feld, Joss, Tullock, Anonymous, `Random`
+
+## Quick Commands
+
+Run the classic Axelrod-first style tournament:
 
 ```powershell
-python .\main.py --experiment axelrod-first --rounds 200 --repetitions 5 --seed 0 --format table
+python -m ipdlab.cli --experiment axelrod-first --rounds 200 --repetitions 5 --seed 0 --format table
 ```
 
 Run a custom tournament:
 
 ```powershell
-python .\main.py --experiment custom --strategies "all_c,all_d,tit_for_tat,grim,pavlov,prober,mem2,grok" --rounds 200 --repetitions 1
+python -m ipdlab.cli --experiment custom --strategies "eleanor,nadia,mara,tit_for_tat,grim,soft_majo" --rounds 200 --repetitions 1
 ```
 
-Generate the full visual analysis:
+Generate the full visual field analysis:
 
 ```powershell
-python .\tournament_analysis.py
+python .\scripts\tournament_analysis.py
 ```
 
-## Outputs
+Run the strategy innovation search:
 
-The analysis script writes:
+```powershell
+python .\scripts\innovation_lab.py
+```
 
-- `standings.csv`: ranked tournament summary
-- `matches.csv`: per-match scores and cooperation rates
-- `pairwise_matrix.csv`: average score matrix across the field
-- `space_coordinates.csv`: 2D coordinates used for the space plot
-- `ranking_skyline.png`, `pairwise_heatmap.png`, `strategy_space.png`, `cooperation_bubble.png`, `polar_constellation.png`
+Profile one strategy in detail:
+
+```powershell
+python .\scripts\profile_strategy.py --strategy eleanor --rounds 200 --repetitions 20 --seed-count 10
+```
+
+## Current Headlines
+
+- `Eleanor` is still the strongest validated tournament winner in the current field
+- `Mara` is the strongest pure Grok-based player currently implemented
+- `Nadia` is the strongest fully local custom controller from the latest search round
+
+Detailed writeups:
+
+- [`docs/ELEANOR.md`](D:\prisoner's dilemma\docs\ELEANOR.md)
+- [`docs/INNOVATION.md`](D:\prisoner's dilemma\docs\INNOVATION.md)
+- [`docs/rationale.md`](D:\prisoner's dilemma\docs\rationale.md)
 
 ## Notes
 
 - Default payoffs are `T=5, R=3, P=1, S=0`.
-- The first-tournament preset follows published descriptions and modern documented reconstructions where the original submissions were underspecified.
-- The Grok-backed strategy reads `XAI_API_KEY` from the environment or from `.secret`.
+- Generated artifacts are stored in [`outputs/analysis`](D:\prisoner's dilemma\outputs\analysis).
+- `.secret` stays local and is used only for xAI-backed strategies.
+- [`archive/pd_experiment.py`](D:\prisoner's dilemma\archive\pd_experiment.py) is preserved as legacy work, not the active entrypoint.
